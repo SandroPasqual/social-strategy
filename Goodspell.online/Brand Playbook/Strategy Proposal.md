@@ -154,10 +154,11 @@ The LinkedIn page exists to build recognition and trust — so that when a found
 | 8 | **The four phases of GBS** | How an engagement unfolds: Discovery → Core → Narrative → Visual. Each phase has a function. None can be skipped. Within each phase: the same collaborative mechanism — contribute, guide, refine, present, comment, re-argue, lock, advance. The architecture behind a single project. |
 | 9 | **What "the market gives you the color" looks like in practice** | A walkthrough of how audience analysis, competitive context, and psychological effect converge on a color direction. Not a moodboard. A derivation. The specialist executes what the data supports — the client sees the reasoning, comments, and together they lock the decision. |
 | 10 | **The collaborator model** | Why a strategist brings in specialists instead of hiring a team. How this model produces better work than either solo execution or agency overhead. The client gets expertise where it matters, not overhead where it doesn't. The specialist gets context, not isolation. The client is never handed off — they are in permanent contact with whoever handles their phase. Every decision is collaborative, every version is saved, nothing is final until both sides lock it. |
+| 11 | **The research is mine. The positioning is yours.** | The competitive landscape audit is done by the strategist — the client never sees competitor logos, never receives visual stimuli that trigger emotional reactions before analysis. They receive the logic of selection: "I eliminated local authenticity — anyone can claim it. I eliminated premium — you can't support it operationally yet." The reasoning transfers. The raw material stays. When the client can defend the positioning without memorizing your arguments, the work has transferred. |
 
 **Format:** Process snapshots, reasoning chains, before/after of clarity (not visuals). No client names, no confidential data. The method is the content.
 
-**Duration:** ~10-12 weeks (10-12 posts at 1/week)
+**Duration:** ~11-13 weeks (11 posts at 1/week)
 
 ---
 
@@ -207,4 +208,4 @@ This does two things:
 
 ---
 
-*Living document. Updated June 2026.*
+*Living document. Updated June 2026. Added theme 11 (competitive audit: research vs reasoning).*

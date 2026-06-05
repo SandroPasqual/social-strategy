@@ -70,6 +70,7 @@ The founder doesn't see a portfolio. They see a system at work. If the way the s
 - The portal as operating system — every back-and-forth captured, nothing decided in isolation
 - The four phases of GBS — and the two-way mechanism that governs each one
 - The collaborator model — client in permanent contact with whoever handles their phase
+- The research is mine, the positioning is yours — competitive audit as invisible methodology
 
 **This phase doesn't demonstrate results. It demonstrates reasoning.**
 
