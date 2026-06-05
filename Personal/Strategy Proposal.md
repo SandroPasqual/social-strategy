@@ -33,6 +33,13 @@ On a platform saturated with sameness, gastric is instantly recognizable. A read
 
 No one else positions as gastric. Not because it's hard. Because it requires saying exactly what you see and stopping before you explain it.
 
+**The cost:**
+Gastric gets fewer likes. The truth about someone is uncomfortable to sit with. The same way 30 posts were deleted from the archive — cut in living flesh — the content does the same. The truth is told raw so the treatment can follow.
+
+No back-patting. No mutual admiration. No validation economy.
+
+**This is not a bug. It's the selection mechanism.** Those who stay after the burn are those who actually want the diagnosis.
+
 **The metaphor:**
 - **Personal (Observer) = the burn on the throat.** The recognition. The symptom that tells you something is there. Enters smooth, burns after, doesn't explain itself.
 - **Goodspell (Architect) = the antacid.** Same mechanism, different role. After the burn is recognized, Goodspell names the pattern. Diagnoses what caused it.

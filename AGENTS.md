@@ -181,6 +181,14 @@ While everyone else on LinkedIn educates, inspires, sells, or attacks, Sandro do
 - Not "LinkedIn existentialism" (fragmentation without substance)
 - Not validation-seeking
 
+### The cost
+
+Gastric doesn't feel good. It gets fewer likes. Because the truth about someone is uncomfortable to sit with.
+
+The same way 30 posts were deleted from the archive — cut in living flesh — the same happens in the content. The truth is told raw so the treatment can follow.
+
+No back-patting. No mutual admiration. No validation economy.
+
 **Market value:** On a platform saturated with sameness, gastric is instantly recognizable. A reader who has read one gastric post knows it's Sandro before seeing the name. This is differentiation through a cognitive mechanism (recognition), not aesthetics.
 
 **Documented in detail:** Sandro Voice behavioral writing architecture (v4), saved in `Notes/Strategic Assets from Claude Conversations.md` and ecosystem agents.

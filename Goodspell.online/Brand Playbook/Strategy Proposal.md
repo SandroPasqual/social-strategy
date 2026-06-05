@@ -24,6 +24,12 @@ The first 10 WHITE/BLACK posts (Phase 1: Recognition) were already gastric in to
 
 Together they form a complete cycle. The burn validates the diagnosis.
 
+### The cost
+
+Gastric doesn't feel good. It gets fewer likes. The truth is uncomfortable to sit with. As Sandro deleted 30 of his own posts — cutting in living flesh — the content does the same: tells the truth raw so the treatment can follow.
+
+No back-patting. No validation economy. This is the selection mechanism: those who stay after the burn are those who actually want the diagnosis.
+
 ---
 
 ### 1. Channel Hierarchy
