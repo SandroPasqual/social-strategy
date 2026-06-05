@@ -1,21 +1,23 @@
 ---
 date: 2026-07-01
-platform: LinkedIn (Personal)
+platform: LinkedIn
+likes: 0
+comments: 0
+impressions: 0
 status: to_be_posted
 type: text
-hashtags: "#Attention #CreativeWork"
 ---
 
 The solo operator with better tools isn't the future.
 
-You've seen it too. Someone doing everything — strategy, account management, bookkeeping, execution. Wearing every hat because there's no one else to wear them. The work is good. The thinking is sharp. But the friction of wearing all those hats compresses the quality of judgment.
+You've seen the solo act. One person doing everything: selling, delivering, invoicing, following up. The work is good. The thinking is sharp. But you can sense, even from the outside, how many hats are being worn at the same time.
 
-AI removes most of that friction now. The administrative burden that used to require a team can be handled by systems.
+Something is changing now. The stuff that used to require a team — the admin, the logistics, the coordination — it's getting handled differently. The friction is lowering.
 
-That changes the math. Not toward the solo operator with better tools. Toward something else: a small group of people with complementary judgment. Strategist, designer, copywriter — sharing infrastructure, dividing the work that requires human presence, letting systems handle everything else.
+And when the friction lowers, the question changes.
 
-Pentagram worked because partners shared the cost of infrastructure. That model is now accessible to three people instead of twenty.
+It stops being "what tools do I need" and starts being "who belongs in the room."
 
-The question shifts from "what tools do I need" to "who belongs in the room."
+Not a prediction. Just something that's already happening. We've all felt it. We just haven't said it out loud.
 
-We've all felt that shift coming. We just haven't named it yet.
+#Attention #CreativeWork
