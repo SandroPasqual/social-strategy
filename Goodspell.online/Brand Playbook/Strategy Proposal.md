@@ -30,6 +30,12 @@ Gastric doesn't feel good. It gets fewer likes. The truth is uncomfortable to si
 
 No back-patting. No validation economy. This is the selection mechanism: those who stay after the burn are those who actually want the diagnosis.
 
+### Why lemon doesn't work
+
+Some swallow hard for a long time. They feel the burn. They try lemon — empirical treatment, surface fixes. A new logo. A website refresh. A tagline. But lemon is not a diagnosis. The burn returns because the cause was never identified.
+
+Goodspell doesn't sell lemon. It sells the antacid — but only after the burn has been properly diagnosed. Branding as medicine, not decoration.
+
 ---
 
 ### 1. Channel Hierarchy

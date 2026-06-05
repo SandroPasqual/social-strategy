@@ -189,6 +189,16 @@ The same way 30 posts were deleted from the archive — cut in living flesh — 
 
 No back-patting. No mutual admiration. No validation economy.
 
+### Why lemon doesn't work
+
+There are people who swallow hard for a long time. They feel the burn. They know something is wrong. Some even take lemon — empirical treatment, home remedies, surface fixes. A new logo. A website refresh. A tagline change.
+
+But lemon is not a diagnosis. It treats the symptom temporarily. The burn returns because the cause was never identified.
+
+Goodspell doesn't sell lemon. It sells the antacid — but only after the burn has been properly diagnosed. The treatment is specific to the cause, not generic for the symptom.
+
+This is the difference between branding as decoration and branding as medicine.
+
 **Market value:** On a platform saturated with sameness, gastric is instantly recognizable. A reader who has read one gastric post knows it's Sandro before seeing the name. This is differentiation through a cognitive mechanism (recognition), not aesthetics.
 
 **Documented in detail:** Sandro Voice behavioral writing architecture (v4), saved in `Notes/Strategic Assets from Claude Conversations.md` and ecosystem agents.

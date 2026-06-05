@@ -40,6 +40,11 @@ No back-patting. No mutual admiration. No validation economy.
 
 **This is not a bug. It's the selection mechanism.** Those who stay after the burn are those who actually want the diagnosis.
 
+**Why lemon doesn't work:**
+Some swallow hard for a long time. They feel the burn. They try lemon — empirical treatment, surface fixes. A new logo. A website refresh. But lemon is not a diagnosis. The burn returns.
+
+Goodspell doesn't sell lemon. It sells the antacid — but only after the burn has been properly diagnosed. Treatment is specific to the cause, not generic for the symptom. Branding as medicine, not decoration.
+
 **The metaphor:**
 - **Personal (Observer) = the burn on the throat.** The recognition. The symptom that tells you something is there. Enters smooth, burns after, doesn't explain itself.
 - **Goodspell (Architect) = the antacid.** Same mechanism, different role. After the burn is recognized, Goodspell names the pattern. Diagnoses what caused it.
