@@ -141,6 +141,16 @@ awk -F': ' '/^impressions:/{print $2}' Personal/Posted/*.md | sort -n | tail -5
 
 ---
 
+## Goodspell Offering — The Three Pillars
+
+Goodspell delivers brand systems, not decoration. The three pillars:
+
+1. **Brand Strategy** — positioning, perception, narrative, audience definition. The foundation.
+2. **Brand Identity** — visual system, logo, colors, typography, design guide. The expression of strategy.
+3. **Design System** — component library, code, tokens, scalable UI. The engine that makes strategy work at product level.
+
+The design system is not separate from strategy — it is the operational output of it. Posts about design systems, design guides, moodboards, and brand books are valid because they demonstrate the full delivery chain. Posts about pure UI/UX career advice, color theory trivia, or logo critiques without strategic context are not.
+
 ## Rigor
 
 This is not a game. Every action here affects real content that represents a person's voice and business. Carelessness is not acceptable.
