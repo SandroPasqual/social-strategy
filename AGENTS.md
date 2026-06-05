@@ -22,8 +22,11 @@ Social strategy/
 │
 ├── Goodspell.online/            ← SECONDARY ACCOUNT — supports, does not lead
 │   ├── Posted/                  ← page posts published (10 files)
-│   ├── Brand Playbook/          ← brand foundation, content playbook, copy
+│   ├── To be posted/            ← 50 posts with WHITE/BLACK numbering, no dates
+│   ├── Brand Playbook/          ← brand foundation, content playbook, copy, comment framework
 │   ├── Strategie Goodspell/     ← drafts, templates, pillars
+│   ├── Friction_Moments_Master_List.md  ← 42 friction moments (source for posts)
+│   ├── LinkedIn Strategy _ v.1 _ Publication Order.md  ← full 50-post schedule
 │   ├── Strategic Analysis.md    ← diagnostic
 │   └── Strategy Proposal.md   ← action plan
 │
@@ -66,7 +69,7 @@ Social strategy/
 | **Position** | Demonstrates through reasoning, not results |
 | **Tone** | The Professor from Phase 2 (Personal), applied to positioning |
 | **Core theme** | The gap between actual execution and public perception |
-| **Hashtags** | 3-5 — #BrandStrategy #Positioning #BusinessGrowth |
+| **Hashtags** | Zero. Goodspell does not use hashtags — they associate with the noise the brand actively avoids. |
 | **Frequency** | 1-2/week |
 | **Cross-pollination** | Sandro shares page posts on his personal account |
 
@@ -136,8 +139,14 @@ awk -F': ' '/^impressions:/{print $2}' Personal/Posted/*.md | sort -n | tail -5
 - Goodspell proposal: `Goodspell.online/Strategy Proposal.md`
 - Content Playbook: `Goodspell.online/Brand Playbook/Goodspell — LinkedIn Content Playbook.md`
 - Brand Foundation: `Goodspell.online/Brand Playbook/Goodspell — Brand Foundation.md`
+- Client Intelligence: `Goodspell.online/Brand Playbook/Goodspell — Client Intelligence.md`
+- Homepage Copy: `Goodspell.online/Brand Playbook/Goodspell — Homepage Copy.md`
+- Comment Framework: `Goodspell.online/Brand Playbook/Goodspell — LinkedIn Comment Framework.md`
+- Friction Moments: `Goodspell.online/Friction_Moments_Master_List.md`
+- Publication Order: `Goodspell.online/LinkedIn Strategy _ v.1 _ Publication Order.md`
 - Published posts: `Personal/Posted/`, `Goodspell.online/Posted/`
 - Drafts: `Personal/Drafts/`, `Personal/To be posted/`
+- Goodspell To be posted: `Goodspell.online/To be posted/` (50 posts, 01-WHITE through 50-BLACK)
 
 ---
 

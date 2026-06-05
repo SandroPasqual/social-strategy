@@ -105,33 +105,54 @@ Cannot be planned — earned through consistency in the first 3 phases.
 **Drafts from Strategie Goodspell/** (3 posts):
 - "A brand built on the founder's agenda..." → already published on Personal (Jun 1)
 - "Every design post shows the same thing..." → already published on Personal (Jun 3)
-- "Your competitor's logo has no place..." → unpublished
+- "Your competitor's logo has no place..." → incorporated into 50-post series as #11
 
-**Proposal**:
-- The ones published on Personal stay there (they got 123 and 106 impressions)
-- "Your competitor's logo" → publish on Goodspell page as the first post of the new series
-- Future drafts go directly to the right channel
+**All existing drafts** have been integrated into the full 50-post series in `To be posted/`.
 
 ---
 
-### 5. Proposed Calendar (First 2 Weeks)
+### 5. The 50-Post Series (WHITE / BLACK Pattern)
+
+Extracted from `LinkedIn Strategy _ v.1 _ Publication Order.md` into 50 individual files in `To be posted/`.
+
+**WHITE** = Market friction — the external problem, what the prospect sees.
+**BLACK** = Internal censorship — the internal consequence, what happens in the founder's head.
+
+| # | Color | Theme | Status |
+|---|---|---|---|
+| 01 | WHITE | Someone referred you. They checked. Silence. | Posted Mar 17 |
+| 02 | WHITE | The price was right. The presence wasn't. | Posted Mar 19 |
+| ... | ... | ... | ... |
+| 11 | BLACK | The referral you've been waiting for | To be posted |
+| ... | ... | ... | ... |
+| 50 | BLACK | You didn't send the link | To be posted |
+
+**Decisions for this series:**
+- No hashtags (removed — avoid noise association)
+- No dates on files (user adds at publication)
+- image_text in front matter for image creation
+- Cross-pollinate via Personal account when publishing
+
+---
+
+### 6. Proposed Calendar (First 2 Weeks)
 
 | Day | Channel | Content |
 |---|---|---|
-| Day 1 | GS Page | "Your competitor's logo has no place in our conversation" |
+| Day 1 | GS Page | Post #11 "The referral you've been waiting for" |
 | Day 1 | Personal | Share the page post + 1 line of context |
 | Day 3 | Personal | Cultural observation (Observer voice) |
-| Day 5 | GS Page | New post — angle: "The 40 seconds that decide everything" |
+| Day 5 | GS Page | Next WHITE/BLACK post in sequence |
 | Day 5 | Personal | Share the page post |
-| Day 7 | Personal | Personal story (Storyteller voice) |
-| Day 10 | GS Page | New post — angle: "Price vs Presence" (different version from March) |
+| Day 7 | Personal | Personal story (Observer voice) |
+| Day 10 | GS Page | Next WHITE/BLACK post in sequence |
 | Day 10 | Personal | Share the page post |
 | Day 12 | Personal | AI/digital culture observation |
-| Day 14 | GS Page | New post — angle: positioning in the AI era |
+| Day 14 | GS Page | Next WHITE/BLACK post in sequence |
 
 ---
 
-### 6. Patterns to Avoid
+### 7. Patterns to Avoid
 
 - **Posting on page without cross-pollination** — nobody sees it
 - **Same content in both places** — confusion and internal competition
@@ -142,15 +163,16 @@ Cannot be planned — earned through consistency in the first 3 phases.
 
 ---
 
-### 7. Open Questions (Answered)
+### 8. Open Questions (Answered)
 
 1. ✅ **Differentiation Personal vs Goodspell?** — Personal = Observer, Goodspell = Architect. Overlap is intentional.
 2. ✅ **Cross-pollination?** — Yes, Sandro shares page posts on personal.
 3. ✅ **Frequency?** — Every 2 days Personal, 1-2/week Goodspell.
-4. ❓ **Strategic comments?** — Include in weekly routine?
-5. ❓ **Platform?** — LinkedIn only for now?
-6. ❓ **"Your competitor's logo" draft?** — Publish on Goodspell page as first step?
+4. ✅ **Hashtags on Goodspell?** — No. Removed. Goodspell does not use hashtags.
+5. ✅ **"Your competitor's logo" draft?** — Integrated into 50-post series as posting #11.
+6. ❓ **Strategic comments?** — Include in weekly routine?
+7. ❓ **Platform?** — LinkedIn only for now?
 
 ---
 
-*Discussion document. Written after complete analysis of personal account (~57 posts, May 2025–June 2026) and Goodspell page (10 posts, Mar–Apr 2026).*
+*Discussion document. Last updated June 2026 — superseded by the full 50-post series in `To be posted/`.*
