@@ -100,8 +100,9 @@ Attention → Memory → Thinking → Influence → Creation → AI
 | 16 | Jul 7 | The designer delivered exactly what was briefed. | The brief as foundation |
 | 17 | Jul 9 | What happens in that room stays in that room. | Confidentiality as standard |
 | 18 | Jul 11 | Every new project starts with the same question: where do we begin? | Orientation over speed |
+| 19 | Jul 13 | Three variants. | Generic logo design, gastric tone |
 
-**Note:** Posts #13–14 extend the serialization beyond the original arc (Attention→AI). Posts #15–18 continue the Observer voice with new themes drawn from practice: structure vs surface, the brief as foundation, confidentiality as a standard, orientation over speed.
+**Note:** Posts #13–14 extend the serialization beyond the original arc (Attention→AI). Posts #15–18 continue the Observer voice. Post #19 is the "Three variants" post (from Claude, gastric acid tone). After Jul 13, a personal writing series of 10 texts begins ("While I Still Know") — see Notes/Personal Writing Series.md for order and status.
 
 ---
 

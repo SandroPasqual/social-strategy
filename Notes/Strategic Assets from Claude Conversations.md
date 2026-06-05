@@ -160,3 +160,12 @@ To capture authentic voice (not mimicry), the agent needs two inputs:
 **Key distinction:**
 
 Mirroring = adapting form, not substance. The client recognizes themselves in the language, but the judgment is the strategist's. Sycophancy = confirming the client's position to make them feel good. The first builds trust. The second destroys it.
+
+**Sandro Voice Prompt v4** — Behavioral Writing Architecture (May 22, 2026).
+_Saved in ecosystem/_agents/ as part of the pi agent setup. Defines voice through cognitive mechanism (recognition), not stylistic artifacts. Four iterations refined in conversation. Key innovation: separates precision from brevity, centers on recognition as the mechanism, includes anti-performance safeguards._
+
+**10-post personal writing series** — "While I Still Know" (May 23, 2026).
+_Distilled from raw notes into 10 finished texts. To be published on Personal LinkedIn at 2/week after the Observer serialization ends (after Jul 11). Titles: If you smoke, smoke; Fake nerds; Off Grid For Three Stops; I remember boredom; Saved by the bell; We're all wet; The first stupid thought dressed up as sacred; I, published; Marketable; While I Still Know._
+
+**"Three variants" post** — "Three variants. Make it purple. Add yellow. Bigger. Ctrl+P."
+_Complete. Saved as Personal/To be posted/2026-07-13 Three variants.md. Gastric acid tone. About generic logo design, no moral, no solution._
