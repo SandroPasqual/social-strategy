@@ -48,8 +48,8 @@ The Goodspell page and personal account **compete for the same attention**, with
 | **Core theme** | The gap between actual execution and public perception (precise positioning) |
 | **Tone** | Strategic, precise, with framework — "The Professor" from Phase 2 but applied to positioning, not logos |
 | **Format** | Text with actionable insight + 1 concept per post |
-| **Hashtags** | 3-5 (#BrandStrategy #Positioning #BusinessGrowth + 1 specific) |
-| **CTA** | Relevant question (not "contact me") |
+| **Hashtags** | Zero — hashtags associate with the noise Goodspell actively avoids |
+| **CTA** | None. The post exists. That's enough. |
 | **Frequency** | 1-2/week |
 | **Cross-pollination** | Sandro shares page posts on personal (with 1-2 line intro) |
 
@@ -175,4 +175,4 @@ Extracted from `LinkedIn Strategy _ v.1 _ Publication Order.md` into 50 individu
 
 ---
 
-*Discussion document. Last updated June 2026 — superseded by the full 50-post series in `To be posted/`.*
+*Discussion document. Last updated June 2026. Living — updated against real data.*
