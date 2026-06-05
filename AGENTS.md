@@ -143,8 +143,10 @@ awk -F': ' '/^impressions:/{print $2}' Personal/Posted/*.md | sort -n | tail -5
 - Client Intelligence: `Goodspell.online/Brand Playbook/Goodspell — Client Intelligence.md`
 - Homepage Copy: `Goodspell.online/Brand Playbook/Goodspell — Homepage Copy.md`
 - Comment Framework: `Goodspell.online/Brand Playbook/Goodspell — LinkedIn Comment Framework.md`
-- Friction Moments: `Goodspell.online/Friction_Moments_Master_List.md`
-- Publication Order: `Goodspell.online/LinkedIn Strategy _ v.1 _ Publication Order.md`
+- Strategic Positioning Statement: `Goodspell.online/Brand Playbook/Goodspell — Strategic Positioning Statement.md`
+- Tone of Voice: `Goodspell.online/Brand Playbook/Goodspell — Tone of Voice.md`
+- Messaging Framework: `Goodspell.online/Brand Playbook/Goodspell — Messaging Framework.md`
+- Discovery Brief: `Goodspell.online/Brand Playbook/Goodspell — Discovery Brief.md`
 - Published posts: `Personal/Posted/`, `Goodspell.online/Posted/`
 - Drafts: `Personal/Drafts/`, `Personal/To be posted/`
 - Goodspell To be posted: `Goodspell.online/To be posted/` (50 posts, 01-WHITE through 50-BLACK)
