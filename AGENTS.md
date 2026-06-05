@@ -55,7 +55,7 @@ Social strategy/
 | **Hashtags** | 1-2 per post — #Attention #DigitalCulture #Memory #Thinking #AI #Strategy etc. |
 | **About design** | NO. Everything is strategy |
 | **Overlap with Goodspell** | Yes, intentional. Same filter, different angle |
-| **Selling** | Zero direct. Subtly directs through the angle |
+| **Selling** | Zero. Absolutely zero. No pitch, no "you need X," no CTA. The post just is there. The tension remains open. |
 | **Frequency** | Every 2 days (shows presence, no noise) |
 
 ## Voice Rules — Goodspell Page
