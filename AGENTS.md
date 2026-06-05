@@ -95,6 +95,8 @@ Attention → Memory → Thinking → Influence → Creation → AI
 | 10 | Jun 23 | The blue was never in the paint. | Constraints as source |
 | 11 | Jun 25 | The deity hallucinated. So they grabbed the hammer. | LLMs as oracles |
 | 12 | Jun 27 | The Romans had many gods. We have many models. | LLM market |
+| 13 | Jul 1 | The solo operator with better tools isn't the future. | Creative work structure |
+| 14 | Jul 3 | Everyone did their job. The result was still generic. | Upstream of execution |
 
 ---
 
