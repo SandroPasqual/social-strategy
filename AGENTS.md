@@ -95,7 +95,9 @@ Attention → Memory → Thinking → Influence → Creation → AI
 | 11 | Jun 25 | The deity hallucinated. So they grabbed the hammer. | LLMs as oracles |
 | 12 | Jun 27 | The Romans had many gods. We have many models. | LLM market |
 | 13 | Jul 1 | The solo operator with better tools isn't the future. | Creative work structure |
-| 14 | Jul 3 | Everyone did their job. The result was still generic. | Upstream of execution |
+| 14 | Jul 3 | Everyone did their job. The result was still generic. | Disconnected execution |
+
+**Note:** Posts #13–14 extend the serialization beyond the original arc (Attention→AI). They form a bridge toward a new direction: the changing structure of creative work and the need for a strategic center. Together, they preview what Goodspell is building — an infrastructure for independent professionals (designers, copywriters, strategists) who need strategic clarity but don't want to carry agency overhead.
 
 ---
 
@@ -153,15 +155,27 @@ awk -F': ' '/^impressions:/{print $2}' Personal/Posted/*.md | sort -n | tail -5
 
 ---
 
-## Goodspell Offering — The Three Pillars
+## Goodspell Offering — Strategic Infrastructure
 
-Goodspell delivers brand systems, not decoration. The three pillars:
+Goodspell is not just a brand strategy service. It is a strategic infrastructure — a platform where independent designers, copywriters, and strategists can find clarity for their clients through a shared methodology, shared positioning, and shared standards. A community that provides the structure of a strategy agency without requiring anyone to become one.
+
+### The Three Pillars
 
 1. **Brand Strategy** — positioning, perception, narrative, audience definition. The foundation.
 2. **Brand Identity** — visual system, logo, colors, typography, design guide. The expression of strategy.
 3. **Design System** — component library, code, tokens, scalable UI. The engine that makes strategy work at product level.
 
 The design system is not separate from strategy — it is the operational output of it. Posts about design systems, design guides, moodboards, and brand books are valid because they demonstrate the full delivery chain. Posts about pure UI/UX career advice, color theory trivia, or logo critiques without strategic context are not.
+
+### The Community Layer
+
+Goodspell also serves as the strategic center for independent creative professionals:
+
+- **Designers** who need positioning before execution
+- **Copywriters** who need a brand foundation before messaging
+- **Strategists** who need a system that survives delivery
+
+They connect to Goodspell for the strategic backbone, then execute independently. The result: clients get agency-level coherence without agency overhead. The professionals get infrastructure without becoming one.
 
 ## Rigor
 
