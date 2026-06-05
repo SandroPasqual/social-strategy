@@ -32,21 +32,25 @@ They don't know you're also talking about them. But they feel that someone final
 
 ---
 
-### Phase 2 — Contrast (8-10 posts)
+### Phase 2 — Gathering (8-10 posts)
 
-Once the founder follows you because they recognize you — begin to show the difference between how brand work is usually done (ad-hoc, intuition-first, logo-first) and how Goodspell does it (system-first, market-data-first, strategy-first). Not with superiority. With surgical clarity.
+Once recognition is established, begin to gather both audiences: clients and specialists (designers, copywriters, strategists). The message is the same for both:
 
-Not "this is wrong." But "here is what a brand decision made from intuition looks like versus one derived from structure." They know immediately which category they've been in.
+**Specialists earn the same as now — but they understand the client differently. They don't make a logo from guessing. They receive a clear brief and are capable of respecting it. The client gets something solid — not "what" (the visual), but "how" (the process, the clarity, the system).**
 
-**Core contrast themes:**
-- Intuition vs structure
-- Logo-first vs strategy-first
-- Ad-hoc vs repeatable methodology
-- Solo vs structured collaboration with specialists
-- Color from preference vs color from market
-- The brief as filter vs the brief as formality
+Not "this is wrong." But "here is what work looks like when it starts from a clear brief vs from guesswork." Both audiences recognize which category they've been in.
 
-**This phase doesn't judge. It orients. It gives a framework for understanding why things haven't connected — without explicitly saying they were wrong.**
+**Core gathering themes:**
+- From guessing to briefing — the specialist still earns the same, but works from ground truth
+- The brief as differentiator — two designers, same rate, same skill, different starting point
+- Not "what" but "how" — the client buys clarity, not visuals
+- The specialist who can respect a brief is rare — and more valuable
+- The market gives you the color — derived, not chosen
+- Ad-hoc vs system — the client feels the difference, even if they can't name it
+- For the specialist: same rate, same craft, different understanding
+- For the client: solid > beautiful — a system that works beats a logo that wins awards
+
+**This phase doesn't judge. It orients. It gathers everyone who wants to work from clarity instead of guessing.**
 
 ---
 
