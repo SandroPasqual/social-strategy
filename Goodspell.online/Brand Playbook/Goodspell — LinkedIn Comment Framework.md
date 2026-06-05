@@ -208,4 +208,24 @@ When someone (especially the author) has already engaged in a substantive thread
 
 ---
 
-*Living document. Compiled June 2026. Combines original Comment Framework (Romanian) with new strategy from dedicated strategy session — evaluation framework, post types, 6 type patterns with examples, rejected posts, tracking signals.*
+---
+
+### Active Threads (Status)
+
+| Post | Author | Comment Posted | Author Replied | Next Move |
+|------|--------|---------------|---------------|-----------|
+| Martin Zarian — "Types of headaches" | Martin Zarian | ✅ Jun 5 | ❌ Not yet | Wait. If he replies vaguely, no follow-up. If he asks a real question, respond. |
+| Mark Omlor — "I just need a logo" | Mark Omlor | ✅ Jun 5 | ✅ Short positive (content awaited) | No need to continue unless he engages further. |
+| Ogilvy — "Editorial advertising" | Ogilvy page | ✅ Jun 5 | ❌ Not yet | Likely won't reply — brand account. The value is in visibility, not response. |
+| Simon Dixon — "Creativity under attack" | Simon Dixon | ✅ Jun 5 | ❌ Not yet | Wait. If he replies, respond. If not, the comment still sits in a high-visibility thread. |
+| Simon Dixon reply to Kasumi Mihori — "Don't sell brand" | Simon Dixon (thread) | ✅ Jun 5 | ❌ Not yet | Lower chance of reply since it's a sub-thread. But visible to deep readers. |
+
+**Rules for active threads:**
+- If author replies vaguely ("great point", "exactly") → no follow-up needed
+- If author asks a real question → respond within 24h, still no CTA
+- If someone else replies to your comment → respond only if the question is substantive
+- Update this table after each new comment or significant reaction
+
+---
+
+*Living document. Compiled June 2026. Combines original Comment Framework (Romanian) with new strategy from dedicated strategy session — evaluation framework, post types, 6 type patterns with examples, rejected posts, tracking signals, active thread tracking.*

@@ -144,7 +144,7 @@ awk -F': ' '/^impressions:/{print $2}' Personal/Posted/*.md | sort -n | tail -5
 - Brand Foundation: `Goodspell.online/Brand Playbook/Goodspell — Brand Foundation.md`
 - Client Intelligence: `Goodspell.online/Brand Playbook/Goodspell — Client Intelligence.md`
 - Homepage Copy: `Goodspell.online/Brand Playbook/Goodspell — Homepage Copy.md`
-- Comment Framework: `Goodspell.online/Brand Playbook/Goodspell — LinkedIn Comment Framework.md`
+- **Comment Framework** (with active thread tracking): `Goodspell.online/Brand Playbook/Goodspell — LinkedIn Comment Framework.md` — check Active Threads table first when resuming comment strategy
 - Strategic Positioning Statement: `Goodspell.online/Brand Playbook/Goodspell — Strategic Positioning Statement.md`
 - Tone of Voice: `Goodspell.online/Brand Playbook/Goodspell — Tone of Voice.md`
 - Messaging Framework: `Goodspell.online/Brand Playbook/Goodspell — Messaging Framework.md`
