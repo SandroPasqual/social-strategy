@@ -80,19 +80,18 @@ Attention → Memory → Thinking → Influence → Creation → AI
 
 | # | Date | Title | Theme |
 |---|---|---|---|
-| 1 | Jun 5 | I saw the future. I didn't know it yet. | First smartphone |
-| 2 | Jun 7 | Saved by the bell. Or trapped by it. | Phone in conversation |
-| 3 | Jun 9 | We're all wet. And we pretend we're not. | We don't finish things |
-| 4 | Jun 11 | I publish. Then the categories appear. | Online identity |
-| 5 | Jun 13 | Marketable. Until you're not. | How we remember people |
-| 6 | Jun 15 | I can't read the operating system behind it. | Childhood as lost species |
-| 7 | Jun 17 | The first stupid thought, dressed up as conviction. | Digested complexity |
-| 8 | Jun 19 | The system is rigged. And that's not the whole story. | Inequality |
-| 9 | Jun 21 | You weren't convinced. You were mirrored. | Influence and tribes |
-| 10 | Jun 23 | No system corrupts from the outside. | People in systems |
-| 11 | Jun 25 | The blue was never in the paint. | Constraints as source |
-| 12 | Jun 27 | The deity hallucinated. So they grabbed the hammer. | LLMs as oracles |
-| 13 | Jun 29 | The Romans had many gods. We have many models. | LLM market |
+| 1 | Jun 5 | Saved by the bell. Or trapped by it. | Phone in conversation |
+| 2 | Jun 7 | We're all wet. And we pretend we're not. | We don't finish things |
+| 3 | Jun 9 | I publish. Then the categories appear. | Online identity |
+| 4 | Jun 11 | Marketable. Until you're not. | How we remember people |
+| 5 | Jun 13 | I can't read the operating system behind it. | Childhood as lost species |
+| 6 | Jun 15 | The first stupid thought, dressed up as conviction. | Digested complexity |
+| 7 | Jun 17 | The system is rigged. And that's not the whole story. | Inequality |
+| 8 | Jun 19 | You weren't convinced. You were mirrored. | Influence and tribes |
+| 9 | Jun 21 | No system corrupts from the outside. | People in systems |
+| 10 | Jun 23 | The blue was never in the paint. | Constraints as source |
+| 11 | Jun 25 | The deity hallucinated. So they grabbed the hammer. | LLMs as oracles |
+| 12 | Jun 27 | The Romans had many gods. We have many models. | LLM market |
 
 ---
 
