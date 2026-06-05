@@ -71,6 +71,7 @@ The founder doesn't see a portfolio. They see a system at work. If the way the s
 - The four phases of GBS — and the two-way mechanism that governs each one
 - The collaborator model — client in permanent contact with whoever handles their phase
 - The research is mine, the positioning is yours — competitive audit as invisible methodology
+- How I capture and carry your voice — the client recognizes themselves in every document
 
 **This phase doesn't demonstrate results. It demonstrates reasoning.**
 
