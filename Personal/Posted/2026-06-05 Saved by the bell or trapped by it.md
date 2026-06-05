@@ -3,9 +3,9 @@ date: 2026-06-05
 platform: LinkedIn
 likes: 0
 comments: 0
-impressions: 0
-status: to_be_posted
+impressions:
 type: text
+link: https://www.linkedin.com/posts/sandropasqual_attention-presence-share-7468649374903029760-btLf
 ---
 
 Saved by the bell. Or trapped by it.
