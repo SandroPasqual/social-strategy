@@ -161,10 +161,26 @@ Goodspell is a brand strategy practice run through a custom portal. The portal i
 
 ### The Flow
 
-1. **Client** onboarded on portal — completes questionnaires, discovery forms, research
-2. **Portal + LLM agents** generate a starting structure from client responses (positioning draft, strategic foundation)
-3. **Sandro works with specialists** (designers, copywriters, strategists) brought in per project — they refine, adapt, and shape the starting structure to client needs and market requirements
-4. **Result:** a brand system built on strategic clarity, executed by people who understand the context
+The portal is built around **collaborative documents** — not questionnaires, not forms. Each document is a shared workspace where both sides contribute, edit, comment, and iterate.
+
+**Client → Strategist flow:** The client provides input (market understanding, audience, goals). The strategist reviews, guides, supports. The client re-edits based on guidance. Back and forth until aligned.
+
+**Strategist → Client flow (reverse):** The strategist or designer works and presents their decision to the client. The client comments. The strategist re-argues and re-explains. Back and forth until they establish a decision together.
+
+**Key properties:**
+- Every edit is saved — full version history
+- The client can return at any time to modify earlier responses
+- The client can consult with collaborators or associates and add their input
+- Nothing is final until both sides agree
+- At the right moment, the document is **locked** — phase complete, next phase begins
+
+1. **Client onboarded** — contributes to discovery documents
+2. **Specialist reviews** — comments, guides, supports
+3. **Client refines** — edits based on guidance, consults collaborators
+4. **Strategist/designer presents decisions** — client comments, strategist re-argues
+5. **Back and forth** — until both are satisfied
+6. **Document locked** — phase complete, next phase begins
+7. **Result:** a brand system where every decision was derived from structured collaboration, not guesswork
 
 ### The Three Pillars
 
