@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LI Cycle 1 — Visual Templates</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1C1B18;
+    --paper: #FDF8F0;
+    --paper-mid: #EDE9DE;
+    --paper-deep: #E2DDD1;
+    --slate: #7A8890;
+    --amber: #8C6E3F;
+    --amber-light: #E8D5B0;
+    --amber-dark: #3D2E1A;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #181714;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding: 48px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  /* HEADER */
+  .ui-header {
+    width: 100%;
+    max-width: 1120px;
+    margin-bottom: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .ui-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: #F5F2EA;
+  }
+  .ui-sub {
+    font-size: 11px;
+    font-weight: 300;
+    color: var(--slate);
+    margin-top: 3px;
+  }
+  .ui-note {
+    font-size: 10px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.18);
+    font-style: italic;
+  }
+
+  /* GRID */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 520px);
+    gap: 32px;
+    width: 100%;
+    max-width: 1120px;
+  }
+
+  /* CARD WRAPPER */
+  .cw {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .clabel {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2px;
+  }
+  .clabel-type {
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--amber);
+  }
+  .clabel-num {
+    font-size: 9px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.18);
+  }
+
+  /* BASE CARD — strict 520×520 */
+  .card {
+    width: 520px;
+    height: 520px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+
+  /* WORDMARK */
+  .wm {
+    position: absolute;
+    bottom: 22px;
+    right: 26px;
+    font-family: 'Syne', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+  }
+  .wm-dark  { color: rgba(28,27,24,0.2); }
+  .wm-light { color: rgba(253,248,240,0.2); }
+  .wm-amber { color: rgba(253,248,240,0.28); }
+
+  /* TAG */
+  .tag {
+    display: inline-block;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: var(--amber);
+    border: 1px solid var(--amber-light);
+    padding: 5px 12px;
+  }
+
+  /* ═══════════════════════════════
+     P01 — Observation · paper
+  ═══════════════════════════════ */
+  .p01 {
+    background: var(--paper);
+    display: flex;
+    flex-direction: column;
+    padding: 48px 48px 44px;
+  }
+  .p01-headline {
+    font-family: 'Syne', sans-serif;
+    font-size: 54px;
+    font-weight: 800;
+    color: var(--ink);
+    line-height: 1.0;
+    flex: 1;
+  }
+  .p01-headline em {
+    font-style: normal;
+    color: var(--amber);
+  }
+  .p01-sub {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--slate);
+    line-height: 1.65;
+    max-width: 320px;
+    margin-bottom: 24px;
+  }
+
+  /* ═══════════════════════════════
+     P02 — Framework · dark
+  ═══════════════════════════════ */
+  .p02 {
+    background: var(--ink);
+    display: flex;
+    flex-direction: column;
+    padding: 44px 48px 44px;
+  }
+  .p02-label {
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 16px;
+  }
+  .p02-headline {
+    font-family: 'Syne', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: #FDF8F0;
+    line-height: 1.1;
+    margin-bottom: 28px;
+  }
+  .p02-steps {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .p02-step {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    padding: 11px 0;
+    border-top: 1px solid rgba(245,242,234,0.08);
+  }
+  .p02-step:last-child { border-bottom: 1px solid rgba(245,242,234,0.08); }
+  .p02-num {
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--amber);
+    flex-shrink: 0;
+    padding-top: 2px;
+    width: 18px;
+  }
+  .p02-text {
+    font-size: 12px;
+    font-weight: 300;
+    color: rgba(245,242,234,0.7);
+    line-height: 1.5;
+  }
+  .p02-text strong {
+    font-weight: 500;
+    color: #FDF8F0;
+  }
+
+  /* ═══════════════════════════════
+     P03 — Principle · paper + bar
+  ═══════════════════════════════ */
+  .p03 {
+    background: var(--paper);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 52px 52px 52px 60px;
+  }
+  .p03::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 5px;
+    background: var(--amber);
+  }
+  .p03-label {
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 24px;
+  }
+  .p03-text {
+    font-family: 'Syne', sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    color: var(--ink);
+    line-height: 1.1;
+    margin-bottom: 28px;
+  }
+  .p03-text em {
+    font-style: normal;
+    color: var(--amber);
+  }
+  .p03-support {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--slate);
+    line-height: 1.65;
+    max-width: 360px;
+  }
+
+  /* ═══════════════════════════════
+     P04 — Observation · Q→A
+  ═══════════════════════════════ */
+  .p04 {
+    background: var(--paper);
+    display: flex;
+    flex-direction: column;
+    padding: 44px 48px 44px;
+  }
+  .p04-label {
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--slate);
+    margin-bottom: 24px;
+  }
+  .p04-q {
+    font-family: 'Syne', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--ink);
+    line-height: 1.1;
+    flex: 1;
+  }
+  .p04-q em {
+    font-style: normal;
+    color: var(--amber);
+  }
+  .p04-divider {
+    height: 1px;
+    background: var(--paper-deep);
+    margin: 22px 0;
+  }
+  .p04-answer {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+  }
+  .p04-arrow {
+    font-size: 18px;
+    color: var(--amber);
+    flex-shrink: 0;
+    line-height: 1.5;
+  }
+  .p04-atext {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--slate);
+    line-height: 1.65;
+  }
+
+  /* ═══════════════════════════════
+     P05 — Framework · amber
+  ═══════════════════════════════ */
+  .p05 {
+    background: var(--amber);
+    display: flex;
+    flex-direction: column;
+    padding: 44px 48px 44px;
+  }
+  .p05-label {
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(253,248,240,0.55);
+    margin-bottom: 16px;
+  }
+  .p05-headline {
+    font-family: 'Syne', sans-serif;
+    font-size: 34px;
+    font-weight: 800;
+    color: #FDF8F0;
+    line-height: 1.05;
+    margin-bottom: 30px;
+  }
+  .p05-rows {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .p05-row {
+    display: grid;
+    grid-template-columns: 96px 1fr;
+    gap: 14px;
+    padding: 12px 0;
+    border-top: 1px solid rgba(253,248,240,0.15);
+    align-items: start;
+  }
+  .p05-row:last-child { border-bottom: 1px solid rgba(253,248,240,0.15); }
+  .p05-left {
+    font-size: 10px;
+    font-weight: 500;
+    color: rgba(253,248,240,0.5);
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    padding-top: 1px;
+    line-height: 1.4;
+  }
+  .p05-right {
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(253,248,240,0.85);
+    line-height: 1.5;
+  }
+  .p05-right strong {
+    font-weight: 500;
+    color: #FDF8F0;
+  }
+
+  /* ═══════════════════════════════
+     P06 — Principle · dark
+  ═══════════════════════════════ */
+  .p06 {
+    background: #111009;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 48px 48px 44px;
+  }
+  .p06-claim {
+    font-family: 'Syne', sans-serif;
+    font-size: 52px;
+    font-weight: 800;
+    color: #FDF8F0;
+    line-height: 1.0;
+  }
+  .p06-claim em {
+    font-style: normal;
+    color: var(--amber);
+  }
+  .p06-support {
+    border-top: 1px solid rgba(245,242,234,0.08);
+    padding-top: 18px;
+  }
+  .p06-support p {
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(245,242,234,0.45);
+    line-height: 1.65;
+    max-width: 360px;
+  }
+
+  /* ═══════════════════════════════
+     P07 — Observation · split
+  ═══════════════════════════════ */
+  .p07 {
+    background: var(--paper);
+    display: grid;
+    grid-template-rows: 1fr auto;
+  }
+  .p07-top {
+    padding: 44px 48px 28px;
+    border-bottom: 1px solid var(--paper-deep);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .p07-obs {
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--slate);
+    margin-bottom: 18px;
+  }
+  .p07-hl {
+    font-family: 'Syne', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--ink);
+    line-height: 1.1;
+  }
+  .p07-hl em {
+    font-style: normal;
+    color: var(--amber);
+  }
+  .p07-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 180px;
+  }
+  .p07-col {
+    padding: 20px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .p07-col:first-child {
+    border-right: 1px solid var(--paper-deep);
+    background: #EDEAE0;
+  }
+  .p07-col-label {
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--slate);
+  }
+  .p07-col-text {
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--ink);
+    line-height: 1.55;
+  }
+  .p07-col-text strong { font-weight: 500; }
+
+  /* ═══════════════════════════════
+     P08 — Synthesis · recap
+  ═══════════════════════════════ */
+  .p08 {
+    background: var(--paper);
+    display: flex;
+    flex-direction: column;
+    padding: 44px 48px 44px;
+  }
+  .p08-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 22px;
+  }
+  .p08-label {
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--amber);
+  }
+  .p08-new {
+    font-size: 10px;
+    font-weight: 300;
+    color: var(--slate);
+    font-style: italic;
+  }
+  .p08-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--ink);
+    line-height: 1.05;
+    margin-bottom: 28px;
+  }
+  .p08-title em {
+    font-style: normal;
+    color: var(--amber);
+  }
+  .p08-items {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .p08-item {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    padding: 13px 0;
+    border-top: 1px solid var(--paper-deep);
+  }
+  .p08-item:last-child { border-bottom: 1px solid var(--paper-deep); }
+  .p08-name {
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--amber);
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    width: 88px;
+    flex-shrink: 0;
+    padding-top: 2px;
+  }
+  .p08-desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--ink);
+    line-height: 1.55;
+  }
+</style>
+</head>
+<body>
+
+<div class="ui-header">
+  <div>
+    <div class="ui-title">LI Cycle 1 — Visual Templates</div>
+    <div class="ui-sub">8 posts · Goodspell Brand Strategy · 1080×1080px production</div>
+  </div>
+  <div class="ui-note">Export at 2× for production</div>
+</div>
+
+<div class="grid">
+
+  <!-- 01 -->
+  <div class="cw">
+    <div class="clabel">
+      <span class="clabel-type">Observation</span>
+      <span class="clabel-num">Post 01 · Week 1 · Tuesday</span>
+    </div>
+    <div class="card p01">
+      <div class="p01-headline">
+        Your business<br>has grown.<br><em>Your brand<br>has not.</em>
+      </div>
+      <div class="p01-sub">The work is better. The team is stronger. The pricing is higher. But the brand still reflects a version of the business from years ago.</div>
+      <span class="tag">The Maturity Gap</span>
+      <span class="wm wm-dark">Goodspell*</span>
+    </div>
+  </div>
+
+  <!-- 02 -->
+  <div class="cw">
+    <div class="clabel">
+      <span class="clabel-type">Framework</span>
+      <span class="clabel-num">Post 02 · Week 1 · Thursday</span>
+    </div>
+    <div class="card p02">
+      <div class="p02-label">Zero Wasting Rebranding</div>
+      <div class="p02-headline">Four decisions<br>before you change<br>anything.</div>
+      <div class="p02-steps">
+        <div class="p02-step">
+          <span class="p02-num">01</span>
+          <span class="p02-text"><strong>Document the positioning.</strong> What the business is, who it is for, why it is the right choice.</span>
+        </div>
+        <div class="p02-step">
+          <span class="p02-num">02</span>
+          <span class="p02-text"><strong>Identify what is actually broken.</strong> Visual, structural, or strategic.</span>
+        </div>
+        <div class="p02-step">
+          <span class="p02-num">03</span>
+          <span class="p02-text"><strong>Define what must not change.</strong> Brand equity is invisible until it is destroyed.</span>
+        </div>
+        <div class="p02-step">
+          <span class="p02-num">04</span>
+          <span class="p02-text"><strong>Build a system, not a deliverable.</strong> It must work without the founder in the room.</span>
+        </div>
+      </div>
+      <span class="wm wm-light">Goodspell*</span>
+    </div>
+  </div>
+
+  <!-- 03 -->
+  <div class="cw">
+    <div class="clabel">
+      <span class="clabel-type">Principle</span>
+      <span class="clabel-num">Post 03 · Week 2 · Tuesday</span>
+    </div>
+    <div class="card p03">
+      <div class="p03-label">Principle</div>
+      <div class="p03-text">Clarity of<br>positioning<br>outperforms<br><em>every</em><br>visual refresh.</div>
+      <div class="p03-support">A new logo on an unresolved positioning problem is a more expensive version of the same problem.</div>
+      <span class="wm wm-dark">Goodspell*</span>
+    </div>
+  </div>
+
+  <!-- 04 -->
+  <div class="cw">
+    <div class="clabel">
+      <span class="clabel-type">Observation</span>
+      <span class="clabel-num">Post 04 · Week 2 · Thursday</span>
+    </div>
+    <div class="card p04">
+      <div class="p04-label">What makes a brand confusing</div>
+      <div class="p04-q">It is not<br>the logo.<br>It is the<br>absence of a<br><em>documented<br>argument.</em></div>
+      <div class="p04-divider"></div>
+      <div class="p04-answer">
+        <div class="p04-arrow">→</div>
+        <div class="p04-atext">When no document governs why the brand looks and sounds the way it does — every decision becomes a negotiation. Every contributor starts from zero.</div>
+      </div>
+      <span class="wm wm-dark">Goodspell*</span>
+    </div>
+  </div>
+
+  <!-- 05 -->
+  <div class="cw">
+    <div class="clabel">
+      <span class="clabel-type">Framework</span>
+      <span class="clabel-num">Post 05 · Week 3 · Tuesday</span>
+    </div>
+    <div class="card p05">
+      <div class="p05-label">Logic over Aesthetics</div>
+      <div class="p05-headline">Every visual<br>decision is a<br>business decision.</div>
+      <div class="p05-rows">
+        <div class="p05-row">
+          <span class="p05-left">Wrong question</span>
+          <span class="p05-right">Does this look right?</span>
+        </div>
+        <div class="p05-row">
+          <span class="p05-left">Right question</span>
+          <span class="p05-right"><strong>Why does this exist — and what business argument does it serve?</strong></span>
+        </div>
+        <div class="p05-row">
+          <span class="p05-left">The result</span>
+          <span class="p05-right">Decisions that hold. A system that works without explanation.</span>
+        </div>
+      </div>
+      <span class="wm wm-amber">Goodspell*</span>
+    </div>
+  </div>
+
+  <!-- 06 -->
+  <div class="cw">
+    <div class="clabel">
+      <span class="clabel-type">Principle</span>
+      <span class="clabel-num">Post 06 · Week 3 · Thursday</span>
+    </div>
+    <div class="card p06">
+      <div class="p06-claim">The<br>methodology<br>is the<br><em>credential.</em></div>
+      <div class="p06-support">
+        <p>A portfolio shows what was approved. A documented process shows how decisions are made. Serious buyers evaluate the second, not the first.</p>
+      </div>
+      <span class="wm wm-light">Goodspell*</span>
+    </div>
+  </div>
+
+  <!-- 07 -->
+  <div class="cw">
+    <div class="clabel">
+      <span class="clabel-type">Observation</span>
+      <span class="clabel-num">Post 07 · Week 4 · Tuesday</span>
+    </div>
+    <div class="card p07">
+      <div class="p07-top">
+        <div class="p07-obs">Common pattern</div>
+        <div class="p07-hl">Established operators<br>rebrand at <em>exactly<br>the wrong time.</em></div>
+      </div>
+      <div class="p07-bottom">
+        <div class="p07-col">
+          <div class="p07-col-label">What triggers it</div>
+          <div class="p07-col-text">A bad meeting. A lost deal. A competitor that <strong>looks more credible</strong> than they are.</div>
+        </div>
+        <div class="p07-col">
+          <div class="p07-col-label">What it should be</div>
+          <div class="p07-col-text">A deliberate decision made <strong>before the gap costs something</strong> — not after.</div>
+        </div>
+      </div>
+      <span class="wm wm-dark">Goodspell*</span>
+    </div>
+  </div>
+
+  <!-- 08 -->
+  <div class="cw">
+    <div class="clabel">
+      <span class="clabel-type">Synthesis</span>
+      <span class="clabel-num">Post 08 · Week 4 · Thursday</span>
+    </div>
+    <div class="card p08">
+      <div class="p08-top">
+        <span class="p08-label">The Maturity Gap — revisited</span>
+        <span class="p08-new">For new readers</span>
+      </div>
+      <div class="p08-title">Three gaps.<br>One <em>structural<br>problem.</em></div>
+      <div class="p08-items">
+        <div class="p08-item">
+          <span class="p08-name">Visibility</span>
+          <span class="p08-desc">The work is excellent. The brand does not communicate it.</span>
+        </div>
+        <div class="p08-item">
+          <span class="p08-name">System</span>
+          <span class="p08-desc">No governing framework. Every decision is rebuilt from scratch.</span>
+        </div>
+        <div class="p08-item">
+          <span class="p08-name">Authority</span>
+          <span class="p08-desc">The brand cannot carry the pricing or partnerships the business is ready for.</span>
+        </div>
+      </div>
+      <span class="wm wm-dark">Goodspell*</span>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

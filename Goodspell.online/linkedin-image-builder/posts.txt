@@ -1,0 +1,198 @@
+---
+01-white-someone-referred-you
+Someone referred you.
+The prospect checked.
+They didn't call.
+---
+02-white-the-price-was-right
+The price was right.
+The presence wasn't.
+---
+03-white-you-sent-the-link
+You sent the link.
+They didn't reply.
+---
+04-black-you-wrote-the-linkedin-post
+You wrote the LinkedIn post.
+You didn't publish it.
+The profile behind it wasn't ready.
+---
+05-black-eight-months
+Eight months.
+The work justifies the price.
+The presence doesn't.
+---
+06-white-your-competitor-looks-more-serious
+Your competitor looks more serious than you.
+The work is not comparable.
+The presence is.
+---
+07-white-twenty-minutes
+Twenty minutes for every call.
+Re-establishing credibility that should have been there before you arrived.
+---
+08-black-theres-a-client-you-havent-approached
+There's a client you haven't approached.
+The work isn't the question.
+The presence is.
+---
+09-white-you-added-a-disclaimer
+You added a disclaimer after the link.
+"It's not fully updated but..."
+That sentence cost you more.
+---
+10-white-google-returns-a-version
+Google returns a version of you that doesn't exist anymore.
+Someone is deciding based on that version right now.
+---
+11-black-the-referral-youve-been-waiting-for
+The referral you've been waiting for is sitting in your inbox.
+You're not sure you're ready to be looked up.
+---
+12-white-your-linkedin-and-your-website
+Your LinkedIn and your website tell two different stories.
+The prospect noticed.
+You didn't know.
+---
+13-white-you-built-something-serious
+You built something serious.
+The presence says you're still figuring it out.
+---
+14-black-you-were-invited-to-speak
+You were invited to speak.
+You checked the website before confirming.
+You almost said no.
+---
+15-white-the-right-clients-find-you-eventually
+The right clients find you eventually.
+The wrong ones find you first.
+---
+16-white-the-website-shows-who-you-were
+The website shows who you were five years ago.
+The business kept moving.
+The presence didn't.
+---
+17-black-the-opportunity-came
+The opportunity came.
+The presence wasn't ready.
+By the time it was, the moment had passed.
+---
+18-white-a-former-client-introduced-you
+A former client introduced you.
+The words they used were not yours.
+The introduction arrived pre-discounted.
+---
+19-white-they-chose-someone-who-charged-less
+They chose someone who charged less.
+The work wasn't comparable.
+The presence was.
+---
+20-black-you-walked-in-knowing-the-value
+You walked in knowing the value.
+You left having justified it.
+---
+21-white-the-prospect-decided-before-you-spoke
+The prospect decided before you spoke.
+Your presence made the case.
+It made the wrong one.
+---
+22-white-the-designer-delivered-something
+The designer delivered something that looked good.
+Nothing they built survived without them in the room.
+---
+23-black-youve-been-the-most-important-person
+You've been the most important person in every room you've built.
+The presence should have been there instead.
+---
+24-white-youve-been-the-brand
+Every pitch, every proposal, every introduction — you.
+That's not a growth problem.
+That's a presence problem.
+---
+25-white-everyone-knows-what-youre-worth
+Everyone knows what you're worth after they work with you.
+Almost no one knows before.
+---
+26-black-youve-explained-what-you-do
+You've explained what you do five hundred times.
+Every time from scratch.
+---
+27-white-you-prepared-for-the-meeting
+You prepared for the meeting.
+They were still deciding whether you were real.
+---
+28-white-the-brand-was-right-for-where-you-were
+The brand was right for where you were.
+The business moved.
+The brand didn't.
+---
+29-black-you-dropped-the-price-before-they-asked
+You dropped the price before they asked.
+You didn't know you were doing it.
+---
+30-white-the-candidate-had-already-decided
+The candidate had already decided.
+You weren't there when it happened.
+Your website was.
+---
+31-white-youre-not-proud-of-the-website
+You're not proud of the website.
+Every day you don't fix it, it works against you.
+---
+32-black-you-built-it-to-look-like
+You built it to look like the successful ones in your category.
+Now you look like all of them.
+---
+33-white-the-partnership-stalled
+The partnership stalled.
+They couldn't justify you internally.
+Your presence didn't help them.
+---
+34-white-the-best-work-youve-done
+The best work you've done is invisible from the outside.
+You carry it into every room alone.
+---
+35-black-second-business-third-business
+Second business. Third business.
+The expertise compounded.
+The presence started from zero every time.
+---
+36-white-they-asked-for-references
+They asked for references.
+The collaboration should have been obvious.
+---
+37-white-you-attracted-the-wrong-level
+You attracted the wrong level.
+The presence set the ceiling before you could.
+---
+38-black-you-left-with-a-track-record
+You left with a track record that should have closed any room.
+You've been carrying it yourself ever since.
+---
+39-white-the-website-says-nothing-wrong
+The website says nothing wrong.
+It says nothing at all.
+---
+40-white-a-new-hire-describes-the-business
+A new hire describes the business differently than you do.
+Not wrong
+— just unrecognizable.
+---
+41-black-the-mood-board-made-sense
+The mood board made sense at the time.
+It was someone else's logic.
+You've been living with that decision.
+---
+42-white-every-person-on-the-team-improvises
+Every person on the team improvises.
+Consistent in quality.
+Inconsistent in everything the outside world sees.
+---
+43-white-you-wrote-the-proposal
+You wrote the proposal.
+You knew it was good.
+The offer that should have sold itself needed a lawyer.
+---
+44-black-youve-known-the-first-impression
+You've known the first impression is made before the first conversation.
+You just haven't fixed it yet.
