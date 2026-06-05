@@ -178,3 +178,13 @@ This is not a game. Every action here affects real content that represents a per
 3. **Flow over hardcode** — strategy evolves with real data.
 4. **Preserve originals** — `Ideas/` is read-only. Modifications go to `Posted/` or `To be posted/`.
 5. **One step at a time** — one post, one observation, one adjustment.
+
+## File Safety Protocol
+
+Never use `mv` (cut-paste) for moving files between directories. Always:
+
+1. **Copy** the file to the destination (or rewrite the content in the new location)
+2. **Verify** the destination file exists and has content (size > 0 bytes, lines > 1)
+3. **Delete** the source file only after confirmation
+
+This prevents silent data loss from failed moves, path issues, or interrupted operations.
