@@ -97,3 +97,23 @@ Goodspell is positioned to be the strategic center of such a structure — not t
 ---
 
 *Not a living document. Captured June 2026 from Claude conversations. Key strategic assets to reference.*
+
+---
+
+### 8. Competitive Audit — Research vs Reasoning
+
+**The principle:** The client should never see competitor logos during strategic research. Visual stimuli trigger emotional reactions (attraction/rejection) before analysis has a chance. The audit is the strategist's work, not the client's input.
+
+**The refined principle:** But the client must understand the reasoning, not just receive the conclusion. A positioning they can't defend isn't theirs — it's borrowed.
+
+**The distinction:**
+- Raw data (competitor logos, visuals, stimuli) → stays with strategist
+- Selection logic (why X was eliminated, why Y is available) → communicated clearly to client
+- The client internalizes the reasoning: "I eliminated local authenticity because it's overcrowded. I eliminated premium because you can't support it operationally yet."
+
+**When the client can defend the positioning without memorizing your arguments — the work has transferred.**
+
+**How to communicate it (from actual practice):**
+> "I eliminated local authenticity — anyone can claim it and no one owns it. I eliminated premium — you can't support it operationally yet. Here's what that leaves."
+
+No logos. No visuals. Pure logic. The client sees the reasoning, not the raw material.
