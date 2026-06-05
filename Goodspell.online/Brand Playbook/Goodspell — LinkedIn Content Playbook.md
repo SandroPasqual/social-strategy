@@ -207,6 +207,72 @@ The argument, the observation, the conclusion — those come after. The first li
 
 ---
 
+## Authority Through Reasoning
+
+Authority is not declared. It is demonstrated through how the author thinks in public.
+
+### Observation over declaration
+
+The same truth lands differently depending on how it enters.
+
+> "Most creative work fails upstream of execution."
+
+This is a declaration. Correct, but distant. The reader has no reason to care.
+
+> "The designer delivered exactly what was briefed. The brief was empty. Nobody said anything."
+
+This is an observation. The reader sees the scene, recognizes it, and continues reading because they want to know where it leads.
+
+**Rule of thumb:** If the post can be summarized in one line, it's a declaration. If it needs a scene to land, it's an observation.
+
+### Scenes over principles
+
+The reader does not need a framework. They need to recognize themselves in a situation first. The framework becomes meaningful only after they've already confirmed, internally, that the problem is real.
+
+A post that begins with a principle asks the reader to accept something before they've felt it. A post that begins with a scene lets them arrive at the principle on their own.
+
+### Tension without resolution
+
+A post that resolves completely is a post that doesn't need a response. Leaving the tension open — not unanswered, but unfilled — creates space for the reader to complete the thought themselves.
+
+That completion is engagement. Not because they were asked to comment, but because the post left them in a state that requires resolution.
+
+### The pitch test
+
+If the first line could be followed by "and that's why you need me" — the post is pitching. Even if that line never comes, the reader feels it subconsciously.
+
+The test for a post: does it exist for its own sake, or does it exist to sell something? A post that just "is there" — an observation that doesn't need a follow-up, a tension that doesn't resolve into a service — builds more trust than any explicit pitch.
+
+---
+
+## Confidentiality as Positioning
+
+"What happens in that room stays in that room."
+
+Not a policy. Not a disclaimer. A standard.
+
+### The work requires access
+
+The client shares what isn't working — the pitch that keeps falling flat, the gap between what was built and how it reads publicly, the decisions that didn't land. That is vulnerable information.
+
+It does not become content.
+
+### The strategist who protects = the strategist who earns trust
+
+The market standard celebrates case studies, before/afters, anonymized client stories. Those are built on borrowed trust — someone else's vulnerability used to build credibility.
+
+The alternative: the strategist whose only portfolio is how they think in public. The questions they raise. What they notice that others don't. The reasoning visible, the clients invisible.
+
+This is slower to build. But the trust it earns is deeper — because it was never borrowed from someone else.
+
+### A signal, not a limitation
+
+Confidentiality is not a constraint on marketing. It is a positioning signal that reaches exactly the right client — the one who values discretion, who has something to protect, who understands that what is discussed in strategy stays in strategy.
+
+That client recognizes this signal immediately. They have also seen what happens when a consultant uses someone else's vulnerability for content.
+
+---
+
 ## Comment Strategy
 
 ### Where to Comment
@@ -299,4 +365,4 @@ This cycle takes weeks or months. It is not shortened by volume. It is shortened
 
 ---
 
-*Living document. Updated against real data.*
+*Living document. Updated June 2026. Added: Authority Through Reasoning (observation over declaration, scenes over principles, tension without resolution, the pitch test). Added: Confidentiality as Positioning (discretion as signal, direct from practice).*
