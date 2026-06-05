@@ -2,6 +2,33 @@
 
 ---
 
+## Positioning: Gastric + Framework
+
+All Goodspell page content uses the **gastric mechanism**: enters smooth, burns after. The reader doesn't feel attacked — they feel recognized. The first 10 WHITE/BLACK posts were gastric before the term existed. This is not a new direction. It's naming what was already working.
+
+**What gastric means for Goodspell:**
+- The reader sees themselves in the friction before they care about the solution
+- No moral, no conclusion, no CTA — the tension stands alone
+- The Architect voice adds a framework layer on top: after the recognition lands, a pattern is named
+- The discomfort comes from recognition, not accusation
+
+**What gastric is not:**
+- Not educational (no "here's how to fix it")
+- Not corporate (no "we help companies")
+- Not aggressive (no "stop doing X")
+- Not aspirational (no "believe in yourself")
+
+**Differentiation from Personal:**
+
+| | Personal | Goodspell Page |
+|---|---|---|
+| **Voice** | The Observer | The Architect |
+| **Mechanism** | Gastric | Gastric |
+| **Delivery** | Observation only | Observation + structural insight |
+| **Effect** | Reader recognizes the feeling | Reader recognizes the pattern |
+
+---
+
 ## Strategic Premise
 
 The target client does not post about brand strategy. They read what strategists and designers post.

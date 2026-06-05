@@ -1,42 +1,21 @@
 # Content Strategy Proposal — Goodspell Brand Strategy
-## Restructured (June 2026)
+## Restructured (June 2026) — Updated with Gastric Positioning
 
-### Context
+### Positioning: Gastric + Framework
 
-Goodspell is a brand strategy practice run through a custom portal. The portal is the operating system.
+Goodspell posts use the **same gastric mechanism** as Sandro's Personal account: enters smooth, burns after. The reader doesn't feel attacked — they feel recognized. Recognition is more durable than attack.
 
-The core mechanism: **collaborative documents** — not questionnaires, not forms in the traditional sense. Each document is a shared workspace where both sides contribute, edit, comment, and iterate.
+The difference from Personal is **delivery**:
 
-### How it works
+| | Personal | Goodspell Page |
+|---|---|---|
+| **Voice** | The Observer | The Architect |
+| **Mechanism** | Gastric | Gastric |
+| **Delivery** | Observation, no framework | Observation + structural insight |
+| **Effect** | Reader recognizes the feeling | Reader recognizes the pattern |
+| **Aftertaste** | Lingering discomfort, no resolution | Confidence that the pattern was named correctly |
 
-**Client → Strategist flow:** The client provides input (market understanding, audience, goals). The strategist reviews, guides, supports. The client re-edits based on guidance. Back and forth until aligned.
-
-**Strategist → Client flow (reverse):** The strategist or designer works and presents their decision to the client. The client comments on these decisions. The strategist re-argues and re-explains. Back and forth until they establish a decision together.
-
-**Key properties:**
-- Every edit is saved — full version history
-- The client can return at any time to modify earlier responses
-- The client can consult with collaborators or associates and add their input
-- Nothing is final until both sides agree
-- At the right moment, the document is **locked** — phase complete, next phase begins
-
-From the first steps, results are visible. The client has access to syntheses — summaries of what's been established, the clarity achieved, the decisions made together.
-
-Whatever the designer decides, it is never from thin air. The client enters each phase with clarity, voice, message, positioning already defined.
-
-The client is in permanent contact — depending on the phase — with the specialist handling their project.
-
-The flow:
-
-1. **Client onboarded** — contributes to discovery documents
-2. **Specialist reviews** — comments, guides, supports
-3. **Client refines** — edits based on guidance, consults collaborators
-4. **Strategist/designer presents decisions** — client comments, strategist re-argues
-5. **Back and forth** — until both are satisfied
-6. **Document locked** — phase complete, next phase begins
-7. **Result:** a brand system where every decision was derived from structured collaboration, not guesswork
-
-The LinkedIn page exists to build recognition and trust — so that when a founder faces a brand decision, Goodspell is already present in their mind as someone who understands.
+The first 10 WHITE/BLACK posts (Phase 1: Recognition) were already gastric in tone — that's what made them work. The founder saw themselves in the friction before they cared who Goodspell was. This mechanism continues across all four phases.
 
 ---
 
@@ -67,10 +46,12 @@ The LinkedIn page exists to build recognition and trust — so that when a found
 
 #### Goodspell Page — The Architect
 
+The Architect is gastric with a framework. Same mechanism (recognition), different delivery. The Architect names the pattern after the reader has already recognized the feeling.
+
 | | |
 |---|---|
 | **Core theme** | How brand strategy is done through a structured system — the method, the process, the thinking |
-| **Tone** | Strategic, precise, with framework. Shows the reasoning, not the result. |
+| **Tone** | Gastric + framework. Strategic, precise, with structural insight. |
 | **Format** | Observation + structural insight. One concept per post. |
 | **Hashtags** | Zero — hashtags associate with noise Goodspell avoids |
 | **CTA** | None. The post exists. That's enough. |
@@ -89,6 +70,8 @@ The LinkedIn page exists to build recognition and trust — so that when a found
 
 - **WHITE** = Market friction (what the prospect sees externally)
 - **BLACK** = Internal censorship (what happens in the founder's head)
+
+**Note:** This series was gastric before the term existed. WHITE identifies a tension the reader knows. BLACK names the consequence they feel. No moral, no solution, no CTA. The reader recognizes themselves and sits with it.
 
 **Status:** #01–10 published, #11–50 in queue. Cross-pollinated via Personal account.
 
@@ -190,10 +173,11 @@ This does two things:
 
 ### 5. Operating Rules (Updated)
 
+- **Positioning: Gastric** — same mechanism as Personal. The reader sees themselves before they care about Goodspell.
 - **No hashtags on Goodspell page** — zero. Hashtags associate with noise.
 - **No CTA on Goodspell page** — not even a question.
 - **No selling via Goodspell page** — the post exists. That's enough.
-- **Voice: The Architect** — strategic, precise, with framework. Shows the reasoning, not the result.
+- **Voice: The Architect** — gastric with framework. Strategic, precise, shows the pattern after the feeling is recognized.
 - **Cross-pollinate every page post** via Personal account.
 - **1-2 posts/week** on page — consistency over volume.
 - **All posts in US English.**

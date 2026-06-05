@@ -65,9 +65,10 @@ Social strategy/
 
 | Principle | How it applies |
 |---|---|
-| **Voice** | The Architect — strategic, precise, with framework |
+| **Positioning** | Gastric + Framework — same mechanism as Personal (recognition), different delivery |
+| **Voice** | The Architect — gastric with framework. Names the pattern after the feeling lands. |
 | **Position** | Demonstrates through reasoning, not results |
-| **Tone** | The Professor from Phase 2 (Personal), applied to positioning |
+| **Tone** | Gastric. The pattern is named after the reader has already recognized the feeling. |
 | **Core theme** | The gap between actual execution and public perception |
 | **Hashtags** | Zero. Goodspell does not use hashtags — they associate with the noise the brand actively avoids. |
 | **Frequency** | 1-2/week |
