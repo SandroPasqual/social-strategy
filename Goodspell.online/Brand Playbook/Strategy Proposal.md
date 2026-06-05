@@ -17,6 +17,13 @@ The difference from Personal is **delivery**:
 
 The first 10 WHITE/BLACK posts (Phase 1: Recognition) were already gastric in tone — that's what made them work. The founder saw themselves in the friction before they cared who Goodspell was. This mechanism continues across all four phases.
 
+### The metaphor
+
+- **Personal (Observer) = the burn on the throat.** The recognition. The symptom. It enters smooth, burns after, and doesn't explain itself.
+- **Goodspell (Architect) = the antacid.** Same mechanism, different role. After the burn is recognized, Goodspell names the pattern. It doesn't remove the burn — it diagnoses what caused it.
+
+Together they form a complete cycle. The burn validates the diagnosis.
+
 ---
 
 ### 1. Channel Hierarchy

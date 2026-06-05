@@ -185,6 +185,13 @@ While everyone else on LinkedIn educates, inspires, sells, or attacks, Sandro do
 
 **Documented in detail:** Sandro Voice behavioral writing architecture (v4), saved in `Notes/Strategic Assets from Claude Conversations.md` and ecosystem agents.
 
+### The metaphor
+
+- **Personal is the burn on the throat.** The recognition. The discomfort. The symptom that tells you something is there. It enters smooth, burns after, and doesn't explain itself. The reader feels the tension without needing to name it.
+- **Goodspell is the antacid.** The same mechanism (gastric), but with a different role. After the burn is recognized, Goodspell names the pattern. It doesn't remove the burn — it diagnoses what caused it. The structure comes after the feeling.
+
+Together they form a complete cycle: Personal identifies the tension, Goodspell shows the structure behind it. One cannot work without the other. The burn validates the diagnosis.
+
 ---
 
 ## Goodspell Offering — How It Works
