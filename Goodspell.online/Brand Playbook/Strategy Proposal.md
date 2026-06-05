@@ -3,12 +3,24 @@
 
 ### Context
 
-Goodspell is a brand strategy practice run through a custom portal. The portal is the operating system:
+Goodspell is a brand strategy practice run through a custom portal. The portal is the operating system.
 
-1. **Client** onboarded on portal — completes questionnaires, discovery forms, research
-2. **Portal + LLM agents** generate a starting structure from client responses (positioning draft, strategic foundation)
-3. **Sandro works with specialists** (designers, copywriters, strategists) brought in per project — they refine, adapt, and shape the starting structure to client needs and market requirements
-4. **Result:** a brand system built on strategic clarity, executed by people who understand the context
+The core mechanism: **two-way forms.** The client fills a questionnaire or discovery form. The strategist or designer comments, supports, guides. The client re-edits their initial description based on the specialist's advice. Back and forth — until the client is satisfied. Only then does the engagement move to the next phase.
+
+From the first steps, results are visible. The client has access to syntheses — summaries of what's been established, the clarity they've achieved, the decisions made together.
+
+Whatever the designer decides, it is never from thin air. The client enters each phase with clarity, voice, message, positioning already defined.
+
+The client is in permanent contact — depending on the phase — with the specialist handling their project.
+
+The flow:
+
+1. **Client onboarded** — completes questionnaires, discovery forms
+2. **Specialist reviews** — comments, guides, supports
+3. **Client refines** — re-edits based on guidance
+4. **Back and forth** — until both are satisfied
+5. **Locked** — phase complete, next phase begins
+6. **Result:** a brand system where every decision was derived from structured dialogue, not guesswork
 
 The LinkedIn page exists to build recognition and trust — so that when a founder faces a brand decision, Goodspell is already present in their mind as someone who understands.
 
@@ -118,16 +130,16 @@ The LinkedIn page exists to build recognition and trust — so that when a found
 
 | # | Theme | Angle |
 |---|-------|-------|
-| 1 | **The questionnaire as entry point** | What happens when a founder answers structured questions about their market, audience, competition — before any design decision. The questions themselves reveal the shape of the problem. The specialist receives a brief that came from data, not from a conversation. |
-| 2 | **From responses to structure** | How LLM agents process questionnaire data into a positioning draft. Not magic — pattern recognition against market data. The starting point is generated. The refinement is human. The specialist never starts from zero. |
-| 3 | **What changes for the designer** | The designer doesn't ask "what style do you like." They ask "what does the positioning require." The difference between designing from a brief and designing from a guess. Same rate. Better result. |
-| 4 | **What changes for the copywriter** | The copywriter writes from a defined tone of voice, a strategic narrative, a messaging framework — not from a "make it sound professional" request. The words land because the foundation was laid before the first sentence. |
-| 5 | **What changes for the strategist** | The strategist works within a system that captures every decision, every version, every rationale. Not starting fresh each time — building on a methodology that gets stronger with every engagement. |
-| 6 | **The portal as operating system** | A system that tracks every document, every decision, every version. The client sees their progress. The strategist sees the full picture. The specialist receives the context they need. Not a showcase — an engine. |
-| 7 | **The four phases of GBS** | How an engagement unfolds: Discovery → Core → Narrative → Visual. Each phase has a function. None can be skipped. The architecture behind a single project — and why skipping Phase 1 makes Phase 3 unreliable. |
-| 8 | **What positioning looks like before it becomes visual** | The raw material: market scan, audience definition, competitive space, strategic position statement. The document that governs everything that follows — and how it's built from client input, not consultant instinct. |
-| 9 | **What "the market gives you the color" looks like in practice** | A walkthrough of how audience analysis, competitive context, and psychological effect converge on a color direction. Not a moodboard. A derivation. The specialist executes what the data supports. |
-| 10 | **The collaborator model** | Why a strategist brings in specialists instead of hiring a team. How this model produces better work than either solo execution or agency overhead. The client gets expertise where it matters, not overhead where it doesn't. The specialist gets context, not isolation. |
+| 1 | **The two-way questionnaire** | The client fills a form. The strategist reviews and comments — not to correct, to guide. The client re-edits based on the guidance. Back and forth until the description feels right. Only then does the engagement move forward. The questionnaire is not a data collection tool — it's the first conversation. |
+| 2 | **From responses to structure** | How LLM agents process the refined questionnaire data into a positioning draft. Not magic — pattern recognition against market data. The starting point is generated from what the client and strategist have already aligned on. The specialist never starts from zero — and never from guesswork. |
+| 3 | **Visible from the first step** | From day one, the client sees syntheses — summaries of what's been established, the clarity achieved, the decisions made together. Progress is not a promise. It's a document that updates with every cycle. |
+| 4 | **What changes for the designer** | The designer doesn't ask "what style do you like." They ask "what does the positioning require." The client enters their phase with clarity, voice, message, positioning already defined. Whatever the designer decides, it is never from thin air. The designer is in direct contact with the client during their phase — two-way, iterative, until the result satisfies both. |
+| 5 | **What changes for the copywriter** | The copywriter writes from a defined tone of voice, a strategic narrative, a messaging framework — not from a "make it sound professional" request. The words land because the foundation was laid before the first sentence. Same back-and-forth: draft → specialist comments → refine → until it lands. |
+| 6 | **What changes for the strategist** | The strategist works within a system that captures every decision, every version, every rationale. Not starting fresh each time — building on a methodology that gets stronger with every engagement. The back-and-forth is captured, not lost in email threads. |
+| 7 | **The portal as operating system** | A system that tracks every document, every decision, every version. The client sees their progress. The specialist sees the full context. Every back-and-forth is recorded. Nothing is decided in isolation. Not a showcase — an engine. |
+| 8 | **The four phases of GBS** | How an engagement unfolds: Discovery → Core → Narrative → Visual. Each phase has a function. None can be skipped. Within each phase: the same two-way mechanism — fill, review, refine, lock, advance. The architecture behind a single project. |
+| 9 | **What "the market gives you the color" looks like in practice** | A walkthrough of how audience analysis, competitive context, and psychological effect converge on a color direction. Not a moodboard. A derivation. The specialist executes what the data supports — and the client has been part of every step that led there. |
+| 10 | **The collaborator model** | Why a strategist brings in specialists instead of hiring a team. How this model produces better work than either solo execution or agency overhead. The client gets expertise where it matters, not overhead where it doesn't. The specialist gets context, not isolation. The client is never handed off — they are in permanent contact with whoever handles their phase. |
 
 **Format:** Process snapshots, reasoning chains, before/after of clarity (not visuals). No client names, no confidential data. The method is the content.
 

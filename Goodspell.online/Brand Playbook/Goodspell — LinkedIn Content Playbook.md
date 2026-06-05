@@ -63,13 +63,13 @@ Posts in this phase show how Goodspell actually works — not what has been deli
 The founder doesn't see a portfolio. They see a system at work. If the way the system operates resonates with how they feel business should be approached — the decision is almost made before a conversation exists.
 
 **Core demonstration themes:**
-- The questionnaire as entry point — what structured discovery reveals
-- From responses to structure — LLM agents generating the starting foundation
-- The specialist's role — shaping, not starting from zero
-- The portal as operating system — documents, versions, flow
-- The GBS four phases — architecture of an engagement
-- Design tokens and color derivation — the market gives you the color
-- The collaborator model — strategist + specialists, not agency overhead
+- The two-way questionnaire — client fills, strategist guides, client refines, back and forth until satisfied
+- From responses to structure — LLM agents processing aligned data into a starting foundation
+- Visible from the first step — syntheses, summaries, progress the client can see
+- What changes for each role — designer, copywriter, strategist — when they work from clarity instead of guessing
+- The portal as operating system — every back-and-forth captured, nothing decided in isolation
+- The four phases of GBS — and the two-way mechanism that governs each one
+- The collaborator model — client in permanent contact with whoever handles their phase
 
 **This phase doesn't demonstrate results. It demonstrates reasoning.**
 
