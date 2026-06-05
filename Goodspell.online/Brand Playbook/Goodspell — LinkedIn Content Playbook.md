@@ -18,35 +18,54 @@ The arc runs from recognition to trust. Not from awareness to conversion. Not fr
 
 ---
 
-### Phase 1 — Recognition
+### Phase 1 — Recognition (50 WHITE/BLACK posts)
 
 The founder must see themselves in what you write before they care who you are.
 
-Posts in this phase do not mention Goodspell, do not offer a solution, do not ask for anything. They describe with precision situations the founder lives but has never articulated so clearly — the psychology behind brand decisions, the systems corrupted from within, the founder's own agenda infiltrated into strategy.
+Posts in this phase do not mention Goodspell, do not offer a solution, do not ask for anything. They describe with precision situations the founder lives but has never articulated so clearly — the friction moments, the internal censorship, the gap between what they deliver and how they're perceived.
 
 They don't know you're also talking about them. But they feel that someone finally sees what they see.
+
+**Content:** 50 WHITE/BLACK friction-moment posts. 10 published, 40 in queue. Duration: ~25 weeks at 2/week.
 
 **This phase sells nothing. It builds recognition.**
 
 ---
 
-### Phase 2 — Contrast
+### Phase 2 — Contrast (8-10 posts)
 
-Once the founder follows you because they recognize you — begin to show the difference between how things are usually done and how they should be done. Not with superiority. With surgical clarity.
+Once the founder follows you because they recognize you — begin to show the difference between how brand work is usually done (ad-hoc, intuition-first, logo-first) and how Goodspell does it (system-first, market-data-first, strategy-first). Not with superiority. With surgical clarity.
 
-Not "classic consultants are wrong." But "here is what a brand decision made from fear looks like versus one made from clarity." They know immediately which category they've been in until now.
+Not "this is wrong." But "here is what a brand decision made from intuition looks like versus one derived from structure." They know immediately which category they've been in.
+
+**Core contrast themes:**
+- Intuition vs structure
+- Logo-first vs strategy-first
+- Ad-hoc vs repeatable methodology
+- Solo vs structured collaboration with specialists
+- Color from preference vs color from market
+- The brief as filter vs the brief as formality
 
 **This phase doesn't judge. It orients. It gives a framework for understanding why things haven't connected — without explicitly saying they were wrong.**
 
 ---
 
-### Phase 3 — Demonstrated Competence
+### Phase 3 — Demonstrated Competence (10-12 posts)
 
 Recognition and contrast create interest. Demonstrated competence creates trust in the method.
 
-Posts in this phase show how you think applied to concrete situations — not what you've delivered, but how you got there. The research process, the logic behind a positioning decision, the questions asked before any execution begins.
+Posts in this phase show how Goodspell actually works — not what has been delivered, but how it gets there. The portal, the questionnaires, the LLM-generated starting structure, the specialist refinement, the GBS methodology in action.
 
-The founder doesn't see a portfolio. They see a mind at work. If the way you think resonates with how they feel business should be approached — the decision is almost made before a conversation exists.
+The founder doesn't see a portfolio. They see a system at work. If the way the system operates resonates with how they feel business should be approached — the decision is almost made before a conversation exists.
+
+**Core demonstration themes:**
+- The questionnaire as entry point — what structured discovery reveals
+- From responses to structure — LLM agents generating the starting foundation
+- The specialist's role — shaping, not starting from zero
+- The portal as operating system — documents, versions, flow
+- The GBS four phases — architecture of an engagement
+- Design tokens and color derivation — the market gives you the color
+- The collaborator model — strategist + specialists, not agency overhead
 
 **This phase doesn't demonstrate results. It demonstrates reasoning.**
 
@@ -56,7 +75,7 @@ The founder doesn't see a portfolio. They see a mind at work. If the way you thi
 
 Trust is not declared. It accumulates over time through the consistency of the first three phases.
 
-The moment the founder writes the first private message is not triggered by a CTA. It is triggered by a moment of theirs — a brand decision they need to make, a conversation that isn't working, a pitch that fell flat again. In that moment, you are already present in their mind as someone who understands.
+The moment the founder writes the first private message is not triggered by a CTA. It is triggered by a moment of theirs — a brand decision they need to make, a conversation that isn't working, a pitch that fell flat again. In that moment, Goodspell is already present in their mind as someone who understands.
 
 No single post produces this moment. A consistent presence makes the moment have a natural direction.
 
