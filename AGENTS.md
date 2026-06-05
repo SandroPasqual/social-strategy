@@ -96,8 +96,12 @@ Attention → Memory → Thinking → Influence → Creation → AI
 | 12 | Jun 27 | The Romans had many gods. We have many models. | LLM market |
 | 13 | Jul 1 | The solo operator with better tools isn't the future. | Creative work structure |
 | 14 | Jul 3 | Everyone did their job. The result was still generic. | Disconnected execution |
+| 15 | Jul 5 | You don't need a new look. | Structure vs surface |
+| 16 | Jul 7 | The designer delivered exactly what was briefed. | The brief as foundation |
+| 17 | Jul 9 | What happens in that room stays in that room. | Confidentiality as standard |
+| 18 | Jul 11 | Every new project starts with the same question: where do we begin? | Orientation over speed |
 
-**Note:** Posts #13–14 extend the serialization beyond the original arc (Attention→AI). They form a bridge toward a new direction: the changing structure of creative work and the need for a strategic center. Together, they preview the Goodspell approach — working directly with clients, shaping brand systems from the ground up.
+**Note:** Posts #13–14 extend the serialization beyond the original arc (Attention→AI). Posts #15–18 continue the Observer voice with new themes drawn from practice: structure vs surface, the brief as foundation, confidentiality as a standard, orientation over speed.
 
 ---
 
