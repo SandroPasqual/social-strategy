@@ -48,6 +48,7 @@ Social strategy/
 
 | Principle | How it applies |
 |---|---|
+| **Positioning** | Gastric — enters smooth, burns after. Recognition over attack. |
 | **Voice** | The Observer — philosophical, poetic, observational |
 | **Position** | Alongside the reader, not above. "We're the same." |
 | **Tone** | Does not teach, correct, or provoke — reflects |
@@ -157,6 +158,31 @@ awk -F': ' '/^impressions:/{print $2}' Personal/Posted/*.md | sort -n | tail -5
 - Published posts: `Personal/Posted/`, `Goodspell.online/Posted/`
 - Drafts: `Personal/Drafts/`, `Personal/To be posted/`
 - Goodspell To be posted: `Goodspell.online/To be posted/` (50 posts, 01-WHITE through 50-BLACK)
+
+---
+
+## Gastric Positioning (Personal Account)
+
+The Personal LinkedIn account is positioned as _gastric_ — not as a tone, as a market position.
+
+While everyone else on LinkedIn educates, inspires, sells, or attacks, Sandro does something different: enters smooth, burns after. The reader doesn't feel attacked — they feel recognized. Recognition is more durable than attack.
+
+**What gastric is:**
+- Precision without explanation
+- Tension correctly distributed (no one person is blamed)
+- The discomfort comes from recognition, not accusation
+- No moral, no conclusion, no CTA
+- Silence after a sentence carries part of the meaning
+
+**What gastric is not:**
+- Not dark, cynical, or gratuitously harsh
+- Not educational or didactic
+- Not "LinkedIn existentialism" (fragmentation without substance)
+- Not validation-seeking
+
+**Market value:** On a platform saturated with sameness, gastric is instantly recognizable. A reader who has read one gastric post knows it's Sandro before seeing the name. This is differentiation through a cognitive mechanism (recognition), not aesthetics.
+
+**Documented in detail:** Sandro Voice behavioral writing architecture (v4), saved in `Notes/Strategic Assets from Claude Conversations.md` and ecosystem agents.
 
 ---
 

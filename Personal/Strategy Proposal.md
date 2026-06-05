@@ -1,110 +1,186 @@
 # Content Strategy Proposal — Personal Account
-## Decisions Made (June 2026)
+## Decisions Made (June 2026, updated post-Claude session May 23)
 
 ---
 
-### 1. Voice: The Observer (with adjustments)
+### 1. Positioning: Gastric
 
-**Base tone**: Philosophical, poetic, observational — stays.
+This is not a tone. It's a market position.
 
-**Engagement adjustments:**
-- **Punchier titles** — without becoming clickbait, but sharp enough to stop the scroll
-- **More tension in the first line** — a contrast, a contradiction, a surprising observation
-- **No explicit CTA**, but leaves a moment of shared recognition at the end
-- **1-2 hashtags** — not zero, not 13
-- Not forced, not aggressive, not "in your face"
+Everyone on LinkedIn is either:
+- **Educational** ("here are 5 reasons...")
+- **Inspirational** ("believe in yourself")
+- **Corporate** ("we help companies...")
+- **Aggressive** ("stop doing X")
 
-**Tone example:**
-> Before: "I remember boredom."
-> After: "I remember boredom. Not the restless kind. The kind that let things grow."
->
-> Before: "Fake nerds."
-> After: "Fake nerds. We were inside the machine. They're just inside the feed."
+Gastric is different. It enters smooth and burns after. The reader doesn't feel attacked — they feel recognized. And recognition is more dangerous than attack because it doesn't wear off.
+
+**What gastric is:**
+- Precision without explanation
+- Tension correctly distributed (no one person is blamed)
+- The discomfort comes from recognition, not accusation
+- No moral, no conclusion, no CTA
+- Silence after a sentence carries part of the meaning
+
+**What gastric is not:**
+- Not dark, cynical, or gratuitously harsh
+- Not educational or didactic
+- Not validation-seeking
+- Not "LinkedIn existentialism" (fragmentation without substance)
+
+**Market value:**
+On a platform saturated with sameness, gastric is instantly recognizable. A reader who has read one gastric post knows it's Sandro before seeing the name. This is not differentiation through aesthetics — it's differentiation through a cognitive mechanism (recognition).
+
+No one else positions as gastric. Not because it's hard. Because it requires saying exactly what you see and stopping before you explain it.
 
 ---
 
-### 2. Content: Already written, unpublished texts
+### 2. Voice: The Observer, Gastric
 
-The new direction continues with **texts you already wrote but haven't published yet**. Future posts come from this backlog — no forced new content.
+The Observer is the persona. Gastric is the mechanism.
 
-**Plan**: The 13 drafts from `Ideas/LinkedIn Sandro/` have been moved to `Personal/Drafts/` and prepped in `Personal/To be posted/`.
+**Base characteristics:**
+- Philosophical, poetic, observational — alongside the reader, not above
+- Punchy titles with tension (not clickbait — sharp)
+- First line carries the weight
+- Ends with shared recognition (no question, no CTA)
+- 1-2 hashtags
+- Observation over declaration. Scenes over principles.
+- Pitch test: if the first line could be followed by "and that's why you need me", it's pitching.
+
+**Rhythm rules:**
+- Short sentences. Pauses. Each line stands alone.
+- Silence is a reward for a sentence that does not need continuation.
+- The rhythm serves the thought, not the other way around.
+- Fragmentation is a tool, not a mandatory structure.
+
+**Anti-patterns (what kills the voice):**
+- Sounding cryptic for aesthetic reasons
+- Forcing profundity when the observation is thin
+- Using fragmentation as decoration
+- Explaining the tension instead of letting it stand
 
 ---
 
-### 3. Overlap with Goodspell
+### 3. Content Inventory
+
+#### A. Observer Serialization (18 posts)
+Arc: Attention → Memory → Thinking → Influence → Creation → AI → Practice
+
+| # | Date | Title | Theme | Status |
+|---|---|---|---|---|
+| 1 | Jun 5 | Saved by the bell. Or trapped by it. | Phone in conversation | Posted ✅ |
+| 2 | Jun 7 | We're all wet. And we pretend we're not. | We don't finish things | To be posted |
+| 3 | Jun 9 | I publish. Then the categories appear. | Online identity | To be posted |
+| 4 | Jun 11 | Marketable. Until you're not. | How we remember people | To be posted |
+| 5 | Jun 13 | I can't read the operating system behind it. | Childhood as lost species | To be posted |
+| 6 | Jun 15 | The first stupid thought, dressed up as conviction. | Digested complexity | To be posted |
+| 7 | Jun 17 | The system is rigged. And that's not the whole story. | Inequality | To be posted |
+| 8 | Jun 19 | You weren't convinced. You were mirrored. | Influence and tribes | To be posted |
+| 9 | Jun 21 | No system corrupts from the outside. | People in systems | To be posted |
+| 10 | Jun 23 | The blue was never in the paint. | Constraints as source | To be posted |
+| 11 | Jun 25 | The deity hallucinated. So they grabbed the hammer. | LLMs as oracles | To be posted |
+| 12 | Jun 27 | The Romans had many gods. We have many models. | LLM market | To be posted |
+| 13 | Jul 1 | The solo operator with better tools isn't the future. | Structure vs surface | To be posted |
+| 14 | Jul 3 | Everyone did their job. The result was still generic. | The brief | To be posted |
+| 15 | Jul 5 | You don't need a new look. | Brand vs identity | To be posted |
+| 16 | Jul 7 | The designer delivered exactly what was briefed. | Process without strategy | To be posted |
+| 17 | Jul 9 | What happens in that room stays in that room. | Confidentiality as standard | To be posted |
+| 18 | Jul 11 | Every new project starts with the same question. | Orientation over speed | To be posted |
+
+#### B. Gastric Gateways (beyond serialization)
+
+| # | Date | Title | Notes | Status |
+|---|------|-------|-------|--------|
+| 19 | Jul 13 | Three variants. | Gastric logo critique. Pure form. | Prepped |
+| 20+ | After Jul 13 | While I Still Know series | 10 personal texts — see below | Drafted |
+
+#### C. "While I Still Know" — Personal Writing Series (10 texts)
+
+Distilled from raw notes in a single session (May 23, 2026). Voice: Sandro's natural observation — analytical, poetic, personal. Not in the Observer serialization voice, but compatible.
+
+| # | Title | Topic | Status |
+|---|-------|-------|--------|
+| 1 | If you smoke, smoke | Full attention, presence, phone as distraction | Drafted |
+| 2 | Fake nerds | Real nerds vs Instagram consumers | Drafted |
+| 3 | Off Grid For Three Stops | Metro observation, drawing reflex, phone-free moment | Drafted |
+| 4 | I remember boredom | Trolleybus, window, silence, attention | Drafted |
+| 5 | Saved by the bell | Phone buzz as relief from complexity | Drafted ⚠️ title overlap |
+| 6 | We're all wet | Attention degradation, same current | Drafted ⚠️ title overlap |
+| 7 | The first stupid thought, dressed up as sacred | First thought as conviction, no revision | Drafted ⚠️ title overlap |
+| 8 | I, published | Writing for approval, need to be recognized | Drafted |
+| 9 | Marketable | MMP — minimum marketable product | Drafted |
+| 10 | While I Still Know | Death, memory, writing for those who remain | Drafted |
+
+⚠️ Texts 5, 6, 7 share titles with existing Observer serialization posts but are different content. **Decision needed:** rename, or publish as intentional parallel.
+
+**Full texts saved in:** `Notes/Personal Writing Series - Full Texts.md`
+
+---
+
+### 4. Overlap with Goodspell
 
 **Intentional and welcome.** The personal account can subtly direct toward Goodspell:
 - Not through links or CTAs
-- But through the **angle from which you approach the subject** — the gap between execution and perception is your personal filter
-- Personal posts can address the same themes as Goodspell, but from the Observer's perspective (not the Architect's)
+- But through the **angle** — the gap between execution and perception is Sandro's personal filter
+- Personal posts address the same themes as Goodspell, but from the Observer's perspective (not the Architect's)
 
 **Example of natural overlap:**
-> Personal post: observation about how founders moving fast with AI have a public presence that doesn't keep up.
-> Goodspell post: the same topic, but with a strategic framework and actionable insight.
+> Personal post: observation about designers making logos without strategy.
+> Goodspell post: the same topic, with a strategic framework and process.
 
 Not competition — an echo. Same signal, two different frequencies.
 
 ---
 
-### 4. Final Differentiation
+### 5. Final Differentiation
 
 | | **Personal** | **Goodspell (page)** |
 |---|---|---|
-| **Role** | PRIMARY — trust is built here | SECONDARY — supports presence |
-| **Voice** | The Observer | The Architect |
-| **Tone** | Philosophical, poetic | Strategic, precise |
-| **Theme** | Presence, attention, digital culture | The gap between execution and public perception |
-| **Engagement** | Slightly improved (punchy titles, shared recognition) | Natural (framework, insight) |
-| **Overlap** | Yes — same filter, different angle | Yes — same filter, different angle |
-| **Selling** | Zero direct (subtly directs through angle) | Through demonstration |
+| **Role** | PRIMARY — trust is built here | SECONDARY — supports |
+| **Voice** | The Observer, Gastric | The Architect |
+| **Tone** | Recognition-based, dry, precise | Strategic, framework-based |
+| **Theme** | Attention, digital culture, presence | Brand strategy, positioning |
+| **Mechanism** | Recognition (cognitive) | Frameworks (intellectual) |
+| **Selling** | Zero — overtly, subtly, or indirectly | Through demonstration only |
 | **About design** | No — everything is strategy | No — everything is strategy |
-| **Hashtags** | 1-2 | 3-5 |
-| **Frequency** | Every 2 days (from existing drafts) | 1-2/week |
+| **Hashtags** | 1-2 | 0 |
+| **Frequency** | Every 2 days | 1-2/week |
+| **CTA** | None — not even implied | None — not even implied |
 
 ---
 
-### 5. Groups
+### 6. Groups
 
-Include groups in the regular strategy:
+Include groups in regular strategy:
 - **Founders & Startups: Vibe Coding, AI Agents** — most relevant (409 impressions)
 - Other groups where the Observer's observations make sense
 - **Not** Designers Talk (the 4,777 outlier was accidental, not a goal)
 
 ---
 
-### 6. Serialization Arc (13 posts prepared)
+### 7. Publication Plan
 
-```
-Attention → Memory → Thinking → Influence → Creation → AI
-```
-
-| # | Date | Title | Theme |
+| Phase | Period | Content | Frequency |
 |---|---|---|---|
-| 1 | Jun 5 | Saved by the bell. Or trapped by it. | Phone in conversation |
-| 2 | Jun 7 | We're all wet. And we pretend we're not. | We don't finish things |
-| 3 | Jun 9 | I publish. Then the categories appear. | Online identity |
-| 4 | Jun 11 | Marketable. Until you're not. | How we remember people |
-| 5 | Jun 13 | I can't read the operating system behind it. | Childhood as lost species |
-| 6 | Jun 15 | The first stupid thought, dressed up as conviction. | Digested complexity |
-| 7 | Jun 17 | The system is rigged. And that's not the whole story. | Inequality |
-| 8 | Jun 19 | You weren't convinced. You were mirrored. | Influence and tribes |
-| 9 | Jun 21 | No system corrupts from the outside. | People in systems |
-| 10 | Jun 23 | The blue was never in the paint. | Constraints as source |
-| 11 | Jun 25 | The deity hallucinated. So they grabbed the hammer. | LLMs as oracles |
-| 12 | Jun 27 | The Romans had many gods. We have many models. | LLM market |
+| 1. Observer serialization | Jun 5 — Jul 11 | 18 posts, arc: Attention → Practice | Every 2 days |
+| 2. Gastric gateways | Jul 13+ | Three variants, then series | 2/week |
+| 3. While I Still Know | After Jul 13 | 10 personal texts | 2/week |
+| 4. Cross-pollination | Ongoing | Repost Goodspell content with personal voice | 1/week |
+
+**Note on frequency:** 2/week instead of 1 to maintain momentum. User has backlog — no risk of running dry.
 
 ---
 
-### 7. Next Steps
+### 8. File locations
 
-1. Drafts from `Ideas/LinkedIn Sandro/` moved to `Personal/Drafts/` ✅
-2. Negative space logo — eliminated (no more design talk) ✅
-3. Boundary items → Personal ✅
-4. All 13 drafts prepped in `To be posted/` ✅
-5. First post published Jun 5: "Saved by the bell. Or trapped by it."
-6. "I saw the future" removed from queue
-7. Post every 2 days, show presence
-7. Start cross-pollination with Goodspell page when it resumes posting
+- Published posts: `Personal/Posted/`
+- Prepped for publication: `Personal/To be posted/`
+- Raw drafts: `Personal/Drafts/`
+- Personal writing series (full texts): `Notes/Personal Writing Series - Full Texts.md`
+- Series order & status: `Notes/Personal Writing Series - While I Still Know.md`
+- Voice architecture: referenced in `Notes/Strategic Assets from Claude Conversations.md`
+- AGENTS.md: project root, updated with serialization table
 
 ---
 
