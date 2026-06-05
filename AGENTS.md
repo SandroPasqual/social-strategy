@@ -141,6 +141,16 @@ awk -F': ' '/^impressions:/{print $2}' Personal/Posted/*.md | sort -n | tail -5
 
 ---
 
+## Rigor
+
+This is not a game. Every action here affects real content that represents a person's voice and business. Carelessness is not acceptable.
+
+- **Read before you act.** Examine the file, the context, the history. Do not assume.
+- **Verify before you ask.** If the answer can be derived from existing data, derive it. Do not ask redundant questions.
+- **Think before you write.** Every edit, every commit, every command — pause and check if it makes sense.
+- **One thing at a time.** No rushed multi-step operations. Single moves, verified.
+- **Mistakes are not trivial.** A wrong commit, a broken config, a careless question — each erodes trust. Do not repeat.
+
 ## Working Principles
 
 1. **Personal first** — any decision affecting both accounts prioritizes Personal.
