@@ -1,47 +1,33 @@
-# Phase 2: Gathering — Post Sketches (14 posts)
+# Phase 2: Gathering — Post Sketches (13 posts)
 ## Goodspell Page — The Architect
 ## First 2-3 sentences = image text. Caustic. Finger on the wound. Hurts but reaches.
 ## No hashtags. No CTA. No superiority.
 
 ---
 
-### Post 1 — You're Both Guessing
-
-**Opening (image text):** You briefed someone last week. They nodded. You're not sure they understood. Neither are they.
-
-**Body:** You described the feeling, the vibe, the reference. They nodded. They delivered something that felt like a different conversation. Not because they're bad. Because you didn't give them the one thing that would have made the difference: a foundation.
-
-And on the other side: you received a brief. A paragraph in an email. A voice note. A "make it look professional." You worked. You delivered. You hoped. Sometimes it landed. Sometimes it didn't. You never knew which until you saw the client's face.
-
-The brief is not a formality. It's the difference between guessing and knowing.
-
-When the brief is built from market data, audience definition, competitive context — not from a moodboard and a hope — both sides win.
-
-The specialist works from ground truth. The client receives what they actually needed, not what they asked for.
-
-Same rate. Same skill. Different starting point.
-
----
-
-### Post 2 — The Brief You Deserve
+### Post 1 — The Brief You Deserve
 
 **Opening (image text):** You briefed a designer. You gave them a reference. You're hoping they read your mind.
 
-**Body:** Two designers. Same rate. Same skill level. Same deadline.
+**Body:** Two people in a room. One describes a feeling, a vibe, a reference. The other nods. Both leave thinking they understood each other. Neither did.
+
+The client delivers a paragraph in an email, a voice note, a "make it look professional." The specialist works, delivers, hopes. Sometimes it lands. Sometimes it doesn't. Neither knows which until the reveal.
+
+Not because anyone is bad. Because nobody gave anyone the one thing that would have made the difference: a foundation.
+
+Two designers. Same rate. Same skill. Same deadline.
 
 One receives: "We need a logo. Something modern. We like blue."
 
-The other receives: "Our positioning targets this audience. The competitive space looks like this. Our tone lives here. The visual system needs to communicate authority without being cold. Here's the strategic foundation."
+The other receives: "Our positioning targets this audience. The competitive space looks like this. The tone lives here. Here's the strategic foundation."
 
-Who delivers the better result? It's not about talent. It's about what they started with.
+The result isn't about talent. It's about what they started with.
 
-The first will produce something beautiful. Maybe award-winning. But it will be a shot in the dark — educated, skilled, but still a shot.
-
-The second will produce something that works. Not because they're better. Because the brief gave them a frame. And within a frame, decisions stop being preferences and start being answers.
+The brief is not a formality. It's the difference between guessing and knowing.
 
 ---
 
-### Post 3 — You Asked for a Logo
+### Post 2 — You Asked for a Logo
 
 **Opening (image text):** You asked for a logo. That's what you said. It's not what you needed.
 
@@ -59,7 +45,7 @@ The logo will come. It will be better because it wasn't the starting point.
 
 ---
 
-### Post 4 — The Creative Who Needs Total Freedom
+### Post 3 — The Creative Who Needs Total Freedom
 
 **Opening (image text):** You've worked with creatives who need total freedom. They're expensive. They're also guessing.
 
@@ -75,7 +61,7 @@ When you find a specialist who asks for the strategy before the brief — who wa
 
 ---
 
-### Post 5 — Your Favorite Color
+### Post 4 — Your Favorite Color
 
 **Opening (image text):** You chose the color because you liked it. The market responded differently.
 
@@ -91,7 +77,7 @@ The market gives you the color. The specialist reads the market. Your job is to 
 
 ---
 
-### Post 6 — Same Budget, Different Outcome
+### Post 5 — Same Budget, Different Outcome
 
 **Opening (image text):** Two projects. Same budget. One delivered a file. The other delivered a foundation.
 
@@ -107,7 +93,7 @@ The system paid for itself before the second project started.
 
 ---
 
-### Post 7 — What Style Do You Want
+### Post 6 — What Style Do You Want
 
 **Opening (image text):** "What style do you want?" You've asked this a hundred times. You've never gotten a useful answer.
 
@@ -125,7 +111,7 @@ The work doesn't change. The understanding does.
 
 ---
 
-### Post 8 — The Beautiful Logo That Didn't Work
+### Post 7 — The Beautiful Logo That Didn't Work
 
 **Opening (image text):** The logo was beautiful. The market didn't care. Beautiful isn't the same as positioned.
 
@@ -143,7 +129,7 @@ The question is not "does this look good." The question is "does this position y
 
 ---
 
-### Post 9 — The Specialist Who Disappears
+### Post 8 — The Specialist Who Disappears
 
 **Opening (image text):** You hired a specialist. They delivered. Then they disappeared. The system they built didn't survive them.
 
@@ -159,7 +145,7 @@ The specialist who builds into the system is not replaceable. But their work is 
 
 ---
 
-### Post 10 — Before You Touch the Tool
+### Post 9 — Before You Touch the Tool
 
 **Opening (image text):** You opened the software before you understood the problem. That's where the drift started.
 
@@ -177,7 +163,7 @@ The specialist who doesn't open the tool until the positioning is defined is not
 
 ---
 
-### Post 11 — The First Version Was Close
+### Post 10 — The First Version Was Close
 
 **Opening (image text):** The first version was close. Then came the revisions. Each one moved further from the original clarity.
 
@@ -193,7 +179,7 @@ The specialist who can say "that change moves away from the positioning" is not 
 
 ---
 
-### Post 12 — The Client Who Kept Asking
+### Post 11 — The Client Who Kept Asking
 
 **Opening (image text):** The client kept asking for options. More options. As if the answer was hidden in the volume.
 
@@ -207,7 +193,7 @@ The client who understands this stops asking for options and starts engaging wit
 
 ---
 
-### Post 13 — You Paid for Hours, Not Thinking
+### Post 12 — You Paid for Hours, Not Thinking
 
 **Opening (image text):** You paid for hours. You got execution. The thinking was free. It showed.
 
@@ -223,22 +209,22 @@ The invoice still says 40 hours. But the value was determined before the first h
 
 ---
 
-### Post 14 — You Knew Before You Asked
+### Post 13 — You Knew Before You Asked
 
-**Opening (image text):** You knew what the answer should be. You asked anyway. The specialist delivered what you wanted to hear.
+**Opening (image text):** You briefed someone without a brief. You hoped they'd figure it out. They tried. Nobody figured out anything.
 
-**Body:** You had a feeling. A direction. A hunch you didn't fully trust. So you briefed the specialist and left the brief open — "explore," "see what feels right," "I trust your judgment."
+**Body:** You had a feeling. A direction you didn't fully trust. So you described the perimeter — "something modern," "explore," "I trust your judgment" — and hoped they'd find the center on their own.
 
-But you already knew what you wanted. And you hoped they'd arrive at it independently so you could feel confident.
+They didn't find the center. Not because they didn't try. Because there was no center to find.
 
-They didn't. They delivered what you wanted to hear, because they read the room instead of the brief.
+The specialist who works without a strategic foundation doesn't deliver what you wanted to hear. They deliver what anyone would deliver when guessing: a version of something that exists in their portfolio already, adapted slightly to your category.
 
-The specialist who delivers back to you your own assumptions is not helping. They're confirming. And confirmation is not strategy.
+It's not dishonesty. It's the natural outcome of a brief that didn't exist.
 
-The specialist who challenges the assumption — who says "that direction contradicts what the market tells us" — is harder to hear. But they're the one doing the work you hired them for.
+When the foundation is laid first, the specialist doesn't have to guess. They don't read the room. They read the positioning. And the positioning was built with you, not for you.
 
-You knew before you asked. The question is whether you wanted the answer you expected or the one that's true.
+You knew something was missing before you asked. The absence of a brief told you. The specialist's guesswork confirmed it.
 
 ---
 
-*Phase 2 sketches v2. Goodspell Page — The Architect. 14 posts. Openings designed as standalone image text — caustic, finger on wound. First 2-3 sentences work as image. No dates, no hashtags, no CTA. To be refined before publication.*
+*Phase 2 sketches v2. Goodspell Page — The Architect. 13 posts. Openings designed as standalone image text — caustic, finger on wound. First 2-3 sentences work as image. No dates, no hashtags, no CTA. To be refined before publication.*
