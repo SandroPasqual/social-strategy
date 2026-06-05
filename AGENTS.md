@@ -21,14 +21,13 @@ Social strategy/
 │   └── Strategy Proposal.md   ← decisions, rules, differentiation
 │
 ├── Goodspell.online/            ← SECONDARY ACCOUNT — supports, does not lead
-│   ├── Posted/                  ← page posts published (10 files)
-│   ├── To be posted/            ← 50 posts with WHITE/BLACK numbering, no dates
-│   ├── Brand Playbook/          ← brand foundation, content playbook, copy, comment framework
-│   ├── Strategie Goodspell/     ← drafts, templates, pillars
-│   ├── Friction_Moments_Master_List.md  ← 42 friction moments (source for posts)
-│   ├── LinkedIn Strategy _ v.1 _ Publication Order.md  ← full 50-post schedule
-│   ├── Strategic Analysis.md    ← diagnostic
-│   └── Strategy Proposal.md   ← action plan
+│   ├── Posted/                  ← page posts published (10 files + images)
+│   ├── To be posted/            ← 50 posts with WHITE/BLACK numbering, no dates (14 with images)
+│   ├── Brand Playbook/          ← foundation, strategy proposal, content playbook, copy, comment framework, positioning, ethics
+│   ├── Backup/                  ← friction moments, publication order, strategic analysis, old drafts, HTML templates
+│   ├── Strategie Goodspell/     ← methodology pillars, templates
+│   ├── linkedin-image-builder/  ← image generation tool (to be rebuilt with SQLite)
+│   └── Archive/                 ← full historical archive (pre-Nov 2025 strategy)
 │
 └── Devorator/                   ← to be analyzed later
     ├── Extindere devorator.md
