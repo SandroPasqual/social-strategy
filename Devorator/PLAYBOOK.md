@@ -10,7 +10,7 @@
 
 Devorator procesează facturi și bonuri de plată — PDF-uri, scanuri, poze — și extrage automat datele structurate: număr, date, furnizor, articole, TVA, totaluri.
 
-Un **devorator general de birocrație.** Pasul mare spre digitalizare.
+Parserul e construit să înțeleagă și facturi și bonuri — se dezvoltă continuu pe măsură ce întâlnește documente reale.
 
 ### Ce nu este (încă)
 
@@ -21,13 +21,14 @@ Un **devorator general de birocrație.** Pasul mare spre digitalizare.
 
 ### Viziunea
 
-**Devorator procesează facturi și bonuri de plată.** Atât. Mai întâi perfecționăm ăsta. Apoi următorul.
+**Devorator procesează facturi și bonuri de plată.** Atât. Mai întâi perfecționăm ăsta. Apoi extindem cu alte tipuri de documente, chiar si custom la cerere.
 
 ### Realitatea documentelor în România
 
 - Majoritatea facturilor **nu sunt PDF-uri digitale** — sunt printate, scanate, poze făcute cu telefonul
 - Bonurile de plată cash sunt și mai prost gestionate — hârtie termică, poze din telefon, teancuri în sertare
-- Devorator TREBUIE să aibă OCR bun de la început. PDF-ul digital e rar.
+- Devorator aplică **5 variante de preprocesare** a fiecărui document, fără implicare umană, și alege automat cea mai bună combinație
+- Se îmbunătățește permanent pe măsură ce procesează documente reale și primește feedback
 
 ### Starea actuală
 
