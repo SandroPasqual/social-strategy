@@ -221,7 +221,7 @@ Pivotul central: **Nu e "tool-ul universal". E un tool care face o singură trea
 
 ### Segmente pe verticală
 
-1. **Contabil independent** — 1 persoană, 10-50 clienți, 50-300 facturi/lună. Cea mai frecventă durere: timpul pierdut cu tastat.
+1. **Contabil independent** — 1 persoană, 10-25 clienți, 50-200 facturi/lună (în funcție de complexitate). Cea mai frecventă durere: timpul pierdut cu tastat.
 2. **Cabinet mic de contabilitate** — 2-5 contabili, 50-200+ clienți, sute de facturi/lună. Durerea: productivitatea echipei, erori de tastare.
 3. **Departament financiar IMM** — 1-3 persoane, firma procesează intern. Durerea: reconcilieri, intrări multiple.
 
