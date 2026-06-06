@@ -14,7 +14,7 @@ Mai întâi, începem cu ce e **verificabil matematic** — facturi, bonuri, ord
 
 Parserul se dezvoltă continuu pe măsură ce întâlnește documente reale. Codul se actualizează în funcție de ce documente primim. Dacă un tip de document apare frecvent, scriem parser dedicat.
 
-**Termenii extrași sunt reali** — căutăm și aplicăm corecturi, nu inventăm. Dacă suma totală e calculabilă din articole, o verificăm și ajustăm. Zero AI hallucination.
+**Termenii extrași sunt reali** — căutăm corecturi pe baza calculelor matematice, nu inventăm. Dacă suma totală e calculabilă din articole, o verificăm și ajustăm.
 
 ### Arhitectura rețelei — cum se conectează clienții
 
@@ -63,9 +63,9 @@ Ce știm sigur:
 
 - **Un pas o dată.** Începe cu ce e verificabil matematic. Apoi extindem pe măsură ce întâlnim documente reale.
 - **Adaptabilitate prin cod, nu prin configurare.** Dacă un tip de document apare frecvent, scriem parser dedicat. Platforma se îmbunătățește cu fiecare document procesat.
-- **Fără AI ca black box.** Regex + sinonime + reguli explicite + validare matematică. Sistemul știe ce face și de ce.
-- **Predictibilitate > automatizare.** Fiecare document e verificat matematic. Dacă nu trece, ajunge în folderul de eșuate, cu un raport care explică exact cauza.
-- **Termeni reali, nu inventați.** Căutăm corecturi, nu halucinăm sume sau articole.
+- **Fără surprize.** Regex + sinonime + reguli explicite + validare matematică. Sistemul știe ce face și de ce.
+- **Predictibilitate.** Fiecare document e verificat matematic. Dacă nu trece, ajunge în folderul de eșuate, cu un raport care explică exact cauza.
+- **Onestitate tehnică.** Nu garantăm decât calculul matematic. Restul e responsabilitatea utilizatorului să verifice.
 - **Totul e privat.** Datele nu părăsesc rețeaua privată.
 
 ### Pregătirea imaginilor — ce face OCR-ul acum
@@ -184,7 +184,7 @@ Nu o firmă, ci un **obicei**. Contabilul primește factura PDF, o deschide, tas
 | **Mindee** | ~0.05-0.10 EUR/pag | API generic. Necesită adaptare la RO. |
 | **Docparser** | ~$50-200/lună | Bazat pe reguli configurabile manual. Fără suport RO nativ. |
 | **Veryfi** | ~$15-150/lună | Optimizat pentru piața US. Bonuri americane, nu facturi românești. |
-| **Nanonets** | ~$100-500/lună | AI generic. Necesită antrenare pe facturi RO. |
+| **Nanonets** | ~$100-500/lună | Soluție generică. Necesită antrenare pe facturi RO. |
 
 ### Matricea de diferențiere
 
@@ -203,7 +203,7 @@ Nu o firmă, ci un **obicei**. Contabilul primește factura PDF, o deschide, tas
 
 > **Devorator = primul tool românesc de procesare facturi primite care rulează pe propriul tău calculator, fără cloud, fără abonament lunar, fără să învețe sistemul altcuiva cum arată o factură românească.**
 
-Pivotul central: **Nu e "AI-ul care face totul". E "tool-ul care face o singură treabă și o face bine: extrage datele din factură exact acolo unde vrei tu."**
+Pivotul central: **Nu e "tool-ul universal". E un tool care face o singură treabă și o face bine: extrage datele din factură exact acolo unde vrei tu.**
 
 ---
 
@@ -284,9 +284,9 @@ Nu un personaj. Nu o voce cu atitudine. O **prezență** — sigură, exactă, p
 
 | Situație | Ce spune | Ce NU spune |
 |----------|----------|-------------|
-| Prezentare | "Procesează facturi PDF și imagine. Extrage automat: număr, date, furnizor, articole, TVA, totaluri." | "Soluția AI care revoluționează contabilitatea" |
-| Ce-l diferențiază | "Rulează pe calculatorul tău. Nu în cloud. Nu învăța alt sistem cum arată o factură românească." | "Singurul tool cu machine learning avansat" |
-| Limitare | "Dacă factura e scrisă de mână sau ruptă, nu promitem că o citește corect. O trimite la verificare." | "AI extrage orice document instant" |
+| Prezentare | "Procesează facturi PDF și imagine. Extrage automat: număr, date, furnizor, articole, TVA, totaluri." | "Soluția revoluționară" |
+| Ce-l diferențiază | "Rulează pe calculatorul tău. Nu în cloud. Nu învăța alt sistem cum arată o factură românească." | "Singurul tool care face totul" |
+| Limitare | "Dacă factura e scrisă de mână sau ruptă, nu promitem că o citește corect. O trimite la verificare." | "Extrage orice document instant" |
 | Preț | "50 RON/lună. Fără contract. Anulezi când vrei." | "Investiție care se amortizează în prima lună" |
 | Hârtia | "O factură care ajunge direct în format electronic nu mai trebuie scanată, tipărită, arhivată fizic. Ghinionul e că majoritatea tot ajung pe hârtie. Devorator face următorul pas: odată intrată în sistem, nu mai iese." | "Salvăm pădurile împreună" |
 
