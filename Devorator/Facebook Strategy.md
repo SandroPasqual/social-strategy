@@ -33,7 +33,7 @@ Tonul: intrigant, direct (misterios? da), dar nu vag. Fiecare postare:
 | 1 | Există un tool românesc care parsează facturi fără cloud, fără AI, fără abonament | ...întrebă: „care?” |
 | 2 | Câte ore pierde un contabil pe lună tastând facturi? Un calcul simplu. | ...calculezi cât pierzi tu |
 | 3 |Și dacă n-ar mai trebui să tastezi nimic? Doar încarci, verifici, gata. | ...vrei să vezi cum |
-| 4 | Funcționează pe rețea privată. Zero expunere. Zero cloud. | ...te liniștești că e sigur |
+| 4 | **Pentru noi, securitatea înseamnă cu totul altceva.** Rețea privată. Zero expunere. Zero cloud. | ...te întrebi: „stai, ce înseamnă?” și intri să vezi |
 | 5 | Ce documente parsează: facturi, bonuri, ordine de plată, foi de vărsământ | ...vezi dacă acoperă ce ai tu |
 | 6 | Cum intri: nu e pentru toată lumea. Se aplică, se selectează. | ...aplici |
 | 7 | Ce primesc primii: badge, beneficii permanente, discount la invitat | ...vrei să fii printre primii |
