@@ -19,6 +19,20 @@ Extrage automat datele structurate: număr, date, furnizor, articole, TVA, total
 
 Parserul se dezvoltă continuu pe măsură ce întâlnește documente reale.
 
+### Arhitectura rețelei — cum se conectează clienții
+
+Nu există server public, nu există cloud, nu există expunere pe internet.
+
+**Conexiunea e o rețea privată între 3 părți:**
+- Clientul (firma care primește facturi)
+- Contabilul (care procesează documentele)
+- Devorator (motorul, pe laptop)
+
+Prin **Tailscale** (tunel WireGuard criptat), fiecare primește un IP privat stabil.
+Clientul se loghează de pe **calculator personal sau telefon**, încarcă documentele direct din browser — fără să-și mai facă griji că a pierdut o factură, că n-a gestionat-o bine, că a uitat să o trimită.
+
+**Zero leak. Zero expunere publică. Zero configurare de router.**
+
 ### Ce nu este (încă)
 
 - Nu e un SaaS în cloud. Rulează local, pe un laptop.
