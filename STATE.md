@@ -64,6 +64,16 @@ Order defined in Notes/Personal Writing Series - While I Still Know.md
 After #50: Phase 2 (Gathering — 13 posts), Phase 3 (Competence — 12 themes)
 ```
 
+### Devorator
+```
+Status: Not started. Strategy documents exist in Devorator/ (Romanian).
+Platform: LinkedIn vs Facebook — undecided.
+Language: Romanian (target market).
+Tone: The Mechanic — direct, practical, problem-solving.
+Product: Invoice/document processing SaaS.
+Docs: Devorator/Strategie completă Devorator.md, Devorator/README.md
+```
+
 ---
 
 ## 4. Voice Architecture — Complete Writing Map
@@ -96,6 +106,16 @@ The voice is not defined by stylistic artifacts (short sentences, pauses, irony)
 | **First line** | Caustic observation. The wound before the cure. |
 | **Ending** | The post exists. That's enough. No question, no CTA, no invitation. |
 | **Hashtags** | ZERO. Hashtags associate with noise the brand avoids. |
+
+#### Devorator: The Mechanic (Practical, B2B)
+| Layer | Rule |
+|-------|------|
+| **Status** | Not started. Strategy defined in Romanian, to be developed after Personal + Goodspell. |
+| **Positioning** | Invoice processing SaaS for Romanian accountants. Eliminates manual data entry. |
+| **Language** | Romanian (target: Romanian accountants). |
+| **Tone** | Direct, problem-solving, practical. "Câte facturi ai introdus manual luna asta?" |
+| **Platform** | LinkedIn vs Facebook — undecided. Needs decision when development starts. |
+| **Strategy files** | `Devorator/Strategie completă Devorator.md`, `Devorator/Model devorator.md`, `Devorator/Extindere devorator.md` |
 
 ### Gastric Positioning — Market Position, Not Tone
 
