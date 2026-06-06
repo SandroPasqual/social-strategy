@@ -25,8 +25,11 @@ Postări una după alta, în aceeași sesiune. Fiecare poate fi repostată în g
 | 4 | **Pentru noi, Securitatea înseamnă cu totul altceva. Datele? Securizate.** |
 | 5 | **Am simțit și eu textura și praful miilor de facturi. De aceea!** |
 | 6 | **Sistemul e gata. Așteaptă primii invitați. Early adopters.** |
+| 7 | **Documentul încărcat în formatul tău. Date exportate în formatul tău.** |
+| 8 | **Ofertă deschisă pentru early adopters.** |
+| 9 | **Early adopters? Badge. Avantaje permanente. Acces prioritar.** |
 
-După postarea 6 → link către formularul de solicitare acces.
+După postarea 9 → link către formularul de solicitare acces.
 
 ---
 
