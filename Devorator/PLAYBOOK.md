@@ -10,13 +10,33 @@
 
 ### Ce este
 
-Devorator procesează facturi PDF sau imagine și extrage automat datele structurate (număr, date, furnizor, articole, TVA, totaluri) într-un format gata de importat în software-ul de contabilitate.
+Devorator procesează documente — facturi, bonuri, contracte, CV-uri, orice document birocratic — și extrage automat datele structurate. Începe cu facturi și bonuri, dar se extinde la orice document pe care companiile îl procesează în volume mari.
+
+Un **devorator general de birocrație.** Pasul mare spre digitalizare.
 
 ### Ce nu este (încă)
 
 - Nu e un SaaS în cloud. Rulează local, pe un laptop.
-- Nu e un generator de facturi. Procesează facturi *primite*.
+- Nu e un generator de facturi. Procesează documente *primite*.
 - Nu e un înlocuitor de SAGA. E un strat înainte de SAGA.
+- Nu e un produs finit. E în construcție, pre-MVP.
+
+### Realitatea documentelor în România
+
+- Majoritatea facturilor **nu sunt PDF-uri digitale** — sunt printate, scanate, poze făcute cu telefonul
+- Bonurile de plată cash sunt și mai prost gestionate — hârtie termică care se șterge, poze din telefon, teancuri în sertare
+- Devorator TREBUIE să aibă OCR bun de la început. PDF-ul digital e rar.
+
+### Viziunea
+
+Pe termen lung, Devorator nu e doar un tool de facturi. E un **motor de interpretare documente** care poate fi adaptat la orice tip de document birocratic:
+
+| Azi | Mâine | Viitor |
+|-----|-------|--------|
+| Facturi primite | Contracte | Orice document structurat |
+| Bonuri de plată | CV-uri | Configurabil per companie |
+| — | Extrase bancare | API pentru integrare |
+| — | Documente HR | Piața externă (BG, HU, PL) |
 
 ### Starea actuală
 
@@ -28,7 +48,7 @@ Devorator procesează facturi PDF sau imagine și extrage automat datele structu
 
 ### Filosofia de construcție
 
-- **Un pas o dată.** Nimic over-engineered.
+- **Un pas o dată.** Începe cu facturi. Apoi bonuri. Apoi restul.
 - **Fără AI ca black box.** Regex + sinonime + reguli explicite. Sistemul știe ce face și de ce.
 - **Predictibilitate > automatizare.** Când nu știe, trimite la review — nu ghicește.
 - **Totul e privat.** Datele nu părăsesc laptopul utilizatorului.
@@ -118,40 +138,48 @@ Pivotul central: **Nu e "AI-ul care face totul". E "tool-ul care face o singură
 
 ---
 
-## 5. Prețuri — Opțiuni de Discutat
+## 5. Modelul de Preț — Propunere
 
-### Contextul pieței românești
+### Filosofie
 
-| Benchmark | Preț |
-|-----------|------|
- | SmartBill (emisie + OCR basic) | 30-100 RON/lună |
-| SAGA C (licență, nu abonament) | ~500-2000 RON o dată |
-| Rossum (internațional) | €200-1000/lună |
-| Un contabil junior pe lună | ~3000-5000 RON/lună |
-| Timp pierdut/lună cu tastat manual (estimat) | 10-40 ore/lună |
+Nu știm suficiente despre piață să fixăm prețul din birou. Îl descoperim vorbind cu contabilii. Până atunci, conturăm **arhitectura**, nu cifrele.
 
-### Modele posibile
+### Arhitectura pe 3 straturi
 
-**Opțiunea A — Abonament lunar, per utilizator**
-- 1 contabil: ~50-70 RON/lună
-- 2-5 contabili: ~150-200 RON/lună (echipă)
-- Peste 5: preț negociabil
-- Avantaj: predictibil pentru ambele părți
-- Dezavantaj: contabilul plătește și în lunile moarte
+**Stratul 1 — Gratuit permanent (pâine)**
+Contabilul primește un număr de documente/lună procesate gratis, pentru totdeauna. Nu expiră. E suficient cât să vadă că funcționează și să-și bage clienții în sistem.
 
-**Opțiunea B — Plata per factură procesată**
-- 0.50-1 RON/factură
-- Primele 50 facturi/lună incluse în abonamentul de bază
-- Avantaj: plătești doar ce folosești
-- Dezavantaj: greu de estimat venitul
+**Stratul 2 — Tokeni (volum)**
+Peste limita gratuită, cumperi pachete de tokeni. Un token = un document procesat. Tokenii nu expiră.
 
-**Opțiunea C — Licență anuală**
-- ~500 RON/an (un utilizator) — comparabil cu o licență SAGA
-- Include actualizări și suport
-- Avantaj: o plată pe an, ca un tool profesional
-- Dezavantaj: barieră de intrare mai mare
+**Stratul 3 — Pachete de volum**
+Pentru cabinete mari sau companii cu volume mari — preț negociabil per token, plafoane lunare.
 
-**Recomandare de discutat:** Start cu Opțiunea A (abonament lunar simplu, o singură tranșă de preț) ca să nu complici mesajul. După maturizare, adaugi variante.
+### Cele 2 variante de procesare
+
+| Varianta | Ce face | Preț/token | Termen |
+|----------|---------|------------|-------|
+| **Self-verify** | Engine-ul extrage. Contabilul verifică și corectează manual. | Mai mic | Instant |
+| **Verified** | Cineva (tu/operator) verifică înainte de livrare. | Mai mare | 1-2 zile |
+
+### Early adopters (cei care intră în faza de dezvoltare)
+- Limită gratuită mai mare permanent
+- Sau preț redus per token pe viață
+- Acces direct la tine pentru feedback fără tickete, fără complicații
+
+### Noi clienți (după lansare)
+- Primele 3 luni: limită gratuită mai mare (să-și importe istoricul, să se obișnuiască)
+- Apoi tokeni
+
+### Cum stabilim prețul real
+Nu din teorie. Din teren:
+
+1. Pagina Facebook + grupuri → întrebare: "Câte facturi procesați pe lună?"
+2. Din răspunsuri știm volumele reale
+3. Prima postare poate fi chiar asta: "Voi câte facturi procesați pe lună?"
+4. După 2-3 săptămâni de discuții cu contabili reali, prețul se conturează singur
+
+Până atunci, în playbook scriem DOAR arhitectura (gratuit + tokeni + self-verify/verified). Cifrele le punem când avem date.
 
 ---
 
