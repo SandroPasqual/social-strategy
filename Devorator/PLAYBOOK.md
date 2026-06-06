@@ -68,18 +68,58 @@ Ce știm sigur:
 - **Predictibilitate > automatizare.** Fiecare document e verificat după cele 5 variante de preprocesare. Dacă nu trece, ajunge în folderul de documente eșuate, cu un raport care explică exact cauza.
 - **Totul e privat.** Datele nu părăsesc laptopul utilizatorului.
 
+### Pregătirea imaginilor — ce face OCR-ul acum
+
+Î î nainte de a aplica OCR, sistemul analizează și pregătește imaginea:
+
+1. **Analiză histogramă** — măsoară luminozitatea medie, contrastul, raportul pixeli întunecați/luminoși
+2. **Redimensionare** — dacă imaginea e mai mare de 2400px pe latura lungă, o reduce (fără pierdere de calitate semnificativă)
+3. **5 variante de preprocesare**, alese automat pe baza analizei:
+
+| Categorie imagine | Variante aplicate |
+|-------------------|-------------------|
+| Luminoasă (fond alb) | contrast 1.8x + sharp 2.0x + threshold 160 |
+| | sharp 2.5x + threshold 200 |
+| Întunecată (text alb pe negru) | invert + contrast 1.8x + threshold 160 |
+| | invert + contrast 2.5x + sharp 3.0x + threshold 180 |
+| Contrast slab (bonuri termice) | median filter (denoising) + contrast 2.5x + sharp 3.0x + threshold 180 |
+| | contrast 3.0x + sharp 3.0x + threshold 200 |
+| Default (caz general) | contrast 1.8x + sharp 2.0x + threshold 160 |
+| | contrast 2.5x + sharp 3.0x + threshold 200 |
+
+4. **3 configurații de segmentare** (PSM — Page Segmentation Mode):
+   - `--psm 3` (automat — cel mai frecvent funcționează)
+   - `--psm 6` (bloc uniform de text)
+   - `--psm 4` (o singură coloană — fallback)
+5. **Scor calitate text** (0-100) — după fiecare încercare, sistemul evaluează rezultatul. Dacă scorul ≥ 50, se oprește și nu mai încearcă restul.
+6. **Dacă tot eșuează** → folder documente eșuate + raport cu cauza exactă (de ex: "Câmpul total nu a putut fi identificat")
+
+### Ce lipsește (de implementat)
+
+| Funcție | Efect |
+|---------|-------|
+| **Deskew (corecție înclinare)** | Dacă poza e făcută strâmb, rotește automat imaginea înainte de OCR |
+| **Auto-orientare** | Detectează dacă documentul e cu susul în jos și îl corectează |
+| **Corecție perspectivă** | Dacă poza e făcută din unghi (nu perpendicular), îndreaptă perspectiva |
+| **Thresholdare adaptivă (Otsu)** | În loc de praguri fixe (160, 180, 200), alege pragul optim automat după histogramă |
+| **Îndepărtare borduri** | Taie automat marginile întunecate care apar la scanări sau poze |
+| **Operații morfologice** | Dilation/erosion pentru text rupt sau prea subțire |
+| **CLAHE** | Contrast Limited Adaptive Histogram Equalization — pentru documente cu contrast neuniform |
+
 ### Flow-ul unui document
 
 ```
 Încărcare (PDF / scan / poză / bon)
     ↓
+Pregătire imagine (analiză + redimensionare)
+    ↓
 5 variante de preprocesare OCR (automat, fără implicare umană)
     ↓
-Validare: există toate câmpurile obligatorii? totalul e coerent?
+Scor calitate text ≥ 50? → Da → procesat
+    ↓ Nu
+Continuă cu următoarea variantă / PSM
     ↓
-    ├── ✅ Da → Document procesat, gata de verificare/export
-    └── ❌ Nu → Folder documente eșuate + raport cu cauza exactă
-                     (de ex: "Câmpul total nu a putut fi identificat")
+Toate variantele eșuate? → Folder eșuate + raport motiv
 ```
 
 Pentru început: **doar procesare OCR, fără intervenție umană.**
