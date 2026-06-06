@@ -8,16 +8,13 @@
 
 ### Ce este
 
-Devorator procesează documente financiar-contabile:
+Primim **orice tip de document.** Nu avem restricții artificiale — dacă un client ne trimite un proces-verbal, o notă de intrare-recepție, o cerere de finanțare, îl procesăm.
 
-- **Facturi** — PDF-uri, scanuri, poze
-- **Bonuri de plată** — bonuri fiscale, chitanțe
-- **Ordine de plată interbancare** — plăți furnizori
-- **Foi de vărsământ** — depuneri numerar în bancă
+Mai întâi, începem cu ce e **verificabil matematic** — facturi, bonuri, ordine de plată, foi de vărsământ. Acolo validăm singuri (total = sumă articole, TVA = bază × cota) și știm dacă am extras corect.
 
-Extrage automat datele structurate: număr, date, furnizor, articole, TVA, totaluri, conturi IBAN, detalii plată.
+Parserul se dezvoltă continuu pe măsură ce întâlnește documente reale. Codul se actualizează în funcție de ce documente primim. Dacă un tip de document apare frecvent, scriem parser dedicat.
 
-Parserul se dezvoltă continuu pe măsură ce întâlnește documente reale.
+**Termenii extrași sunt reali** — căutăm și aplicăm corecturi, nu inventăm. Dacă suma totală e calculabilă din articole, o verificăm și ajustăm. Zero AI hallucination.
 
 ### Arhitectura rețelei — cum se conectează clienții
 
@@ -56,16 +53,19 @@ Ce știm sigur:
 ### Starea actuală
 
 - Codul e scris și funcțional — motor de extracție + parser + portal web
-- Are client management, upload, procesare la cerere, validare manuală, export
+- Are client management, upload, procesare la cerere, validare matematică automată, export
+- Documentele eșuate ajung în folder dedicat cu raport de eroare
 - Dar **nu e în producție cu clienți reali** — e în lucru, pre-MVP pe piață
 - Accesibil prin Tailscale (tunel privat)
 - Zero cloud, zero dependență externă
 
 ### Filosofia de construcție
 
-- **Un pas o dată.** Începe cu facturi. Apoi bonuri. Apoi restul.
-- **Fără AI ca black box.** Regex + sinonime + reguli explicite. Sistemul știe ce face și de ce.
-- **Predictibilitate > automatizare.** Fiecare document e verificat după cele 5 variante de preprocesare. Dacă nu trece, ajunge în folderul de documente eșuate, cu un raport care explică exact cauza.
+- **Un pas o dată.** Începe cu ce e verificabil matematic. Apoi extindem pe măsură ce întâlnim documente reale.
+- **Adaptabilitate prin cod, nu prin configurare.** Dacă un tip de document apare frecvent, scriem parser dedicat. Platforma se îmbunătățește cu fiecare document procesat.
+- **Fără AI ca black box.** Regex + sinonime + reguli explicite + validare matematică. Sistemul știe ce face și de ce.
+- **Predictibilitate > automatizare.** Fiecare document e verificat matematic. Dacă nu trece, ajunge în folderul de eșuate, cu un raport care explică exact cauza.
+- **Termeni reali, nu inventați.** Căutăm corecturi, nu halucinăm sume sau articole.
 - **Totul e privat.** Datele nu părăsesc rețeaua privată.
 
 ### Pregătirea imaginilor — ce face OCR-ul acum
@@ -113,21 +113,23 @@ Documentul tehnic include cod șablon pentru fiecare funcție, gata de implement
 ### Flow-ul unui document
 
 ```
-Încărcare (PDF / scan / poză / bon)
+Încărcare (orice tip de document — PDF / scan / poză / bon)
     ↓
 Pregătire imagine (analiză + redimensionare)
     ↓
 5 variante de preprocesare OCR (automat, fără implicare umană)
     ↓
-Scor calitate text ≥ 50? → Da → procesat
-    ↓ Nu
-Continuă cu următoarea variantă / PSM
+Validare matematică (total = sumă articole, TVA = bază × cotă)
     ↓
-Toate variantele eșuate? → Folder eșuate + raport motiv
+Sistemul aplică corecturi automate unde se verifică
+    ↓
+    ├── ✅ Procesat corect → gata de verificare/export
+    └── ❌ Nu trece validarea → Folder documente eșuate + raport motiv
 ```
 
-Pentru început: **doar procesare OCR, fără intervenție umană.**
-Ulterior: clientul poate plăti pentru verificare umană sau poate corecta singur.
+**Ce nu a putut fi procesat corect îl găsești în folderul de eșuate**, cu un raport care explică exact cauza: câmp lipsă, total necoerent, text ilizibil.
+
+Pentru început: **doar procesare OCR, fără intervenție umană.** Ulterior, clientul poate corecta singur prin platformă sau plăti pentru verificare umană.
 
 ### Platforma
 
