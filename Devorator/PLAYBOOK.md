@@ -62,10 +62,9 @@ Ce știm sigur:
 ### Filosofia de construcție
 
 - **Un pas o dată.** Începe cu ce e verificabil matematic. Apoi extindem pe măsură ce întâlnim documente reale.
-- **Adaptabilitate prin cod, nu prin configurare.** Dacă un tip de document apare frecvent, scriem parser dedicat. Platforma se îmbunătățește cu fiecare document procesat.
-- **Fără surprize.** Regex + sinonime + reguli explicite + validare matematică. Sistemul știe ce face și de ce.
-- **Predictibilitate.** Fiecare document e verificat matematic. Dacă nu trece, ajunge în folderul de eșuate, cu un raport care explică exact cauza.
-- **Onestitate tehnică.** Nu garantăm decât calculul matematic. Restul e responsabilitatea utilizatorului să verifice.
+- **Adaptabilitate prin cod.** Dacă un tip de document apare frecvent, scriem parser dedicat. Platforma se îmbunătățește cu fiecare document procesat.
+- **Fără promisiuni false.** Nu garantăm că documentele sunt perfect parsate. Pot apărea erori. Când se întâmplă, încercăm să le rezolvăm sau notificăm utilizatorul.
+- **Onestitate.** Nu garantăm decât calculul matematic. Restul e responsabilitatea utilizatorului să verifice.
 - **Totul e privat.** Datele nu părăsesc rețeaua privată.
 
 ### Pregătirea imaginilor — cum funcționează parsarea
@@ -272,10 +271,11 @@ Nu un personaj. Nu o voce cu atitudine. O **prezență** — sigură, exactă, p
 
 ### Principii centrale
 
-1. **Exact, nu metaforic.** Spui exact ce face. Fără "transformăm", "revoluționăm", "empower-uim". Fapte, nu promisiuni.
-2. **Respect față de profesia de contabil.** Omul care folosește Devorator își câștigă existența din contabilitate. Nu e amuzant, nu e ironic — e serios.
-3. **Sinceritate tehnică.** Când nu știe, spune "nu știu" (trimite la review). Asta e diferențiator, nu slăbiciune.
-4. **Zero jargon de marketing.** Nu "soluție inovatoare de automatizare". Ci "extrage datele din factură și le pune în Excel".
+1. **Modest, nu flamboaiant.** Nu garantăm perfecțiune. Parsăm documente, apar erori, le rezolvăm sau notificăm.
+2. **Exact, nu metaforic.** Spui exact ce face. Fără "transformăm", "revoluționăm", "empower-uim". Fapte, nu promisiuni.
+3. **Respect față de profesia de contabil.** Omul care folosește Devorator își câștigă existența din contabilitate. Nu e amuzant, nu e ironic — e serios.
+4. **Sinceritate.** Când nu știe, spune "nu știm" (trimite la review sau în folderul de eșuate). Asta e diferențiator, nu slăbiciune.
+5. **Zero jargon de marketing.** Nu "soluție inovatoare de automatizare". Ci "extrage datele din factură și le pune în Excel".
 
 ### Cum sună Devorator
 
@@ -283,7 +283,7 @@ Nu un personaj. Nu o voce cu atitudine. O **prezență** — sigură, exactă, p
 |----------|----------|-------------|
 | Prezentare | "Procesează facturi PDF și imagine. Extrage automat: număr, date, furnizor, articole, TVA, totaluri." | "Soluția revoluționară" |
 | Ce-l diferențiază | "Rulează pe calculatorul tău. Nu în cloud. Nu învăța alt sistem cum arată o factură românească." | "Singurul tool care face totul" |
-| Limitare | "Dacă factura e scrisă de mână sau ruptă, nu promitem că o citește corect. O trimite la verificare." | "Extrage orice document instant" |
+| Limitare | "Pot apărea erori de parsare. Când se întâmplă, notificăm și încercăm să rezolvăm." | "Extrage orice document instant" |
 | Preț | "50 RON/lună. Fără contract. Anulezi când vrei." | "Investiție care se amortizează în prima lună" |
 | Hârtia | "O factură care ajunge direct în format electronic nu mai trebuie scanată, tipărită, arhivată fizic. Ghinionul e că majoritatea tot ajung pe hârtie. Devorator face următorul pas: odată intrată în sistem, nu mai iese." | "Salvăm pădurile împreună" |
 
@@ -297,12 +297,13 @@ Nu un personaj. Nu o voce cu atitudine. O **prezență** — sigură, exactă, p
 
 ### Ce nu spune Devorator niciodată
 
-- "AI" (prea vag, prea uzat)
-- "Revoluționar" (prea mult)
-- "Singurul" (prea fals)
+- "AI"
+- "Revoluționar"
+- "Singurul"
+- "100%" sau "perfect" — nu există parsare perfectă
 - Glume despre contabili sau birocrație
 - Ironie la adresa ANAF sau a sistemului
-- Promisiuni de tipul "100% automat"
+- Ton flamboaiant, promisiuni grandioase
 
 ---
 
