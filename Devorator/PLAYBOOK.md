@@ -211,7 +211,7 @@ Nu o firmă, ci un **obicei**. Contabilul primește factura PDF, o deschide, tas
 
 ### Poziționare recomandată
 
-> **Devorator = primul tool românesc de procesare facturi primite care rulează pe o rețea internă privată, fără expunere publică, fără cloud, fără abonament lunar. Garantăm securitatea datelor.**
+> **Devorator = primul tool românesc de procesare facturi primite care rulează pe o rețea internă privată, fără expunere publică, fără cloud. Tokeni în avans sau abonament lunar. Garantăm securitatea datelor.**
 
 Pivotul central: **Nu e "tool-ul universal". E un tool care face o singură treabă și o face bine: extrage datele din factură exact acolo unde vrei tu.**
 
@@ -238,16 +238,23 @@ Pivotul central: **Nu e "tool-ul universal". E un tool care face o singură trea
 
 Nu știm suficiente despre piață să fixăm prețul din birou. Îl descoperim vorbind cu contabilii. Până atunci, conturăm **arhitectura**, nu cifrele.
 
-### Arhitectura pe 3 straturi
+### Arhitectura — 2 moduri de plată
 
-**Stratul 1 — Gratuit permanent (pâine)**
-Contabilul primește un număr de documente/lună procesate gratis, pentru totdeauna. Nu expiră. E suficient cât să vadă că funcționează și să-și bage clienții în sistem.
+**1. Tokeni (plată în avans)**
+- Cumperi un număr de tokeni / facturi în avans
+- Folosești oricând, nu expiră
+- Potrivit pentru: volume variabile, clienți care nu vor abonamente
 
-**Stratul 2 — Tokeni (volum)**
-Peste limita gratuită, cumperi pachete de tokeni. Un token = un document procesat. Tokenii nu expiră.
+**2. Abonament lunar**
+- Plată fixă lunar, un număr de documente incluse
+- Potrivit pentru: cei cu volum predictibil, care preferă buget lunar fix
 
-**Stratul 3 — Pachete de volum**
-Pentru cabinete mari sau companii cu volume mari — preț negociabil per token, plafoane lunare.
+Ambele moduri împart același strat gratuit:
+
+**Stratul 0 — Gratuit permanent**
+- Un număr de documente/lună procesate gratis, pentru totdeauna
+- Nu expiră. Valabil indiferent de modul de plată ales
+- Suficient cât să vadă că funcționează și să-și bage clienții în sistem
 
 ### Cele 2 variante de procesare
 
@@ -298,7 +305,7 @@ Nu un personaj. Nu o voce cu atitudine. O **prezență** — sigură, exactă, p
 | Prezentare | "Procesează facturi PDF și imagine. Extrage automat: număr, date, furnizor, articole, TVA, totaluri." | "Soluția revoluționară" |
 | Ce-l diferențiază | "Rețea internă privată. Zero expunere publică. Zero cloud. Datele nu pleacă nicăieri." | "Singurul tool care face totul" |
 | Limitare | "Pot apărea erori de parsare. Când se întâmplă, notificăm și încercăm să rezolvăm." | "Extrage orice document instant" |
-| Preț | "50 RON/lună. Fără contract. Anulezi când vrei." | "Investiție care se amortizează în prima lună" |
+| Preț | "Tokeni în avans — cumperi, folosești oricând, nu expiră. Sau abonament lunar, dacă preferi." | "Investiție care se amortizează în prima lună" |
 | Hârtia | "O factură care ajunge direct în format electronic nu mai trebuie scanată, tipărită, arhivată fizic. Ghinionul e că majoritatea tot ajung pe hârtie. Devorator face următorul pas: odată intrată în sistem, nu mai iese." | "Salvăm pădurile împreună" |
 
 ### Structura unei postări / comunicări
