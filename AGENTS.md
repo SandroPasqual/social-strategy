@@ -106,6 +106,18 @@ Attention → Memory → Thinking → Influence → Creation → AI
 
 **Schedule:** Mon/Wed/Fri, skipping weekends. After Jul 17, "While I Still Know" series begins (10 texts, 2/week on Mon/Fri).
 
+### Goodspell Schedule — 50 Posts (Phase 1: Recognition)
+
+**Rhythm:** Tue/Thu, 2/week, skipping weekends. **Voice:** The Architect.
+
+| Range | Dates | Posts |
+|-------|-------|-------|
+| #01–#10 | Jun 9 – Jul 9 | 10 posts with images ready |
+| #11–#24 | Jul 14 – Aug 27 | 14 posts with images ready |
+| #25–#50 | Sep 1 – Nov 26 | 26 posts, no images yet |
+
+**Next:** After #50 (Phase 1 complete), Phase 2 (Gathering — 13 posts) begins. Phase 3 (Demonstrated Competence — 12 themes) follows.
+
 ---
 
 ## Key Decisions (Documented in Strategy Proposal.md)
@@ -115,7 +127,7 @@ Attention → Memory → Thinking → Influence → Creation → AI
 - **Design topics eliminated**: No more posts about logos, colors, fonts. Only strategy.
 - **Questions at the end → NO**: Replaced with moments of shared recognition.
 - **Groups**: Founders & Startups is the most relevant. Designers Talk was an outlier, not a goal.
-- **Frequency**: Every 2 days on Personal, 1-2/week on Goodspell.
+- **Frequency**: Every 2 days on Personal (Mon/Wed/Fri), 2/week on Goodspell (Tue/Thu). Both skip weekends.
 
 ---
 
