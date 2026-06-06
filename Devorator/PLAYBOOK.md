@@ -211,7 +211,7 @@ Nu o firmă, ci un **obicei**. Contabilul primește factura PDF, o deschide, tas
 
 ### Poziționare recomandată
 
-> **Devorator = primul tool românesc de procesare facturi primite care rulează pe o rețea internă privată, fără expunere publică, fără cloud. Tokeni în avans sau abonament lunar. Garantăm securitatea datelor.**
+> **Devorator = primul tool românesc de procesare facturi primite care rulează pe o rețea internă privată, fără expunere publică, fără cloud. Tokeni în avans sau abonament lunar. Datele nu pleacă nicăieri.**
 
 Pivotul central: **Nu e "tool-ul universal". E un tool care face o singură treabă și o face bine: extrage datele din factură exact acolo unde vrei tu.**
 
