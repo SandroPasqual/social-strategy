@@ -127,6 +127,19 @@ Sistemul aplică corecturi automate unde se verifică
 
 Pentru început: **doar parsare automată, fără intervenție umană.** Ulterior, clientul poate corecta singur prin platformă sau plăti pentru verificare umană.
 
+### Recomandări pentru fotografierea documentelor
+
+Pentru ca parsarea să funcționeze cât mai bine, recomandăm clienților:
+
+- **Lumină bună** — ideal la lumina zilei, fără umbre pe document
+- **Camera perpendiculară** — cât mai drept deasupra documentului, nu din unghi
+- **Așezat pe o suprafață plană** — fără să ții documentul în mână
+- **Documentul să ocupe cea mai mare parte din imagine** — cât mai aproape, fără fundal inutil
+- **Fără îndoituri** — cutele generează umbre și erori de parsare
+- **Fotografiază imediat ce ai primit documentul** — înainte să se îndoaie, să se murdărească, să se piardă
+- **Fără elemente care să acopere antetul** — bonul prins de factură, degete, alte hârtii peste
+- **Verificarea se face după CUI-ul facturii și numele companiei** — antetul trebuie să fie vizibil și complet
+
 ### Platforma
 
 Interfața asigură **confortul verificării și editării** fiecărui document — mai simplu decât în orice program de contabilitate. Fiecare factură poate fi corectată manual, articolele pot fi ajustate, exportul e într-un click.
