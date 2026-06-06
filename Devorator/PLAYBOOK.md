@@ -8,11 +8,11 @@
 
 ### Ce este
 
-Primim **orice tip de document.** Nu avem restricții artificiale — dacă un client ne trimite un proces-verbal, o notă de intrare-recepție, o cerere de finanțare, îl procesăm.
+Documente **verificabile matematic** — facturi, bonuri, ordine de plată, foi de vărsământ. Acolo validăm singuri (total = sumă articole, TVA = bază × cotă) și știm dacă am extras corect.
 
-Mai întâi, începem cu ce e **verificabil matematic** — facturi, bonuri, ordine de plată, foi de vărsământ. Acolo validăm singuri (total = sumă articole, TVA = bază × cota) și știm dacă am extras corect.
+Nu procesăm documente narative (procese-verbale, cereri, opisuri) — doar unde există calcule de verificat.
 
-Parserul se dezvoltă continuu pe măsură ce întâlnește documente reale. Codul se actualizează în funcție de ce documente primim. Dacă un tip de document apare frecvent, scriem parser dedicat.
+Parserul se dezvoltă continuu pe măsură ce întâlnește documente reale. Dacă un tip de document apare frecvent, scriem parser dedicat.
 
 **Termenii extrași sunt reali** — căutăm corecturi pe baza calculelor matematice, nu inventăm. Dacă suma totală e calculabilă din articole, o verificăm și ajustăm.
 
@@ -109,7 +109,7 @@ Documentul tehnic include cod șablon pentru fiecare funcție, gata de implement
 ### Flow-ul unui document
 
 ```
-Încărcare (orice tip de document — PDF / scan / poză / bon)
+Încărcare (factură / bon / OP / foaie vărsământ — PDF / scan / poză)
     ↓
 Pregătire document (analiză + redimensionare)
     ↓
