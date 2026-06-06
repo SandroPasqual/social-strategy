@@ -26,7 +26,7 @@ Nu există server public, nu există cloud, nu există expunere pe internet.
 **Conexiunea e o rețea privată între 3 părți:**
 - Clientul (firma care primește facturi)
 - Contabilul (care procesează documentele)
-- Devorator (motorul, pe laptop)
+- Devorator (motorul)
 
 Prin **Tailscale** (tunel WireGuard criptat), fiecare primește un IP privat stabil.
 Clientul se loghează de pe **calculator personal sau telefon**, încarcă documentele direct din browser — fără să-și mai facă griji că a pierdut o factură, că n-a gestionat-o bine, că a uitat să o trimită.
@@ -35,7 +35,7 @@ Clientul se loghează de pe **calculator personal sau telefon**, încarcă docum
 
 ### Ce nu este (încă)
 
-- Nu e un SaaS în cloud. Rulează local, pe un laptop.
+- Nu e un SaaS în cloud. Rulează local.
 - Nu e un generator de documente. Procesează documente *primite*.
 - Nu e un produs finit. E în construcție, pre-MVP.
 - Nu e un serviciu de verificare umană încă. Pentru început, doar procesare OCR.
@@ -58,7 +58,7 @@ Ce știm sigur:
 - Codul e scris și funcțional — motor de extracție + parser + portal web
 - Are client management, upload, procesare la cerere, validare manuală, export
 - Dar **nu e în producție cu clienți reali** — e în lucru, pre-MVP pe piață
-- Funcționează pe laptop, accesibil prin Tailscale (tunel privat)
+- Accesibil prin Tailscale (tunel privat)
 - Zero cloud, zero dependență externă
 
 ### Filosofia de construcție
@@ -66,7 +66,7 @@ Ce știm sigur:
 - **Un pas o dată.** Începe cu facturi. Apoi bonuri. Apoi restul.
 - **Fără AI ca black box.** Regex + sinonime + reguli explicite. Sistemul știe ce face și de ce.
 - **Predictibilitate > automatizare.** Fiecare document e verificat după cele 5 variante de preprocesare. Dacă nu trece, ajunge în folderul de documente eșuate, cu un raport care explică exact cauza.
-- **Totul e privat.** Datele nu părăsesc laptopul utilizatorului.
+- **Totul e privat.** Datele nu părăsesc rețeaua privată.
 
 ### Pregătirea imaginilor — ce face OCR-ul acum
 
@@ -189,7 +189,7 @@ Nu o firmă, ci un **obicei**. Contabilul primește factura PDF, o deschide, tas
 | Criteriu | Devorator | Internaționale | Manual |
 |----------|-----------|----------------|--------|
 | Facturi românești (CUI, SAGA, ; separator, , zecimal) | ✅ Nativ | ⚠️ Parțial/niciodată | ✅ 100% |
-| Fără cloud / datele pe laptop | ✅ Da | ❌ Cloud obligatoriu | ✅ Da |
+| Fără cloud, datele rămân în rețeaua privată | ✅ Da | ❌ Cloud obligatoriu | ✅ Da |
 | Setup | Minute | Zile-săptămâni | Zero |
 | Preț accesibil RO | ✅ ? | ❌ €200+/lună | "Gratis" |
 | Review uman când nu e sigur | ✅ Da | ❌ Black box | — |
