@@ -1,7 +1,7 @@
-# Devorator — Strategie Facebook (v3)
+# Devorator — Strategie Facebook (v4)
 
 > Pagina Devorator = centrul operațional, homepage-ul produsului.
-> Bazată pe discuția cu Sandro, iun 2026.
+> Ultima actualizare: iun 2026, după discuția cu Sandro.
 
 ---
 
@@ -13,63 +13,72 @@
 
 ---
 
-## Planul de lansare
+## Serialul de bulk — 6 postări (luni)
 
-> **Realitatea de plecare:** nimeni nu știe de Devorator. Pagina e goală. Primele postări se fac în bulk — una după alta, în aceeași sesiune.
+Postări una după alta, în aceeași sesiune. Fiecare poate fi repostată în grupuri și intrigă să intri pe pagină să vezi restul.
 
-### Pasul 1 — 5-10 postări serial, în bulk
+| # | Text |
+|---|------|
+| 1 | **Un sistem care duce greul pentru tine. Facil și românesc 100%.** |
+| 2 | **Mii de documente îți trec prin mână. Sistemul nostru e mâna de ajutor.** |
+| 3 | **Trimiți factura digital sau o fotografiezi cu telefonul. Sistemul te înțelege.** |
+| 4 | **Pentru noi, Securitatea înseamnă cu totul altceva. Datele? Securizate.** |
+| 5 | **Am simțit și eu textura și praful miilor de facturi. De aceea!** |
+| 6 | **Sistemul e gata. Așteaptă primii invitați. Early adopters.** |
 
-Fiecare postare e o **scenă** dintr-o poveste care se dezvăluie treptat. Nu explici tot din prima — lași loc de mister și curiozitate.
+După postarea 6 → link către formularul de solicitare acces.
 
-Tonul: intrigant, direct (misterios? da), dar nu vag. Fiecare postare:
-- Stă singură — poate fi repostată într-un grup fără context
-- Are o întrebare sau o afirmație care te face să vrei să afli mai mult
-- Te împinge să intri pe pagină să vezi următoarea postare
+---
 
-### Scheletul seriei (schiță, nu text final)
+## Ce întrebări are un contabil (și cum răspundem)
 
-| # | Ce dezvăluie | Când o vezi într-un grup, te face să... |
-|---|-------------|----------------------------------------|
-| 1 | Există un tool românesc care parsează facturi fără cloud, fără AI, fără abonament | ...întrebă: „care?” |
-| 2 | Câte ore pierde un contabil pe lună tastând facturi? Un calcul simplu. | ...calculezi cât pierzi tu |
-| 3 |Și dacă n-ar mai trebui să tastezi nimic? Doar încarci, verifici, gata. | ...vrei să vezi cum |
-| 4 | **Pentru noi, securitatea înseamnă cu totul altceva.** Rețea privată. Zero expunere. Zero cloud. | ...te întrebi: „stai, ce înseamnă?” și intri să vezi |
-| 5 | Ce documente parsează: facturi, bonuri, ordine de plată, foi de vărsământ | ...vezi dacă acoperă ce ai tu |
-| 6 | Cum intri: nu e pentru toată lumea. Se aplică, se selectează. | ...aplici |
-| 7 | Ce primesc primii: badge, beneficii permanente, discount la invitat | ...vrei să fii printre primii |
-| 8 | […] | |
-| 9 | […] | |
-| 10 | Cine e în spate? O prezentare, nume, față, credibilitate. | ...ai încredere să aplici |
+### SAGA și integrarea cu ce folosește acum
 
-### Regula de aur
+**Întrebare:** „Merge cu SAGA? Sau cu ce am eu acum?"
 
-Fiecare postare e gândită să fie **repostabilă în grupuri**. Cineva o vede într-un grup, e intrigat, intră pe pagină — și acolo găsește restul seriei. Misterul se dezvăluie scrollând.
+**Răspuns:** Devorator e un strat înainte de SAGA. Nu înlocuiește nimic din ce ai — parsează documentele și scoate datele structurate. Le poți exporta și introduce în SAGA, SmartBill, Excel, sau orice soft folosești. E un pas în plus care elimină tastatul manual.
 
-Nu trebuie să postezi în grupuri ca să prezinți — postezi câte o postare din serie, iar curiozitatea face restul.
+*(Aici completezi tu detaliile tehnice: format de export, cum se face transferul)*
 
-### Pasul 2 — Intri în grupuri de contabili
+### Cât costă
 
-După ce pagina are conținut, intri în grupuri de Facebook de contabilitate și propui colaborarea celor care doresc să participe ca **early adopters**.
+**Întrebare:** „Cât mă costă?"
 
-Nu "vino să cumperi". Ci:
-> "Am construit un sistem de parsare documente. Caut primii contabili care vor să-l testeze și să-l modeleze împreună cu mine."
+**Răspuns:** Tokeni în avans (cumperi, folosești oricând, nu expiră) SAU abonament lunar. Ambele au un nivel gratuit permanent. Prețul exact îl stabilim după ce vorbim cu contabilii.
 
-### Pasul 3 — Selecția early adopters
+### Cum mă conectez
 
-Nu e pentru toată lumea. Se aplică printr-un formular. Se primește invitație.
+**Întrebare:** „Browser? Instalez ceva?"
+
+**Răspuns:** Browser. De pe calculator sau telefon. Nu instalezi nimic. Te loghezi, încarci documentul, gata.
+
+### E greu de folosit
+
+**Întrebare:** „Cât timp îmi ia să învăț?"
+
+**Răspuns:** Dacă știi să încarci un fișier și să verifici niște cifre, știi să folosești Devorator.
+
+### Dacă greșește?
+
+**Întrebare:** „Cine răspunde dacă o ia razna?"
+
+**Răspuns:** Sistemul verifică matematic fiecare document. Dacă totalul nu se leagă, nu acceptă — merge în folderul de eșuate cu raport. Nu garantăm perfecțiune, garantăm calculul corect.
+
+### Cine ești tu?
+
+**Întrebare:** „Cine e în spate? Știi ce face un contabil?"
+
+**Răspuns:** Da, știu textura și praful facturilor. De aceea am făcut sistemul.
+
+### Ce primesc primii?
+
+**Întrebare:** „Ce înseamnă early adopter? Ce am de câștigat?"
+
+**Răspuns:** Badge, avantaje financiare permanente, discount la invitarea altor contabili. Și acces în primul val.
 
 ---
 
 ## Early Adopters — programul
-
-### Ce primesc
-
-| Beneficiu | Detalii |
-|-----------|---------|
-| **Badge de early adopter** | Statut, recunoaștere |
-| **Avantaje financiare permanente** | Preț redus pe viață, limită gratuită mai mare |
-| **Posibilitatea de a invita** | Pot aduce alți contabili în sistem |
-| **Reducere la invitarea altor contabili** | Pentru fiecare client invitat și rămas în sistem, beneficiază de discount |
 
 ### Principiul
 
@@ -80,19 +89,28 @@ Exclusivitatea creează:
 - Loialitate — cei selectați se simt parte din ceva special
 - Recomandare — vor invita colegi, clienți, prieteni
 
-### Formularul de aplicare
+### Ce primesc
 
-Accesul se face după completarea unui formular. Nu e automat. Ești selectat. Primești invitație.
+| Beneficiu | Detalii |
+|-----------|---------|
+| **Badge de early adopter** | Statut, recunoaștere |
+| **Avantaje financiare permanente** | Preț redus pe viață, limită gratuită mai mare |
+| **Posibilitatea de a invita** | Pot aduce alți contabili în sistem |
+| **Reducere la invitarea altor contabili** | Pentru fiecare client invitat și rămas în sistem, discount |
+
+### Cum intră
+
+1. Completează formularul
+2. E selectat
+3. Primește invitația
 
 ---
 
-## Calendar
+## Prezența în grupuri
 
-| Zi | Acțiune |
-|-----|---------|
-| **Luni** | 5 postări în bulk pe pagină (conținut explicativ) |
-| **După** | Intri în grupuri de contabili, propui early adopters |
-| **Pe măsură** | Aplică, selectezi, trimiți invitații |
+După bulk, intri în grupuri de contabili și propui early adopters. Nu reclame — direct:
+
+> „Am construit un sistem de parsare documente. Caut primii contabili care vor să intre în programul early adopters. Completează formularul și, dacă ești selectat, primești invitația."
 
 ---
 
