@@ -1,19 +1,17 @@
 # Buffer — Personal Account (Sandro Pasqual)
 
-> Token-ul real se pune în `.buffer-personal.env` (ignorat de git).
+> Token-ul real e în `.buffer-personal.env` (ignorat de git).
 
-## Setup
+## Canale disponibile
 
-1. Mergi pe https://developers.buffer.com
-2. Loghează-te cu contul Buffer conectat la LinkedIn Personal
-3. Generează un **Personal Key**
-4. Copie cheia în `.buffer-personal.env`:
+| Canal | Channel ID |
+|-------|-----------|
+| sandropasqual (LinkedIn Personal) | `69b58b0f7be9f8b171572aac` |
+
+## Config
 
 ```
-BUFFER_ACCESS_TOKEN=cheia_ta_aici
-BUFFER_PROFILE_ID=id_profil_aici
+BUFFER_ACCESS_TOKEN=tokenul_din_buffer
+BUFFER_CHANNEL_ID=69b58b0f7be9f8b171572aac
+BUFFER_ORG_ID=6717dc879d4733f183af40e3
 ```
-
-## Profile ID
-
-Buffer → Settings → Connected Accounts → click pe LinkedIn Personal → URL-ul conține ID-ul.

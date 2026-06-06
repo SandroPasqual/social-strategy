@@ -1,19 +1,36 @@
-# Buffer — Devorator (Facebook)
+# Buffer — Devorator (Facebook Page)
 
-> Token-ul real se pune în `.buffer-devorator.env` (ignorat de git).
+> Devorator are nevoie de **cont Buffer separat** (nu același cu Personal/Goodspell).
 
 ## Setup
 
-1. Mergi pe https://developers.buffer.com
-2. Loghează-te cu contul Buffer care administrează pagina Devorator pe Facebook
-3. Generează un **Personal Key**
-4. Copie cheia în `.buffer-devorator.env`:
+1. Creează un cont Buffer nou pentru Devorator
+2. Conectează pagina Devorator de Facebook
+3. Creează un **Personal Key** pe developers.buffer.com
+4. Salvează tokenul în `.buffer-devorator.env`:
 
 ```
-BUFFER_ACCESS_TOKEN=cheia_ta_aici
-BUFFER_PROFILE_ID=id_profil_aici
+BUFFER_ACCESS_TOKEN=tokenul_tau
+BUFFER_CHANNEL_ID=de_completat_după_conectare
+BUFFER_ORG_ID=de_completat_după_conectare
 ```
 
-## Profile ID
+## Cum afli Channel ID și Org ID
 
-Buffer → Settings → Connected Accounts → click pe pagina Devorator → URL-ul conține ID-ul.
+După ce ai tokenul, rulează:
+
+```
+curl -s -X POST 'https://api.buffer.com' \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer TOKENUL_TĂU' \
+  -d '{"query":"{ organization { id } }"}'
+```
+
+Apoi:
+
+```
+curl -s -X POST 'https://api.buffer.com' \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer TOKENUL_TĂU' \
+  -d '{"query":"{ channels(input: { organizationId: \"ORG_ID\" }) { id name service } }"}'
+```
