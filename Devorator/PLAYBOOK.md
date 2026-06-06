@@ -28,7 +28,7 @@ Nu există server public, nu există cloud, nu există expunere pe internet.
 Prin **Tailscale** (tunel WireGuard criptat), fiecare primește un IP privat stabil.
 Clientul se loghează de pe **calculator personal sau telefon**, încarcă documentele direct din browser — fără să-și mai facă griji că a pierdut o factură, că n-a gestionat-o bine, că a uitat să o trimită.
 
-**Zero leak. Zero expunere publică. Zero configurare de router.**
+**Zero leak. Zero expunere publică. Zero configurari.**
 
 ### Ce nu este (încă)
 
@@ -65,6 +65,7 @@ Ce știm sigur:
 - **Adaptabilitate prin cod.** Dacă un tip de document apare frecvent, scriem parser dedicat. Platforma se îmbunătățește cu fiecare document procesat.
 - **Fără promisiuni false.** Nu garantăm că documentele sunt perfect parsate. Pot apărea erori. Când se întâmplă, încercăm să le rezolvăm sau notificăm utilizatorul.
 - **Onestitate.** Nu garantăm decât calculul matematic. Restul e responsabilitatea utilizatorului să verifice.
+- **Raportare transparentă.** Dacă în factură apar prescurtări pe care sistemul nu le-a înțeles, clientul e notificat în raportul acelei facturi. Dacă matematic s-a verificat, documentul e acceptat — dar cu mențiunea că **obiectul vânzării nu a fost înțeles.**
 - **Totul e privat.** Datele nu părăsesc rețeaua privată.
 
 ### Pregătirea imaginilor — cum funcționează parsarea
