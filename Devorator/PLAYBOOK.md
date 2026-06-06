@@ -22,9 +22,9 @@ Parserul se dezvoltă continuu pe măsură ce întâlnește documente reale.
 ### Ce nu este (încă)
 
 - Nu e un SaaS în cloud. Rulează local, pe un laptop.
-- Nu e un generator de facturi. Procesează documente *primite*.
-- Nu e un înlocuitor de SAGA. E un strat înainte de SAGA.
+- Nu e un generator de documente. Procesează documente *primite*.
 - Nu e un produs finit. E în construcție, pre-MVP.
+- Nu e un serviciu de verificare umană încă. Pentru început, doar procesare OCR.
 
 ### Viziunea
 
@@ -51,8 +51,29 @@ Ce știm sigur:
 
 - **Un pas o dată.** Începe cu facturi. Apoi bonuri. Apoi restul.
 - **Fără AI ca black box.** Regex + sinonime + reguli explicite. Sistemul știe ce face și de ce.
-- **Predictibilitate > automatizare.** Când nu știe, trimite la review — nu ghicește.
+- **Predictibilitate > automatizare.** Fiecare document e verificat după cele 5 variante de preprocesare. Dacă nu trece, ajunge în folderul de documente eșuate, cu un raport care explică exact cauza.
 - **Totul e privat.** Datele nu părăsesc laptopul utilizatorului.
+
+### Flow-ul unui document
+
+```
+Încărcare (PDF / scan / poză / bon)
+    ↓
+5 variante de preprocesare OCR (automat, fără implicare umană)
+    ↓
+Validare: există toate câmpurile obligatorii? totalul e coerent?
+    ↓
+    ├── ✅ Da → Document procesat, gata de verificare/export
+    └── ❌ Nu → Folder documente eșuate + raport cu cauza exactă
+                     (de ex: "Câmpul total nu a putut fi identificat")
+```
+
+Pentru început: **doar procesare OCR, fără intervenție umană.**
+Ulterior: clientul poate plăti pentru verificare umană sau poate corecta singur.
+
+### Platforma
+
+Interfața asigură **confortul verificării și editării** fiecărui document — mai simplu decât în orice program de contabilitate. Fiecare factură poate fi corectată manual, articolele pot fi ajustate, exportul e într-un click.
 
 ---
 
@@ -76,6 +97,8 @@ Pentru un contabil care primește sute de PDF-uri pe lună, senzația e exact as
 ---
 
 ## 3. Competitiv — Analiza Pieței
+
+> **Regulă:** Numele competitorilor apar DOAR în această secțiune. Nu se menționează în postări, pe pagină, în materiale de marketing.
 
 ### Competitorul real nr. 1: Introducerea manuală
 
