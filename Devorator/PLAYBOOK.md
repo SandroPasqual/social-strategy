@@ -35,7 +35,7 @@ Clientul se loghează de pe **calculator personal sau telefon**, încarcă docum
 - Nu e un SaaS în cloud. Rulează local.
 - Nu e un generator de documente. Procesează documente *primite*.
 - Nu e un produs finit. E în construcție, pre-MVP.
-- Nu e un serviciu de verificare umană încă. Pentru început, doar procesare OCR.
+- Nu e un serviciu de verificare umană încă. Pentru început, doar parsare automată.
 
 ### Viziunea
 
@@ -47,7 +47,7 @@ Câte facturi sunt digitale vs printate, câte bonuri, câte sunt transmise pe m
 
 Ce știm sigur:
 - Devorator procesează orice format: PDF digital, scanat, poză, bon termic
-- Aplică **5 variante de preprocesare** a fiecărui document, fără implicare umană, și alege automat cea mai bună combinație
+- Aplică **5 metode de parsare** a fiecărui document, fără implicare umană, și alege automat cea mai bună combinație
 - Se îmbunătățește permanent pe măsură ce procesează documente reale și primește feedback
 
 ### Starea actuală
@@ -68,13 +68,13 @@ Ce știm sigur:
 - **Onestitate tehnică.** Nu garantăm decât calculul matematic. Restul e responsabilitatea utilizatorului să verifice.
 - **Totul e privat.** Datele nu părăsesc rețeaua privată.
 
-### Pregătirea imaginilor — ce face OCR-ul acum
+### Pregătirea imaginilor — cum funcționează parsarea
 
-Î î nainte de a aplica OCR, sistemul analizează și pregătește imaginea:
+Sistemul analizează și pregătește fiecare imagine înainte de parsare:
 
 1. **Analiză histogramă** — măsoară luminozitatea medie, contrastul, raportul pixeli întunecați/luminoși
-2. **Redimensionare** — dacă imaginea e mai mare de 2400px pe latura lungă, o reduce (fără pierdere de calitate semnificativă)
-3. **5 variante de preprocesare**, alese automat pe baza analizei:
+2. **Redimensionare** — dacă imaginea e mai mare de 2400px pe latura lungă, o reduce
+3. **5 metode de parsare**, alese automat pe baza analizei:
 
 | Categorie imagine | Variante aplicate |
 |-------------------|-------------------|
@@ -87,11 +87,8 @@ Ce știm sigur:
 | Default (caz general) | contrast 1.8x + sharp 2.0x + threshold 160 |
 | | contrast 2.5x + sharp 3.0x + threshold 200 |
 
-4. **3 configurații de segmentare** (PSM — Page Segmentation Mode):
-   - `--psm 3` (automat — cel mai frecvent funcționează)
-   - `--psm 6` (bloc uniform de text)
-   - `--psm 4` (o singură coloană — fallback)
-5. **Scor calitate text** (0-100) — după fiecare încercare, sistemul evaluează rezultatul. Dacă scorul ≥ 50, se oprește și nu mai încearcă restul.
+4. **3 variații ale algoritmului de parsare** — fiecare tratează diferit modul în care textul e grupat pe pagină
+5. **Scor calitate** (0-100) — după fiecare încercare, sistemul evaluează rezultatul. Dacă scorul ≥ 50, se oprește și nu mai încearcă restul.
 6. **Dacă tot eșuează** → folder documente eșuate + raport cu cauza exactă (de ex: "Câmpul total nu a putut fi identificat")
 
 ### Îmbunătățiri identificate
@@ -100,7 +97,7 @@ Analiza completă a preprocesării imaginilor a fost documentată tehnic în `do
 
 | Funcție | Prioritate | Efect |
 |---------|------------|-------|
-| **Deskew (corecție înclinare)** | 1 | O imagine înclinată 2-5° distruge coloanele. Corecția automată înainte de OCR. |
+| **Deskew (corecție înclinare)** | 1 | O imagine înclinată 2-5° distruge coloanele. Corecția automată înainte de parsare. |
 | **Thresholdare Otsu** | 1 | Pragurile fixe eșuează pe expunere neuniformă. Otsu alege optimul după histogramă. |
 | **Auto-orientare** | 1 | Detectează sus-jos și corectează. Frecvent la poze din telefon. |
 | **Îndepărtare borduri negre** | 2 | Bordurile de scanare falsifică analiza histogramei. Cropping automat. |
@@ -115,9 +112,9 @@ Documentul tehnic include cod șablon pentru fiecare funcție, gata de implement
 ```
 Încărcare (orice tip de document — PDF / scan / poză / bon)
     ↓
-Pregătire imagine (analiză + redimensionare)
+Pregătire document (analiză + redimensionare)
     ↓
-5 variante de preprocesare OCR (automat, fără implicare umană)
+5 metode de parsare (automat, fără implicare umană)
     ↓
 Validare matematică (total = sumă articole, TVA = bază × cotă)
     ↓
@@ -129,7 +126,7 @@ Sistemul aplică corecturi automate unde se verifică
 
 **Ce nu a putut fi procesat corect îl găsești în folderul de eșuate**, cu un raport care explică exact cauza: câmp lipsă, total necoerent, text ilizibil.
 
-Pentru început: **doar procesare OCR, fără intervenție umană.** Ulterior, clientul poate corecta singur prin platformă sau plăti pentru verificare umană.
+Pentru început: **doar parsare automată, fără intervenție umană.** Ulterior, clientul poate corecta singur prin platformă sau plăti pentru verificare umană.
 
 ### Platforma
 
@@ -170,7 +167,7 @@ Nu o firmă, ci un **obicei**. Contabilul primește factura PDF, o deschide, tas
 
 | Produs | Ce face | Preț | Specific RO | Concurență directă? |
 |--------|---------|------|-------------|---------------------|
-| **SmartBill** | Emite facturi în cloud + OCR basic pe cele primite | 30-100 RON/lună | Da — e standard în RO | **Parțial** — are OCR pe facturi primite, dar nu e focusul lor. E o funcție secundară într-un produs de emis facturi. |
+| **SmartBill** | Emite facturi în cloud + parsare basic pe cele primite | 30-100 RON/lună | Da — e standard în RO | **Parțial** — are parsare pe facturi primite, dar nu e focusul lor. E o funcție secundară într-un produs de emis facturi. |
 | **SAGA C** | Soft contabilitate desktop. Excel import manual | ~500-2000 RON licență | Total | **Nu direct** — SAGA e destinația, nu sursa. Devorator se așază înaintea lui SAGA. |
 | **Alfa / WinMentor** | Similar SAGA. Desktop accounting | Similar SAGA | Total | **Nu direct** — aceeași relație ca și cu SAGA. |
 | **NexT ERP** | ERP cloud pentru IMM-uri | ~200-500 RON/lună | Parțial | **Nu direct** — e un ERP complet, Devorator e un instrument specializat. |
@@ -389,7 +386,7 @@ Sau:
 
 ### Realizat
 
-- [x] Analiza preprocesării imaginilor OCR — documentată în `docs/ocr-image-preprocessing.md`
+- [x] Analiza metodelor de parsare — documentată în `docs/ocr-image-preprocessing.md` (proiectul Devorator)
 - [x] Playbook Devorator — structură completă (produs, competiție, preț, voce, social)
 
 ### De făcut
