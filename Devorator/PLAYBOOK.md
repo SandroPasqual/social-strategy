@@ -211,7 +211,7 @@ Nu o firmă, ci un **obicei**. Contabilul primește factura PDF, o deschide, tas
 
 ### Poziționare recomandată
 
-> **Devorator = primul tool românesc de procesare facturi primite care rulează pe propriul tău calculator, fără cloud, fără abonament lunar, fără să învețe sistemul altcuiva cum arată o factură românească.**
+> **Devorator = primul tool românesc de procesare facturi primite care rulează pe o rețea internă privată, fără expunere publică, fără cloud, fără abonament lunar. Garantăm securitatea datelor.**
 
 Pivotul central: **Nu e "tool-ul universal". E un tool care face o singură treabă și o face bine: extrage datele din factură exact acolo unde vrei tu.**
 
@@ -296,7 +296,7 @@ Nu un personaj. Nu o voce cu atitudine. O **prezență** — sigură, exactă, p
 | Situație | Ce spune | Ce NU spune |
 |----------|----------|-------------|
 | Prezentare | "Procesează facturi PDF și imagine. Extrage automat: număr, date, furnizor, articole, TVA, totaluri." | "Soluția revoluționară" |
-| Ce-l diferențiază | "Rulează pe calculatorul tău. Nu în cloud. Nu învăța alt sistem cum arată o factură românească." | "Singurul tool care face totul" |
+| Ce-l diferențiază | "Rețea internă privată. Zero expunere publică. Zero cloud. Datele nu pleacă nicăieri." | "Singurul tool care face totul" |
 | Limitare | "Pot apărea erori de parsare. Când se întâmplă, notificăm și încercăm să rezolvăm." | "Extrage orice document instant" |
 | Preț | "50 RON/lună. Fără contract. Anulezi când vrei." | "Investiție care se amortizează în prima lună" |
 | Hârtia | "O factură care ajunge direct în format electronic nu mai trebuie scanată, tipărită, arhivată fizic. Ghinionul e că majoritatea tot ajung pe hârtie. Devorator face următorul pas: odată intrată în sistem, nu mai iese." | "Salvăm pădurile împreună" |
