@@ -269,8 +269,13 @@ Ambele moduri împart același strat gratuit:
 - Acces direct la tine pentru feedback fără tickete, fără complicații
 
 ### Noi clienți (după lansare)
-- Primele 3 luni: limită gratuită mai mare (să-și importe istoricul, să se obișnuiască)
-- Apoi tokeni
+- Primele 3 luni: limită gratuită mai mare (să se obișnuiască)
+- Apoi tokeni sau abonament, la alegere
+
+### Păstrarea datelor
+- Documentele procesate rămân în sistem **3 luni** în mod live
+- După 3 luni, datele se arhivează
+- Arhiva poate fi accesată gratuit la solicitare
 
 ### Cum stabilim prețul real
 Nu din teorie. Din teren:
