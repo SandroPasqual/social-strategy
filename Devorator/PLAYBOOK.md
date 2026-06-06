@@ -23,11 +23,13 @@ Parserul e construit să înțeleagă și facturi și bonuri — se dezvoltă co
 
 **Devorator procesează facturi și bonuri de plată.** Atât. Mai întâi perfecționăm ăsta. Apoi extindem cu alte tipuri de documente, chiar si custom la cerere.
 
-### Realitatea documentelor în România
+### Realitatea în teren (de descoperit)
 
-- Majoritatea facturilor **nu sunt PDF-uri digitale** — sunt printate, scanate, poze făcute cu telefonul
-- Bonurile de plată cash sunt și mai prost gestionate — hârtie termică, poze din telefon, teancuri în sertare
-- Devorator aplică **5 variante de preprocesare** a fiecărui document, fără implicare umană, și alege automat cea mai bună combinație
+Câte facturi sunt digitale vs printate, câte bonuri, câte sunt transmise pe mail vs hârtie — **nu știm încă.** Asta aflăm de la primii contabili cu care vorbim.
+
+Ce știm sigur:
+- Devorator procesează orice format: PDF digital, scanat, poză, bon termic
+- Aplică **5 variante de preprocesare** a fiecărui document, fără implicare umană, și alege automat cea mai bună combinație
 - Se îmbunătățește permanent pe măsură ce procesează documente reale și primește feedback
 
 ### Starea actuală
