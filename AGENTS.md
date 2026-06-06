@@ -82,29 +82,29 @@ Social strategy/
 Attention → Memory → Thinking → Influence → Creation → AI
 ```
 
-| # | Date | Title | Theme |
-|---|---|---|---|
-| 1 | Jun 5 | Saved by the bell. Or trapped by it. | Phone in conversation |
-| 2 | Jun 7 | We're all wet. And we pretend we're not. | We don't finish things |
-| 3 | Jun 9 | I publish. Then the categories appear. | Online identity |
-| 4 | Jun 11 | Marketable. Until you're not. | How we remember people |
-| 5 | Jun 13 | I can't read the operating system behind it. | Childhood as lost species |
-| 6 | Jun 15 | The first stupid thought, dressed up as conviction. | Digested complexity |
-| 7 | Jun 17 | The system is rigged. And that's not the whole story. | Inequality |
-| 8 | Jun 19 | You weren't convinced. You were mirrored. | Influence and tribes |
-| 9 | Jun 21 | No system corrupts from the outside. | People in systems |
-| 10 | Jun 23 | The blue was never in the paint. | Constraints as source |
-| 11 | Jun 25 | The deity hallucinated. So they grabbed the hammer. | LLMs as oracles |
-| 12 | Jun 27 | The Romans had many gods. We have many models. | LLM market |
-| 13 | Jul 1 | The solo operator with better tools isn't the future. | Creative work structure |
-| 14 | Jul 3 | Everyone did their job. The result was still generic. | Disconnected execution |
-| 15 | Jul 5 | You don't need a new look. | Structure vs surface |
-| 16 | Jul 7 | The designer delivered exactly what was briefed. | The brief as foundation |
-| 17 | Jul 9 | What happens in that room stays in that room. | Confidentiality as standard |
-| 18 | Jul 11 | Every new project starts with the same question: where do we begin? | Orientation over speed |
-| 19 | Jul 13 | Three variants. | Generic logo design, gastric tone |
+| # | Date | Day | Title | Theme |
+|---|---|---|---|---|
+| 1 | Jun 5 (Fri) | ✅ | Saved by the bell. Or trapped by it. | Phone in conversation |
+| 2 | Jun 8 (Mon) | ✅ | We're all wet. And we pretend we're not. | We don't finish things |
+| 3 | Jun 10 (Wed) | ✅ | I publish. Then the categories appear. | Online identity |
+| 4 | Jun 12 (Fri) | ✅ | Marketable. Until you're not. | How we remember people |
+| 5 | Jun 15 (Mon) | ✅ | I can't read the operating system behind it. | Childhood as lost species |
+| 6 | Jun 17 (Wed) | ✅ | The first stupid thought, dressed up as conviction. | Digested complexity |
+| 7 | Jun 19 (Fri) | ✅ | The system is rigged. And that's not the whole story. | Inequality |
+| 8 | Jun 22 (Mon) | ✅ | You weren't convinced. You were mirrored. | Influence and tribes |
+| 9 | Jun 24 (Wed) | ✅ | No system corrupts from the outside. | People in systems |
+| 10 | Jun 26 (Fri) | ✅ | The blue was never in the paint. | Constraints as source |
+| 11 | Jun 29 (Mon) | ✅ | The deity hallucinated. So they grabbed the hammer. | LLMs as oracles |
+| 12 | Jul 1 (Wed) | ✅ | The Romans had many gods. We have many models. | LLM market |
+| 13 | Jul 3 (Fri) | ✅ | The solo operator with better tools isn't the future. | Creative work structure |
+| 14 | Jul 6 (Mon) | ✅ | Everyone did their job. The result was still generic. | Disconnected execution |
+| 15 | Jul 8 (Wed) | ✅ | You don't need a new look. | Structure vs surface |
+| 16 | Jul 10 (Fri) | ✅ | The designer delivered exactly what was briefed. | The brief as foundation |
+| 17 | Jul 13 (Mon) | ✅ | What happens in that room stays in that room. | Confidentiality as standard |
+| 18 | Jul 15 (Wed) | ✅ | Every new project starts with the same question: where do we begin? | Orientation over speed |
+| 19 | Jul 17 (Fri) | ✅ | Three variants. | Generic logo design, gastric tone |
 
-**Note:** Posts #13–14 extend the serialization beyond the original arc (Attention→AI). Posts #15–18 continue the Observer voice. Post #19 is the "Three variants" post (from Claude, gastric acid tone). After Jul 13, a personal writing series of 10 texts begins ("While I Still Know") — see Notes/Personal Writing Series.md for order and status.
+**Schedule:** Mon/Wed/Fri, skipping weekends. After Jul 17, "While I Still Know" series begins (10 texts, 2/week on Mon/Fri).
 
 ---
 
