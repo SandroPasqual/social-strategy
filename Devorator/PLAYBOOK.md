@@ -29,14 +29,36 @@ Un **devorator general de birocrație.** Pasul mare spre digitalizare.
 
 ### Viziunea
 
-Pe termen lung, Devorator nu e doar un tool de facturi. E un **motor de interpretare documente** care poate fi adaptat la orice tip de document birocratic:
+Devorator nu e un tool de facturi. E un **motor de interpretare documente** — un devorator general de birocrație. Începe cu ce doare cel mai tare (facturi + bonuri), apoi se extinde vertical pe industrii.
 
-| Azi | Mâine | Viitor |
-|-----|-------|--------|
-| Facturi primite | Contracte | Orice document structurat |
-| Bonuri de plată | CV-uri | Configurabil per companie |
-| — | Extrase bancare | API pentru integrare |
-| — | Documente HR | Piața externă (BG, HU, PL) |
+### Verticalele de documente
+
+| Verticală | Documente | Cine are nevoie |
+|-----------|-----------|-----------------|
+| **Transport & Logistică** | Foi de parcurs șoferi, CMR-uri, avize de însoțire, NIR-uri, TIR carnet, facturi transport, foi de pontaj șoferi | Firme transport, curierat, distribuție |
+| **Vamă & Comerț Exterior** | Declarații vamale, facturi proforme, certificate de origine, EUR.1, documente ATR, facturi import/export | Firme import/export, brokeri vamali |
+| **Contabilitate & Finanțe** | Facturi primite (PDF + scanate), bonuri de plată cash, extrase bancare, ordine de plată, registru de casă, chitanțe, bilanțuri | Cabinete contabilitate, departamente financiare |
+| **Resurse Umane** | Adeverințe medicale, fișe de pontaj, contracte muncă, state de plată, CV-uri, concedii medicale | Departamente HR, firme externalizare salarizare |
+| **Legal & Contracte** | Contracte comerciale, acte adiționale, oferte, procese verbale | Companii, cabinete avocatură |
+
+### Abordarea pe verticale
+
+Nu construim pentru toate odată. O verticală la un moment dat:
+
+1. **Start:** Contabilitate (facturi + bonuri) — piața cea mai mare, durerea cea mai cunoscută
+2. **Următorul:** Transport & Logistică ( foi de parcurs + CMR-uri + avize) — documente multe, structură repetitivă
+3. **Apoi:** Vamă (declarații + certificate) — specific, dar fără concurență în RO
+4. **Apoi:** HR, Legal, etc. — pe măsură ce motorul se maturizează
+
+### Orizont de timp
+
+| Faza | Orinzont | Focus |
+|------|----------|-------|
+| **Acum** | 0-6 luni | Facturi + bonuri. MVP pe piața RO. |
+| **v1** | 6-12 luni | Foi de parcurs + CMR + avize. Verticala transport. |
+| **v2** | 12-18 luni | Vamă + declarații. Verticala comerț exterior. |
+| **v3** | 18-24 luni | Contracte + HR. Motor de interpretare general. |
+| **Exit RO** | 24+ luni | Adaptare pentru BG, HU, PL.
 
 ### Starea actuală
 
