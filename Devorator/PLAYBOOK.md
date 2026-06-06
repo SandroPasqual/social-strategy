@@ -8,9 +8,16 @@
 
 ### Ce este
 
-Devorator procesează facturi și bonuri de plată — PDF-uri, scanuri, poze — și extrage automat datele structurate: număr, date, furnizor, articole, TVA, totaluri.
+Devorator procesează documente financiar-contabile:
 
-Parserul e construit să înțeleagă și facturi și bonuri — se dezvoltă continuu pe măsură ce întâlnește documente reale.
+- **Facturi** — PDF-uri, scanuri, poze
+- **Bonuri de plată** — bonuri fiscale, chitanțe
+- **Ordine de plată interbancare** — plăți furnizori
+- **Foi de vărsământ** — depuneri numerar în bancă
+
+Extrage automat datele structurate: număr, date, furnizor, articole, TVA, totaluri, conturi IBAN, detalii plată.
+
+Parserul se dezvoltă continuu pe măsură ce întâlnește documente reale.
 
 ### Ce nu este (încă)
 
@@ -21,7 +28,7 @@ Parserul e construit să înțeleagă și facturi și bonuri — se dezvoltă co
 
 ### Viziunea
 
-**Devorator procesează facturi și bonuri de plată.** Atât. Mai întâi perfecționăm ăsta. Apoi extindem cu alte tipuri de documente, chiar si custom la cerere.
+**Devorator procesează 4 tipuri de documente:** facturi, bonuri de plată, ordine de plată interbancare, foi de vărsământ. Mai întâi perfecționăm astea. Apoi extindem.
 
 ### Realitatea în teren (de descoperit)
 
