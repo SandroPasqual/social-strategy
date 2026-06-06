@@ -8,7 +8,7 @@
 
 ### Ce este
 
-Devorator procesează documente — facturi, bonuri, contracte, CV-uri, orice document birocratic — și extrage automat datele structurate. Începe cu facturi și bonuri, dar se extinde la orice document pe care companiile îl procesează în volume mari.
+Devorator procesează facturi și bonuri de plată — PDF-uri, scanuri, poze — și extrage automat datele structurate: număr, date, furnizor, articole, TVA, totaluri.
 
 Un **devorator general de birocrație.** Pasul mare spre digitalizare.
 
@@ -21,11 +21,7 @@ Un **devorator general de birocrație.** Pasul mare spre digitalizare.
 
 ### Viziunea
 
-Pe termen lung, Devorator poate deveni un motor general de procesare documente — foi de parcurs, hârtii vamale, contracte, CV-uri, orice birocrație. Dar acum nu procesează decât un singur lucru:
-
-**Facturi și bonuri de plată.**
-
-Mai întâi perfecționăm ăsta. Apoi următorul.
+**Devorator procesează facturi și bonuri de plată.** Atât. Mai întâi perfecționăm ăsta. Apoi următorul.
 
 ### Realitatea documentelor în România
 
