@@ -1,60 +1,81 @@
-# Devorator — Strategie Facebook
+# Devorator — Strategie Facebook (v2)
 
-> Separat de PLAYBOOK.md. De discutat și ajustat pe baza realității.
+> Bazată pe discuția cu Sandro, iun 2026. În lucru, pe măsură ce descoperim ce funcționează.
 
 ---
 
-## De ce Facebook
+## Realitatea de plecare
 
-- Contabilii români sunt activi în grupuri de Facebook (10k-50k membri fiecare)
-- Acolo se plâng de tool-uri, întreabă recomandări, împărtășesc frustrări
-- LinkedIn e gol pentru această categorie profesională în RO
-- O pagină de produs pe Facebook e suficientă pentru început
+Niciun român nu se plânge pe Facebook că are facturi de introdus. Nu e cool, nu e dramatic, nu generează engagement.
 
-## Conținut — 3 Piloni
+Așa că strategia nu poate fi "găsim pe cineva care se plânge și îi răspundem". Trebuie construit altceva.
 
-**Pilonul 1: Demonstrații (50%)**
-- Screenshot-uri reale din Devorator
-- "Am încărcat o factură. Uite ce a ieșit."
-- Comparații: original PDF → date extrase
-- Video scurt cu procesul (telefon, nu producție)
-- Fără scripturi, fără efecte — arăți exact ce vede utilizatorul
+---
 
-**Pilonul 2: Probleme reale (30%)**
-- Cât timp se pierde cu tastat manual
-- Greșeli frecvente la introducerea datelor
-- Diferența între o factură PDF și una scanată (și de ce unele sunt mai grele)
-- Educație: cum ar trebui să arate o factură ca să fie procesabilă
+## Prima postare — deschiderea paginii
 
-**Pilonul 3: Produsul (20%)**
-- Actualizări, funcții noi
-- Răspunsuri la întrebări din comentarii
-- Anunțuri (beta, lansare, preț)
-- Întrebări către comunitate
+Obiectivul paginii: **ajutarea companiilor românești, agențiilor de contabilitate și contabililor independenți** să aibă acces facil la scanarea, parsarea și identificarea reperelor de pe facturi, bonuri — fără bătăi mari de cap.
 
-## Frecvență
+Tonul: nu flamboaiant, nu "revoluționăm". Ci:
 
-- **La început:** 2-3 postări/săptămână
-- **După lansare:** 1-2 postări/săptămână
-- **Story:** zilnic în perioade active de dezvoltare
+> "Am deschis această pagină pentru că am construit un sistem care parsează documente financiare. Scopul e să ajut firmele și contabilii să scape de tastat manual. Atât."
+
+---
+
+## Impactul asupra oamenilor
+
+Știm că un astfel de sistem poate afecta persoanele care introduc facturi manual — operatorii, personalul din contabilitate. Probabil nu le va fi bine.
+
+Dar aceiași oameni **pot colabora la verificarea documentelor** pentru aceiași bani. Nu dispar — se mută de la tastat la verificat. Asta e o nuanță importantă de comunicat, dar poate nu pe Facebook — poate intern, în discuții directe.
+
+---
+
+## Sondajele — cum aflăm ce trebuie
+
+Nu întrebări banale de genul "câte facturi procesezi pe lună?".
+
+Mai întâi captăm atenția, apoi cerem date operaționale. Ordinea:
+
+1. **"Cât de oportun găsești utilitatea unui astfel de sistem?"** — întrebarea de deschidere. Măsoară interesul, nu volumul.
+2. După ce oamenii sunt atenți și interesați, abia atunci putem cere informații specifice (volume, tipuri de documente, tool-uri curente).
+3. Fără chestionare reci. Conversații reale.
+
+---
+
+## Conținut — direcții posibile (de explorat)
+
+| Tip | Idee |
+|-----|------|
+| **Demonstrație** | "Am încărcat o factură. Uite ce a ieșit." Screenshot real. |
+| **Utilizare reală** | "Un contabil a testat sistemul pe 20 de facturi. Rezultatul:" |
+| **Educație** | Cum ar trebui fotografiată o factură să fie parsabilă |
+| **Anunțuri** | Funcții noi, îmbunătățiri, beta, lansare |
+
+Dar nimic nu e fix încă. Descoperim pe măsură ce postăm și vedem ce răspuns primește.
+
+---
 
 ## Prezența în grupuri
 
-Nu posta reclame în grupuri. Intră natural:
+Nu știm încă exact cum. Posibile direcții:
 
-1. Cineva se plânge: "Am 200 de facturi de introdus în SAGA"
-2. Răspunzi: "Încerci să le bagi manual pe toate? Noi facem asta automat. Dacă vrei, testăm pe 10 facturi să vezi cum merge."
-3. Nu minți, nu ascunzi — ești sincer util
+- Nu reclame, nu spam
+- Eventual contribuții utile în discuții existente
+- Dacă apare ocazia natural, nu forțată
 
-## Cronologia lansării
-
-| Faza | Acțiune | Durată |
-|------|---------|--------|
-| **1. Pre-lansare** | Pagina creată. Postări despre problemă, nu despre produs. Construiești context. | 2-4 săptămâni |
-| **2. Beta deschisă** | Anunți că poți procesa gratuit primele facturi. Cere feedback real. | 4-8 săptămâni |
-| **3. Lansare** | Preț anunțat. Primii clienți plătitori. | După beta |
-| **4. Creștere** | Testimoniale, cazuri de utilizare, optimizări. | Continuu |
+Mai degrabă construim pagina și vedem dacă oamenii vin singuri.
 
 ---
 
-*Document mutat din PLAYBOOK.md. De discutat și rescris pe baza realității.*
+## Cronologia (schiță)
+
+| Faza | Acțiune |
+|------|---------|
+| **1. Deschidere** | Pagina creată. Prima postare — anunțul, scopul. |
+| **2. Explorare** | Postări de test. Vezi ce prinde. Ajustezi. |
+| **3. Sondaj** | După ce ai atenție, întrebi ce trebuie să știi. |
+| **4. Beta** | Anunți că sistemul funcționează, cauți testeri. |
+
+---
+
+*În lucru. Totul e ajustabil pe măsură ce descoperim ce funcționează.*
