@@ -3,3 +3,6 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+# Buffer API keys (ignored)
+.buffer-*.env
