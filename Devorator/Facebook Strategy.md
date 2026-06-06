@@ -1,81 +1,79 @@
-# Devorator — Strategie Facebook (v2)
+# Devorator — Strategie Facebook (v3)
 
-> Bazată pe discuția cu Sandro, iun 2026. În lucru, pe măsură ce descoperim ce funcționează.
+> Pagina Devorator = centrul operațional, homepage-ul produsului.
+> Bazată pe discuția cu Sandro, iun 2026.
 
 ---
 
 ## Realitatea de plecare
 
-Niciun român nu se plânge pe Facebook că are facturi de introdus. Nu e cool, nu e dramatic, nu generează engagement.
-
-Așa că strategia nu poate fi "găsim pe cineva care se plânge și îi răspundem". Trebuie construit altceva.
-
----
-
-## Prima postare — deschiderea paginii
-
-Obiectivul paginii: **ajutarea companiilor românești, agențiilor de contabilitate și contabililor independenți** să aibă acces facil la scanarea, parsarea și identificarea reperelor de pe facturi, bonuri — fără bătăi mari de cap.
-
-Tonul: nu flamboaiant, nu "revoluționăm". Ci:
-
-> "Am deschis această pagină pentru că am construit un sistem care parsează documente financiare. Scopul e să ajut firmele și contabilii să scape de tastat manual. Atât."
+- Niciun român nu se plânge pe Facebook că are facturi de introdus
+- Nu așteptăm să vină oamenii singuri — construim pagina activ
+- Pagina e **homepage-ul Devorator**, nu o pagină de social media oarecare
 
 ---
 
-## Impactul asupra oamenilor
+## Planul de lansare
 
-Știm că un astfel de sistem poate afecta persoanele care introduc facturi manual — operatorii, personalul din contabilitate. Probabil nu le va fi bine.
+### Pasul 1 — 5 postări pentru construirea paginii (de luni)
 
-Dar aceiași oameni **pot colabora la verificarea documentelor** pentru aceiași bani. Nu dispar — se mută de la tastat la verificat. Asta e o nuanță importantă de comunicat, dar poate nu pe Facebook — poate intern, în discuții directe.
+Nimeni nu știe de Devorator. Pagina e goală. Așa că prima acțiune e să o umplem cu conținut — câteva postări în bulk, una după alta, care explică ce se întâmplă:
 
----
+1. **Ce este Devorator** — sistemul care parsează documente financiare
+2. **Cum funcționează** — procesul: încărcare → parsare → verificare matematică → export
+3. **Pentru cine e** — contabili independenți, cabinete, firme
+4. **Ce documente procesează** — facturi, bonuri, OP-uri, foi de vărsământ
+5. **Cum intri** — early adopters, aplici, primești invitație
 
-## Sondajele — cum aflăm ce trebuie
+Practic, pagina devine un centru de informare complet. Când cineva ajunge pe pagină, vede imediat despre ce e vorba.
 
-Nu întrebări banale de genul "câte facturi procesezi pe lună?".
+### Pasul 2 — Intri în grupuri de contabili
 
-Mai întâi captăm atenția, apoi cerem date operaționale. Ordinea:
+După ce pagina are conținut, intri în grupuri de Facebook de contabilitate și propui colaborarea celor care doresc să participe ca **early adopters**.
 
-1. **"Cât de oportun găsești utilitatea unui astfel de sistem?"** — întrebarea de deschidere. Măsoară interesul, nu volumul.
-2. După ce oamenii sunt atenți și interesați, abia atunci putem cere informații specifice (volume, tipuri de documente, tool-uri curente).
-3. Fără chestionare reci. Conversații reale.
+Nu "vino să cumperi". Ci:
+> "Am construit un sistem de parsare documente. Caut primii contabili care vor să-l testeze și să-l modeleze împreună cu mine."
 
----
+### Pasul 3 — Selecția early adopters
 
-## Conținut — direcții posibile (de explorat)
-
-| Tip | Idee |
-|-----|------|
-| **Demonstrație** | "Am încărcat o factură. Uite ce a ieșit." Screenshot real. |
-| **Utilizare reală** | "Un contabil a testat sistemul pe 20 de facturi. Rezultatul:" |
-| **Educație** | Cum ar trebui fotografiată o factură să fie parsabilă |
-| **Anunțuri** | Funcții noi, îmbunătățiri, beta, lansare |
-
-Dar nimic nu e fix încă. Descoperim pe măsură ce postăm și vedem ce răspuns primește.
+Nu e pentru toată lumea. Se aplică printr-un formular. Se primește invitație.
 
 ---
 
-## Prezența în grupuri
+## Early Adopters — programul
 
-Nu știm încă exact cum. Posibile direcții:
+### Ce primesc
 
-- Nu reclame, nu spam
-- Eventual contribuții utile în discuții existente
-- Dacă apare ocazia natural, nu forțată
+| Beneficiu | Detalii |
+|-----------|---------|
+| **Badge de early adopter** | Statut, recunoaștere |
+| **Avantaje financiare permanente** | Preț redus pe viață, limită gratuită mai mare |
+| **Posibilitatea de a invita** | Pot aduce alți contabili în sistem |
+| **Reducere la invitarea altor contabili** | Pentru fiecare client invitat și rămas în sistem, beneficiază de discount |
 
-Mai degrabă construim pagina și vedem dacă oamenii vin singuri.
+### Principiul
+
+> **O castă de contabili aleși. Nu pentru toată lumea.**
+
+Exclusivitatea creează:
+- Dorință — oamenii vor să fie printre primii
+- Loialitate — cei selectați se simt parte din ceva special
+- Recomandare — vor invita colegi, clienți, prieteni
+
+### Formularul de aplicare
+
+Accesul se face după completarea unui formular. Nu e automat. Ești selectat. Primești invitație.
 
 ---
 
-## Cronologia (schiță)
+## Calendar
 
-| Faza | Acțiune |
-|------|---------|
-| **1. Deschidere** | Pagina creată. Prima postare — anunțul, scopul. |
-| **2. Explorare** | Postări de test. Vezi ce prinde. Ajustezi. |
-| **3. Sondaj** | După ce ai atenție, întrebi ce trebuie să știi. |
-| **4. Beta** | Anunți că sistemul funcționează, cauți testeri. |
+| Zi | Acțiune |
+|-----|---------|
+| **Luni** | 5 postări în bulk pe pagină (conținut explicativ) |
+| **După** | Intri în grupuri de contabili, propui early adopters |
+| **Pe măsură** | Aplică, selectezi, trimiți invitații |
 
 ---
 
-*În lucru. Totul e ajustabil pe măsură ce descoperim ce funcționează.*
+*În lucru. Ajustăm pe măsură ce descoperim ce funcționează.*
