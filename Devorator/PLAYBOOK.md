@@ -94,17 +94,21 @@ Ce știm sigur:
 5. **Scor calitate text** (0-100) — după fiecare încercare, sistemul evaluează rezultatul. Dacă scorul ≥ 50, se oprește și nu mai încearcă restul.
 6. **Dacă tot eșuează** → folder documente eșuate + raport cu cauza exactă (de ex: "Câmpul total nu a putut fi identificat")
 
-### Ce lipsește (de implementat)
+### Îmbunătățiri identificate
 
-| Funcție | Efect |
-|---------|-------|
-| **Deskew (corecție înclinare)** | Dacă poza e făcută strâmb, rotește automat imaginea înainte de OCR |
-| **Auto-orientare** | Detectează dacă documentul e cu susul în jos și îl corectează |
-| **Corecție perspectivă** | Dacă poza e făcută din unghi (nu perpendicular), îndreaptă perspectiva |
-| **Thresholdare adaptivă (Otsu)** | În loc de praguri fixe (160, 180, 200), alege pragul optim automat după histogramă |
-| **Îndepărtare borduri** | Taie automat marginile întunecate care apar la scanări sau poze |
-| **Operații morfologice** | Dilation/erosion pentru text rupt sau prea subțire |
-| **CLAHE** | Contrast Limited Adaptive Histogram Equalization — pentru documente cu contrast neuniform |
+Analiza completă a preprocesării imaginilor a fost documentată tehnic în `docs/ocr-image-preprocessing.md` (proiectul Devorator). Rezumatul modificărilor sugerate:
+
+| Funcție | Prioritate | Efect |
+|---------|------------|-------|
+| **Deskew (corecție înclinare)** | 1 | O imagine înclinată 2-5° distruge coloanele. Corecția automată înainte de OCR. |
+| **Thresholdare Otsu** | 1 | Pragurile fixe eșuează pe expunere neuniformă. Otsu alege optimul după histogramă. |
+| **Auto-orientare** | 1 | Detectează sus-jos și corectează. Frecvent la poze din telefon. |
+| **Îndepărtare borduri negre** | 2 | Bordurile de scanare falsifică analiza histogramei. Cropping automat. |
+| **Corecție perspectivă** | 2 | Poza din unghi deformează textul. Necesar pentru poze pe birou. |
+| **Operații morfologice** | 3 | Text rupt după binarizare se repară cu dilate/erode. |
+| **CLAHE** | 3 | Contrast local pentru documente cu umbră parțială. |
+
+Documentul tehnic include cod șablon pentru fiecare funcție, gata de implementat.
 
 ### Flow-ul unui document
 
@@ -381,8 +385,16 @@ Sau:
 
 ## 9. Următorii Pași
 
+### Realizat
+
+- [x] Analiza preprocesării imaginilor OCR — documentată în `docs/ocr-image-preprocessing.md`
+- [x] Playbook Devorator — structură completă (produs, competiție, preț, voce, social)
+
+### De făcut
+
 - [ ] Confirmat: nume pagină Facebook = "Devorator"
 - [ ] Creată pagina
+- [ ] Implementat deskew + Otsu + border crop în `extract.py`
 - [ ] Stabilit prețul final
 - [ ] Scris primele 5 postări (plan editorial săptămâna 1)
 - [ ] Identificate 3 grupuri Facebook de contabilitate ca target
