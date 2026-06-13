@@ -14,20 +14,36 @@ Social strategy/
 ├── Ideas/                       ← original Google Drive data (READ-ONLY)
 │
 ├── Personal/                    ← PRIMARY ACCOUNT — trust is built here
-│   ├── Posted/                  ← published posts (57 files)
-│   ├── Drafts/                  ← written but unpublished (13 files)
-│   ├── To be posted/            ← prepped for publication with front matter (13 files)
+│   ├── Posted/                  ← published posts (65 files)
+│   ├── To be posted/            ← prepped for publication with front matter (41 files)
+│   ├── Framework/               ← voice, comment strategy, field notes, series archive
+│   │   ├── README.md
+│   │   ├── 00-distilare-completa.md
+│   │   ├── 01-vocea-personala-ton.md
+│   │   ├── 02-engagement-comment-strategy.md
+│   │   ├── 02b-commenturi-teren.md
+│   │   ├── 03-seria-14-posturi-marcus-aurelius.md
+│   │   ├── 04-engagement-postari-date.md
+│   │   ├── 05-prezentare-grup-nou.md
+│   │   ├── 06-misiune-mordor-fundament.md
+│   │   └── _idei-brute.md
 │   ├── Strategic Analysis.md    ← full diagnostic
-│   └── Strategy Proposal.md   ← decisions, rules, differentiation
+│   └── Strategy Proposal.md    ← decisions, rules, differentiation
 │
 ├── Goodspell.online/            ← SECONDARY ACCOUNT — supports, does not lead
 │   ├── Posted/                  ← page posts published (10 files + images)
-│   ├── To be posted/            ← 50 posts with WHITE/BLACK numbering, no dates (14 with images)
-│   ├── Brand Playbook/          ← foundation, strategy proposal, content playbook, copy, comment framework, positioning, ethics
-│   ├── Backup/                  ← friction moments, publication order, strategic analysis, old drafts, HTML templates
-│   ├── Strategie Goodspell/     ← methodology pillars, templates
-│   ├── linkedin-image-builder/  ← image generation tool (to be rebuilt with SQLite)
-│   └── Archive/                 ← full historical archive (pre-Nov 2025 strategy)
+│   ├── To be posted/            ← 50 posts with WHITE/BLACK numbering (14 with images)
+│   ├── Drafts/                  ← drafts waiting to be structured
+│   │   └── mortar-most-people-pitch.md
+│   ├── Framework/               ← positioning, content, client intelligence
+│   │   ├── README.md
+│   │   ├── 01-positioning-brand-foundation.md
+│   │   ├── 03-content-playbook.md
+│   │   ├── 04-homepage-copy.md
+│   │   └── 05-client-intelligence.md
+│   ├── Brand Playbook/          ← original source documents
+│   ├── Backup/                  ← friction moments, publication order, strategic analysis
+│   └── linkedin-image-builder/  ← image generation tool (to be rebuilt with SQLite)
 │
 └── Devorator/                   ← to be analyzed later
     ├── Extindere devorator.md
@@ -55,11 +71,13 @@ Social strategy/
 | **Titles** | Punchy, with tension. First line stops the scroll |
 | **Ending** | A moment of shared recognition, not a question or CTA |
 | **Questions** | Only rhetorical, inside the text. No answer requested from reader |
-| **Hashtags** | 1-2 per post — #Attention #DigitalCulture #Memory #Thinking #AI #Strategy etc. |
+| **Hashtags** | **Zero.** Hashtags associate with noise Goodspell actively avoids. |
 | **About design** | NO. Everything is strategy |
 | **Overlap with Goodspell** | Yes, intentional. Same filter, different angle |
 | **Selling** | Zero. Absolutely zero. No pitch, no "you need X," no CTA. The post just is there. The tension remains open. |
-| **Frequency** | Every 2 days (shows presence, no noise) |
+| **Frequency** | Every 2 days (Mon/Wed/Fri) |
+| **First line** | The only thing that decides whether the post exists for 80% of audience. Must stop the scroll. |
+| **Language** | English. Romanian defaults to negation before affirmation — undermines authority. |
 
 ## Voice Rules — Goodspell Page
 
@@ -69,42 +87,81 @@ Social strategy/
 | **Voice** | The Architect — gastric with framework. Names the pattern after the feeling lands. |
 | **Position** | Demonstrates through reasoning, not results |
 | **Tone** | Gastric. The pattern is named after the reader has already recognized the feeling. |
-| **Core theme** | The gap between actual execution and public perception |
-| **Hashtags** | Zero. Goodspell does not use hashtags — they associate with the noise the brand actively avoids. |
-| **Frequency** | 1-2/week |
+| **Core theme** | The gap between reality and perception |
+| **Hashtags** | Zero. |
+| **Frequency** | Tue/Thu, 2/week |
 | **Cross-pollination** | Sandro shares page posts on his personal account |
 
 ---
 
-## Serialization Arc — Personal (13 posts in To be posted)
+## Serialization Arc — Personal (39 posts in To be posted)
+
+### Observer Series (Jun 15 – Aug 12)
 
 ```
 Attention → Memory → Thinking → Influence → Creation → AI
 ```
 
-| # | Date | Day | Title | Theme |
-|---|---|---|---|---|
-| 1 | Jun 5 (Fri) | ✅ | Saved by the bell. Or trapped by it. | Phone in conversation |
-| 2 | Jun 8 (Mon) | ✅ | We're all wet. And we pretend we're not. | We don't finish things |
-| 3 | Jun 10 (Wed) | ✅ | I publish. Then the categories appear. | Online identity |
-| 4 | Jun 12 (Fri) | ✅ | Marketable. Until you're not. | How we remember people |
-| 5 | Jun 15 (Mon) | ✅ | I can't read the operating system behind it. | Childhood as lost species |
-| 6 | Jun 17 (Wed) | ✅ | The first stupid thought, dressed up as conviction. | Digested complexity |
-| 7 | Jun 19 (Fri) | ✅ | The system is rigged. And that's not the whole story. | Inequality |
-| 8 | Jun 22 (Mon) | ✅ | You weren't convinced. You were mirrored. | Influence and tribes |
-| 9 | Jun 24 (Wed) | ✅ | No system corrupts from the outside. | People in systems |
-| 10 | Jun 26 (Fri) | ✅ | The blue was never in the paint. | Constraints as source |
-| 11 | Jun 29 (Mon) | ✅ | The deity hallucinated. So they grabbed the hammer. | LLMs as oracles |
-| 12 | Jul 1 (Wed) | ✅ | The Romans had many gods. We have many models. | LLM market |
-| 13 | Jul 3 (Fri) | ✅ | The solo operator with better tools isn't the future. | Creative work structure |
-| 14 | Jul 6 (Mon) | ✅ | Everyone did their job. The result was still generic. | Disconnected execution |
-| 15 | Jul 8 (Wed) | ✅ | You don't need a new look. | Structure vs surface |
-| 16 | Jul 10 (Fri) | ✅ | The designer delivered exactly what was briefed. | The brief as foundation |
-| 17 | Jul 13 (Mon) | ✅ | What happens in that room stays in that room. | Confidentiality as standard |
-| 18 | Jul 15 (Wed) | ✅ | Every new project starts with the same question: where do we begin? | Orientation over speed |
-| 19 | Jul 17 (Fri) | ✅ | Three variants. | Generic logo design, gastric tone |
+| # | Date | Day | Title | Status |
+|---|------|-----|-------|--------|
+| 4 | Jun 15 (Mon) | | I can't read the operating system behind it | To be posted |
+| 5 | Jun 17 (Wed) | | The first stupid thought dressed up as conviction | To be posted |
+| 6 | Jun 19 (Fri) | | The system is rigged and that's not the whole story | To be posted |
+| 7 | Jun 22 (Mon) | | You weren't convinced you were mirrored | To be posted |
+| 8 | Jun 24 (Wed) | | No system corrupts from the outside | To be posted |
+| 9 | Jun 26 (Fri) | | The blue was never in the paint | To be posted |
+| 10 | Jun 29 (Mon) | | The deity hallucinated so they grabbed the hammer | To be posted |
+| 11 | Jul 1 (Wed) | | The Romans had many gods we have many models | To be posted |
+| 12 | Jul 3 (Fri) | | The solo operator with better tools isn't the future | To be posted |
+| 13 | Jul 6 (Mon) | | Everyone did their job the result was still generic | To be posted |
+| 14 | Jul 8 (Wed) | | You don't need a new look | To be posted |
+| 15 | Jul 10 (Fri) | | The designer delivered exactly what was briefed | To be posted |
+| 16 | Jul 13 (Mon) | | What happens in that room stays in that room | To be posted |
+| 17 | Jul 15 (Wed) | | Every new project starts with the same question | To be posted |
+| 18 | Jul 17 (Fri) | | Three variants | To be posted |
+| 19 | Jul 22 (Wed) | | Most creative work fails upstream of execution | To be posted |
+| 20 | Jul 24 (Fri) | | Every agency had one | To be posted |
+| 21 | Jul 27 (Mon) | | The founder hires a designer | To be posted |
+| 22 | Jul 29 (Wed) | | Everyone knows they need a strategist now | To be posted |
+| 23 | Jul 31 (Fri) | | Most founders don't decide who they're not for | To be posted |
+| 24 | Aug 3 (Mon) | | Most founders don't write their mission | To be posted |
+| 25 | Aug 5 (Wed) | | Most brands don't have a personality problem | To be posted |
+| 26 | Aug 7 (Fri) | | Nobody wants to go deeper | To be posted |
+| 27 | Aug 10 (Mon) | | The freelance designer problem isn't talent | To be posted |
+| 28 | Aug 12 (Wed) | | Most people pitch what they have | To be posted |
 
-**Schedule:** Mon/Wed/Fri, skipping weekends. After Jul 17, "While I Still Know" series begins (10 texts, 2/week on Mon/Fri).
+### Founders & Creatives Series (Aug 14 – Sep 14)
+
+Short, punchy "You"-format posts addressing founder-creative dynamics.
+
+| # | Date | Day | Opening line | Status |
+|---|------|-----|-------------|--------|
+| 29 | Aug 14 (Fri) | | You briefed someone last week | To be posted |
+| 30 | Aug 17 (Mon) | | You briefed a designer | To be posted |
+| 31 | Aug 19 (Wed) | | You asked for a logo | To be posted |
+| 32 | Aug 21 (Fri) | | You've worked with creatives who need total freedom | To be posted |
+| 33 | Aug 24 (Mon) | | You chose the color because you liked it | To be posted |
+| 34 | Aug 26 (Wed) | | Two projects. Same budget. | To be posted |
+| 35 | Aug 28 (Fri) | | What style do you want? | To be posted |
+| 36 | Aug 31 (Mon) | | The logo was beautiful. The market didn't care. | To be posted |
+| 37 | Sep 2 (Wed) | | You hired a specialist | To be posted |
+| 38 | Sep 4 (Fri) | | You opened the software before you understood the problem | To be posted |
+| 39 | Sep 7 (Mon) | | The first version was close | To be posted |
+| 40 | Sep 9 (Wed) | | The client kept asking for options | To be posted |
+| 41 | Sep 11 (Fri) | | You paid for hours. You got execution. | To be posted |
+| 42 | Sep 14 (Mon) | | You knew what the answer should be | To be posted |
+
+**Schedule:** Mon/Wed/Fri, skipping weekends. 42 posts covering Jun 15 → Sep 14.
+
+### Already Posted (Jun 5 – Jun 12)
+
+| Date | Title | Type |
+|------|-------|------|
+| Jun 5 | Saved by the bell. Or trapped by it. | Observer |
+| Jun 8 | We're all wet and we pretend we're not | Observer |
+| Jun 10 | I publish then the categories appear | Observer |
+| Jun 10 | Marcus Aurelius (extra — outside series) | Gastric |
+| Jun 12 | Marketable until you're not | Gastric |
 
 ### Goodspell Schedule — 50 Posts (Phase 1: Recognition)
 
@@ -126,7 +183,7 @@ Attention → Memory → Thinking → Influence → Creation → AI
 - **Boundary items → Personal**: Anything at the boundary between Personal and Goodspell goes to Personal.
 - **Design topics eliminated**: No more posts about logos, colors, fonts. Only strategy.
 - **Questions at the end → NO**: Replaced with moments of shared recognition.
-- **Groups**: Founders & Startups is the most relevant. Designers Talk was an outlier, not a goal.
+- **Groups**: 11 groups remain after audit. Active in 3 (Founders & Startups, Executive Leadership, Tech Founders), testing 7, watching 1 (CGO). 8 exited (incl. Designers Talk).
 - **Frequency**: Every 2 days on Personal (Mon/Wed/Fri), 2/week on Goodspell (Tue/Thu). Both skip weekends.
 
 ---
@@ -157,20 +214,28 @@ awk -F': ' '/^impressions:/{print $2}' Personal/Posted/*.md | sort -n | tail -5
 - Template: `TEMPLATE.md`
 - Personal analysis: `Personal/Strategic Analysis.md`
 - Personal proposal: `Personal/Strategy Proposal.md`
+- **Personal Framework (voice, tactics, field notes):** `Personal/Framework/`
+  - `01-vocea-personala-ton.md` — tone, Gastric mechanism, what (not) to post
+  - `02-engagement-comment-strategy.md` — comment strategy framework
+  - `02b-commenturi-teren.md` — real-world comment cases (537 impressions)
+  - `03-seria-14-posturi-marcus-aurelius.md` — series origin + Marcus Aurelius post
+  - `04-engagement-postari-date.md` — engagement data, "The First Line" section
+  - `05-prezentare-grup-nou.md` — group introduction case study
 - Goodspell analysis: `Goodspell.online/Strategic Analysis.md`
 - Goodspell proposal: `Goodspell.online/Strategy Proposal.md`
+- **Goodspell Framework:** `Goodspell.online/Framework/`
+  - `01-positioning-brand-foundation.md`
+  - `03-content-playbook.md`
+  - `04-homepage-copy.md`
+  - `05-client-intelligence.md`
 - Content Playbook: `Goodspell.online/Brand Playbook/Goodspell — LinkedIn Content Playbook.md`
 - Brand Foundation: `Goodspell.online/Brand Playbook/Goodspell — Brand Foundation.md`
 - Client Intelligence: `Goodspell.online/Brand Playbook/Goodspell — Client Intelligence.md`
 - Homepage Copy: `Goodspell.online/Brand Playbook/Goodspell — Homepage Copy.md`
-- **Comment Framework** (with active thread tracking): `Goodspell.online/Brand Playbook/Goodspell — LinkedIn Comment Framework.md` — check Active Threads table first when resuming comment strategy
-- Strategic Positioning Statement: `Goodspell.online/Brand Playbook/Goodspell — Strategic Positioning Statement.md`
-- Tone of Voice: `Goodspell.online/Brand Playbook/Goodspell — Tone of Voice.md`
-- Messaging Framework: `Goodspell.online/Brand Playbook/Goodspell — Messaging Framework.md`
-- Discovery Brief: `Goodspell.online/Brand Playbook/Goodspell — Discovery Brief.md`
-- Published posts: `Personal/Posted/`, `Goodspell.online/Posted/`
-- Drafts: `Personal/Drafts/`, `Personal/To be posted/`
-- Goodspell To be posted: `Goodspell.online/To be posted/` (50 posts, 01-WHITE through 50-BLACK)
+- **Comment Framework** (with active thread tracking): `Goodspell.online/Brand Playbook/Goodspell — LinkedIn Comment Framework.md`
+- Goodspell Drafts: `Goodspell.online/Drafts/` (mortar post, future drafts)
+- Published posts: `Personal/Posted/` (65 posts), `Goodspell.online/Posted/`
+- To be posted: `Personal/To be posted/` (41 posts), `Goodspell.online/To be posted/` (50 posts)
 
 ---
 
@@ -290,3 +355,36 @@ Never use `mv` (cut-paste) for moving files between directories. Always:
 3. **Delete** the source file only after confirmation
 
 This prevents silent data loss from failed moves, path issues, or interrupted operations.
+
+---
+
+## Buffer Connection
+
+**Status:** Connected ✅ (GraphQL API)
+
+**Account:** Personal (Sandro Pasqual)
+- Channel ID: `69b58b0f7be9f8b171572aac`
+- Org ID: `6717dc879d4733f183af40e3`
+- Token: `wF-K65Oo_HjCzsZs0cIIB8PH412XyMmnFyYEru5L885` (personal key, not OIDC)
+- Ora: **17:00 RO = 14:00 UTC = 10:00 ET** (US East Coast target)
+
+**Files:**
+- `buffer-upload.py` — script CLI (python3 buffer-upload.py personal)
+- `Personal/buffer-config.md` — config + token
+- `Personal/.buffer-personal.env` — env vars (gitignored, same token)
+- `Goodspell.online/buffer-config.md` — template, use same token with channel ID `69b58b0f7be9f8b171572aab`
+
+**Usage:**
+```bash
+# Upload next 10 posts to Buffer
+python3 buffer-upload.py personal
+
+# Upload all posts (will overwrite existing schedule)
+python3 buffer-upload.py personal --dry-run  # preview only
+```
+**Cont gratuit — doar 10 sloturi.** Când un slot se eliberează (postare publicată), rulezi scriptul să încarci următoarea.
+
+**Limite:**
+- Buffer personal key funcționează doar cu GraphQL pe `api.buffer.com`
+- Token-ul vechi (OIDC, `uMadUw...`) nu mai funcționează cu API-ul direct
+- Cont gratuit = 10 postări simultan max

@@ -13,7 +13,7 @@ import urllib.error
 REPO_ROOT = os.path.dirname(os.path.abspath(__file__))
 GITHUB_RAW = 'https://raw.githubusercontent.com/SandroPasqual/social-strategy/master'
 BUFFER_API = 'https://api.buffer.com'
-SCHEDULE_HOUR = 10  # 10:00 AM Bucharest (UTC+3)
+SCHEDULE_HOUR = 14  # 14:00 UTC = 17:00 RO = 10:00 ET (US East Coast target)
 
 ACCOUNTS = {
     'personal': {

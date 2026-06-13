@@ -88,23 +88,25 @@ Arc: Attention → Memory → Thinking → Influence → Creation → AI → Pra
 | # | Date | Title | Theme | Status |
 |---|---|---|---|---|
 | 1 | Jun 5 | Saved by the bell. Or trapped by it. | Phone in conversation | Posted ✅ |
-| 2 | Jun 7 | We're all wet. And we pretend we're not. | We don't finish things | To be posted |
-| 3 | Jun 9 | I publish. Then the categories appear. | Online identity | To be posted |
-| 4 | Jun 11 | Marketable. Until you're not. | How we remember people | To be posted |
-| 5 | Jun 13 | I can't read the operating system behind it. | Childhood as lost species | To be posted |
-| 6 | Jun 15 | The first stupid thought, dressed up as conviction. | Digested complexity | To be posted |
-| 7 | Jun 17 | The system is rigged. And that's not the whole story. | Inequality | To be posted |
-| 8 | Jun 19 | You weren't convinced. You were mirrored. | Influence and tribes | To be posted |
-| 9 | Jun 21 | No system corrupts from the outside. | People in systems | To be posted |
-| 10 | Jun 23 | The blue was never in the paint. | Constraints as source | To be posted |
-| 11 | Jun 25 | The deity hallucinated. So they grabbed the hammer. | LLMs as oracles | To be posted |
-| 12 | Jun 27 | The Romans had many gods. We have many models. | LLM market | To be posted |
-| 13 | Jul 1 | The solo operator with better tools isn't the future. | Structure vs surface | To be posted |
-| 14 | Jul 3 | Everyone did their job. The result was still generic. | The brief | To be posted |
-| 15 | Jul 5 | You don't need a new look. | Brand vs identity | To be posted |
-| 16 | Jul 7 | The designer delivered exactly what was briefed. | Process without strategy | To be posted |
-| 17 | Jul 9 | What happens in that room stays in that room. | Confidentiality as standard | To be posted |
-| 18 | Jul 11 | Every new project starts with the same question. | Orientation over speed | To be posted |
+| 2 | Jun 8 | We're all wet. And we pretend we're not. | We don't finish things | Posted ✅ |
+| 3 | Jun 10 | I publish. Then the categories appear. | Online identity | Posted ✅ |
+| — | Jun 10 | **Marcus Aurelius** (extra — outside series) | Founder isolation | Posted ✅ ⚠️ |
+| — | Jun 12 | Marketable. Until you're not. | How we remember people | Posted ✅ (posted by Buffer) |
+| 4 | Jun 15 | I can't read the operating system behind it. | Childhood as lost species | To be posted |
+| 5 | Jun 17 | The first stupid thought, dressed up as conviction. | Digested complexity | To be posted |
+| 6 | Jun 19 | The system is rigged. And that's not the whole story. | Inequality | To be posted |
+| 7 | Jun 22 | You weren't convinced. You were mirrored. | Influence and tribes | To be posted |
+| 8 | Jun 24 | No system corrupts from the outside. | People in systems | To be posted |
+| 9 | Jun 26 | The blue was never in the paint. | Constraints as source | To be posted |
+| 10 | Jun 29 | The deity hallucinated. So they grabbed the hammer. | LLMs as oracles | To be posted |
+| 11 | Jul 1 | The Romans had many gods. We have many models. | LLM market | To be posted |
+| 12 | Jul 3 | The solo operator with better tools isn't the future. | Structure vs surface | To be posted |
+| 13 | Jul 6 | Everyone did their job. The result was still generic. | The brief | To be posted |
+| 14 | Jul 8 | You don't need a new look. | Brand vs identity | To be posted |
+| 15 | Jul 10 | The designer delivered exactly what was briefed. | Process without strategy | To be posted |
+| 16 | Jul 13 | What happens in that room stays in that room. | Confidentiality as standard | To be posted |
+| 17 | Jul 15 | Every new project starts with the same question. | Orientation over speed | To be posted |
+| 18 | Jul 17 | Three variants. | Gastric logo critique | To be posted |
 
 #### B. Gastric Gateways (beyond serialization)
 
@@ -170,10 +172,34 @@ Not competition — an echo. Same signal, two different frequencies.
 
 ### 6. Groups
 
-Include groups in regular strategy:
-- **Founders & Startups: Vibe Coding, AI Agents** — most relevant (409 impressions)
-- Other groups where the Observer's observations make sense
-- **Not** Designers Talk (the 4,777 outlier was accidental, not a goal)
+Only Personal account posts in groups — Goodspell Page has limited group access. Groups are a **discovery channel**: founders see an Observer post, check the profile, find Goodspell.
+
+#### 🔥 Active — post weekly
+- **Founders & Startups: Vibe Coding, AI Agents** (28k) — Observer series + cross-pollination. ✅ Tested: 409 impressions.
+- **Executive Leadership — Founders, CEO, COO, CFO, CMO...** (4.4k) — Goodspell-adjacent content (brand strategy, positioning). Most targeted group.
+- **Tech Founders & Business Leadership** (83k) — Cross-pollination: brand vs tech observations.
+
+#### 🧪 Test — 1-2 posts, then measure signal
+- **CMO Roundtable — By Invitation Only** (1.8k) — Only high-level brand strategy. CMOs refer agencies.
+- **CMO Forum** (4.3k) — Same approach.
+- **Startup Europe Club** (7.6k) — Observer series, if targeting Europe.
+- **Startup USA Club** (12.9k) — Observer series, if targeting US.
+- **The Founders Exchange** (263k) — Test with one sharp post. High noise potential.
+- **Entrepreneurs, Founders, Startups, Investors...** (74k) — Test signal quality.
+- **Global Entrepreneurship Network** (17k) — Already posted once; retest.
+
+#### 📡 Watch only — no posting, engage in comments when relevant
+- **Chief Growth Officer Community** (1.3k) — Growth ≠ brand. Join brand discussions.
+
+#### ❌ Exited
+- Small Business & Independent Consultant Network
+- Digital Marketing: Social Media, Search, AI Marketing...
+- Media & Marketing Professionals Worldwide
+- Chicago Business | ... AI Illinois USA
+- Founders Club | ... DialEzee
+- AI Builders Nexus
+- European Entrepreneurship & Innovation @ Silicon Valley
+- Designers Talk (4,777 outlier — accidental, not replicable)
 
 ---
 
@@ -181,7 +207,7 @@ Include groups in regular strategy:
 
 | Phase | Period | Content | Frequency |
 |---|---|---|---|
-| 1. Observer serialization | Jun 5 — Jul 11 | 18 posts, arc: Attention → Practice | Every 2 days |
+| 1. Observer serialization | Jun 5 — Jul 17 | 18 posts, arc: Attention → Practice | Every 2 days |
 | 2. Gastric gateways | Jul 13+ | Three variants, then series | 2/week |
 | 3. While I Still Know | After Jul 13 | 10 personal texts | 2/week |
 | 4. Cross-pollination | Ongoing | Repost Goodspell content with personal voice | 1/week |
