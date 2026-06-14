@@ -2,6 +2,8 @@
 
 ## ⚡ Entry Point (Start Here)
 
+**Open pi in:** `~/projects/social-strategy` (project root, not account subdirectory)
+
 This project orchestrates **3 LinkedIn accounts** for Sandro Pasqual. The architecture is:
 
 | Priority | Account | Voice | Rhythm | Status |
