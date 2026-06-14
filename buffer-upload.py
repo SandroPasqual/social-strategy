@@ -65,20 +65,29 @@ def load_posts(posts_dir):
         
         text = strip_yaml(content)
         
-        # Caută o imagine PNG asociată (același prefix numeric gen "11-BLACK")
-        prefix_match = re.match(r'\d{4}-\d{2}-\d{2}\s+(\d+)-', fname)
+        # Caută o imagine PNG asociată
         image_url = None
-        if prefix_match:
-            num_prefix = prefix_match.group(1)
-            for f in os.listdir(posts_dir):
-                if f.endswith('.png') and f.startswith(num_prefix):
-                    # Cale relativă de la rădăcina repo-ului
-                    rel_path = os.path.relpath(os.path.join(posts_dir, f), REPO_ROOT)
-                    # Codifică fiecare componentă a căii pentru URL
-                    parts = rel_path.split(os.sep)
-                    encoded_parts = [urllib.parse.quote(p) for p in parts]
-                    image_url = f"{GITHUB_RAW}/{'/'.join(encoded_parts)}"
-                    break
+        # 1) Convenția Personal: YYYY-MM-DD.png (același prefix de dată)
+        date_prefix = match.group(1)  # e.g. "2026-06-15"
+        for f in os.listdir(posts_dir):
+            if f.endswith('.png') and f.startswith(date_prefix):
+                rel_path = os.path.relpath(os.path.join(posts_dir, f), REPO_ROOT)
+                parts = rel_path.split(os.sep)
+                encoded_parts = [urllib.parse.quote(p) for p in parts]
+                image_url = f"{GITHUB_RAW}/{'/'.join(encoded_parts)}"
+                break
+        # 2) Convenția Goodspell: prefix numeric gen "11-BLACK"
+        if not image_url:
+            prefix_match = re.match(r'\d{4}-\d{2}-\d{2}\s+(\d+)-', fname)
+            if prefix_match:
+                num_prefix = prefix_match.group(1)
+                for f in os.listdir(posts_dir):
+                    if f.endswith('.png') and f.startswith(num_prefix):
+                        rel_path = os.path.relpath(os.path.join(posts_dir, f), REPO_ROOT)
+                        parts = rel_path.split(os.sep)
+                        encoded_parts = [urllib.parse.quote(p) for p in parts]
+                        image_url = f"{GITHUB_RAW}/{'/'.join(encoded_parts)}"
+                        break
         
         posts.append({
             'path': fpath,
