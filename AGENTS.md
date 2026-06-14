@@ -388,3 +388,57 @@ python3 buffer-upload.py personal --dry-run  # preview only
 - Buffer personal key funcționează doar cu GraphQL pe `api.buffer.com`
 - Token-ul vechi (OIDC, `uMadUw...`) nu mai funcționează cu API-ul direct
 - Cont gratuit = 10 postări simultan max
+
+---
+
+## Image Generation — Post Visuals
+
+**Status:** Prototype approved ✅
+
+**Font:** Syne 800 (ExtraBold via variable font `Syne[wght].ttf`)
+- Path: `~/.fonts/syne/Syne-variable.ttf`
+- Weight: 800 (`font.set_variation_by_name('ExtraBold')`)
+- Size: **64px**
+
+**Canvas:** 1200×627px (LinkedIn link preview)
+
+**Margins:**
+- Left/Right: **100px**
+- Top: **120px**
+- Bottom: auto (text is top-aligned)
+- Line height: **78px**
+
+**Colors (two alternating palettes):**
+
+| Variant | Background | Text |
+|---------|-----------|------|
+| Dark  | `#181715` | `#868177` |
+| Light | `#868177` | `#181715` |
+
+**No author name** on images. Only extracted text.
+
+**Text rule:** Extract **the scroll-stopping essence** from the post — not the first line, not the title. A short, mysterious, provocative fragment that makes the reader stop and wonder. Maximum 3-4 short lines.
+
+**Color alternation:** Switch between dark and light variants periodically.
+
+**Storage:** Images saved as PNG alongside the post in `To be posted/` with the same date prefix. `buffer-upload.py` already has logic to find and upload matching PNGs via GitHub raw URL.
+
+**Script to generate all:** Pending — currently testing one-by-one.
+
+---
+
+## Today's Cleanup (Jun 13)
+
+| Action | Details |
+|--------|---------|
+| ✅ Root Personal cleaned | 27 files → 3 strategic (Strategic Analysis, Strategy Proposal, buffer-config) |
+| ✅ Drafts deleted | 13 ciorne procesate — all had equivalents in Posted/ or To be posted/ |
+| ✅ `~ Idei.md` archived | Moved to `Framework/_idei-brute.md` — raw idea seeds |
+| ✅ Personal files moved | Orade Spania, Pasiunea, Vram, Xolo → `ecosystem/` |
+| ✅ Al Doilea Val deleted | Exists in `drive/Ideas/` already |
+| ✅ Design file deleted | "12. Negative space logo" — design topics not posted |
+| ✅ Groups audited | 18 evaluated → 11 remain (3 active, 7 test, 1 watch), 8 exited |
+| ✅ Marketable moved | Was scheduled Jul 20 in To be posted/ but Buffer already sent it on Jun 12 → moved to Posted/ |
+| ✅ Buffer connected | Personal Key works via GraphQL API; 10 posts scheduled at 17:00 RO |
+| ✅ GitHub pushed | Remote URL updated with token; all changes committed and pushed |
+| ✅ Image mockups | 2 test images approved (dark + light variants) |
