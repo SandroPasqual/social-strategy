@@ -1,7 +1,22 @@
 # AGENTS.md — Social Strategy Ecosystem
 
-## Role
-This project defines the LinkedIn content strategy for 3 accounts: Personal (Sandro Pasqual), Goodspell.online, Devorator. It collects, analyzes, and structures published posts + drafts with standardized YAML front matter.
+## ⚡ Entry Point (Start Here)
+
+This project orchestrates **3 LinkedIn accounts** for Sandro Pasqual. The architecture is:
+
+| Priority | Account | Voice | Rhythm | Status |
+|----------|---------|-------|--------|--------|
+| **1** | **Personal** (Sandro Pasqual) | Gastric / The Observer | Mon/Wed/Fri, 17:00 RO | ✅ Active — 66 posted, 40 scheduled, images generated |
+| **2** | **Goodspell.online** (Page) | Gastric + Framework / The Architect | Tue/Thu | ⏸️ Paused — 20 posted, 50 queued, no images yet |
+| **3** | **Devorator** (Facebook) | — | — | ❌ Not started — needs analysis |
+
+**Current date:** 2026-06-13 (Saturday). Next post: Jun 15 (Monday) "I can't read the operating system behind it" at 17:00 RO via Buffer.
+
+**Buffer:** Connected ✅ — 10 posts scheduled with images at 17:00 RO (10:00 ET).
+**Groups:** 11 active (3 post, 7 test, 1 watch), 8 exited.
+**User contact:** Romanian, English-only on LinkedIn. "Big Pickle" = me (the AI agent).
+
+**First thing to do in a new session:** Check Buffer queue (are there free slots?), check if any posted items need moving from `To be posted/` → `Posted/`, then ask user what they want to work on.
 
 ---
 
@@ -9,46 +24,46 @@ This project defines the LinkedIn content strategy for 3 accounts: Personal (San
 
 ```
 Social strategy/
-├── AGENTS.md                    ← this file
-├── TEMPLATE.md                  ← standardized post format
-├── Ideas/                       ← original Google Drive data (READ-ONLY)
+├── AGENTS.md                    ← THIS FILE — read first
+├── buffer-upload.py             ← script to upload posts to Buffer (GraphQL)
+├── generate-images.py           ← script to generate PNG visuals for posts
+├── TEMPLATE.md                  ← standardized post format (front matter)
 │
 ├── Personal/                    ← PRIMARY ACCOUNT — trust is built here
-│   ├── Posted/                  ← published posts (65 files)
-│   ├── To be posted/            ← prepped for publication with front matter (41 files)
-│   ├── Framework/               ← voice, comment strategy, field notes, series archive
+│   ├── Posted/                  ← published posts (66 .md files)
+│   ├── To be posted/            ← prepped for publication (40 .md + 40 .png)
+│   ├── Framework/               ← voice, comment strategy, field notes (10 files)
 │   │   ├── README.md
-│   │   ├── 00-distilare-completa.md
-│   │   ├── 01-vocea-personala-ton.md
+│   │   ├── 00-distilare-completa.md     ← comprehensive worldview distillation
+│   │   ├── 01-vocea-personala-ton.md    ← voice reference: Gastric mechanism, rules
 │   │   ├── 02-engagement-comment-strategy.md
-│   │   ├── 02b-commenturi-teren.md
-│   │   ├── 03-seria-14-posturi-marcus-aurelius.md
-│   │   ├── 04-engagement-postari-date.md
-│   │   ├── 05-prezentare-grup-nou.md
-│   │   ├── 06-misiune-mordor-fundament.md
-│   │   └── _idei-brute.md
-│   ├── Strategic Analysis.md    ← full diagnostic
-│   └── Strategy Proposal.md    ← decisions, rules, differentiation
+│   │   ├── 02b-commenturi-teren.md ← real-world comment cases (537 impressions)
+│   │   ├── 03-seria-14-posturi-marcus-aurelius.md ← series origin
+│   │   ├── 04-engagement-postari-date.md ← engagement data + "The First Line" analysis
+│   │   ├── 05-prezentare-grup-nou.md ← group introduction case study
+│   │   ├── 06-misiune-mordor-fundament.md ← Mordor mission framework
+│   │   └── _idei-brute.md ← raw idea seeds
+│   ├── buffer-config.md         ← Buffer config + API key (private repo, committed)
+│   ├── Strategic Analysis.md    ← full diagnostic of past performance
+│   └── Strategy Proposal.md     ← decisions, rules, positioning
 │
 ├── Goodspell.online/            ← SECONDARY ACCOUNT — supports, does not lead
-│   ├── Posted/                  ← page posts published (10 files + images)
+│   ├── Posted/                  ← page posts published (20 files)
 │   ├── To be posted/            ← 50 posts with WHITE/BLACK numbering (14 with images)
 │   ├── Drafts/                  ← drafts waiting to be structured
 │   │   └── mortar-most-people-pitch.md
-│   ├── Framework/               ← positioning, content, client intelligence
-│   │   ├── README.md
-│   │   ├── 01-positioning-brand-foundation.md
-│   │   ├── 03-content-playbook.md
-│   │   ├── 04-homepage-copy.md
-│   │   └── 05-client-intelligence.md
-│   ├── Brand Playbook/          ← original source documents
-│   ├── Backup/                  ← friction moments, publication order, strategic analysis
+│   ├── Framework/               ← positioning, content, client intelligence (5 files)
+│   ├── Brand Playbook/          ← original source documents (15 files)
+│   ├── buffer-config.md         ← Buffer config (same API key)
+│   ├── Backup/                  ← publication order, strategic analysis, friction docs
 │   └── linkedin-image-builder/  ← image generation tool (to be rebuilt with SQLite)
 │
-└── Devorator/                   ← to be analyzed later
+└── Devorator/                   ← NOT STARTED — needs Facebook strategy analysis
     ├── Extindere devorator.md
     └── Model devorator.md
 ```
+
+**Important:** The API key is stored in `Personal/buffer-config.md` and `Goodspell.online/buffer-config.md`. The repo is private, so credentials are committed. `.buffer-*.env` files are gitignored (local copies).
 
 ---
 
@@ -234,8 +249,8 @@ awk -F': ' '/^impressions:/{print $2}' Personal/Posted/*.md | sort -n | tail -5
 - Homepage Copy: `Goodspell.online/Brand Playbook/Goodspell — Homepage Copy.md`
 - **Comment Framework** (with active thread tracking): `Goodspell.online/Brand Playbook/Goodspell — LinkedIn Comment Framework.md`
 - Goodspell Drafts: `Goodspell.online/Drafts/` (mortar post, future drafts)
-- Published posts: `Personal/Posted/` (65 posts), `Goodspell.online/Posted/`
-- To be posted: `Personal/To be posted/` (41 posts), `Goodspell.online/To be posted/` (50 posts)
+- Published posts: `Personal/Posted/` (66 posts), `Goodspell.online/Posted/` (20)
+- To be posted: `Personal/To be posted/` (40 posts + 40 images), `Goodspell.online/To be posted/` (50 posts)
 
 ---
 
@@ -393,10 +408,10 @@ python3 buffer-upload.py personal --dry-run  # preview only
 
 ## Image Generation — Post Visuals
 
-**Status:** Prototype approved ✅
+**Status:** ✅ Complete for all 40 Personal posts
 
 **Font:** Syne 800 (ExtraBold via variable font `Syne[wght].ttf`)
-- Path: `~/.fonts/syne/Syne-variable.ttf`
+- Path: `~/.fonts/syne/Syne-variable.ttf` (auto-downloaded from Google Fonts)
 - Weight: 800 (`font.set_variation_by_name('ExtraBold')`)
 - Size: **64px**
 
@@ -405,40 +420,78 @@ python3 buffer-upload.py personal --dry-run  # preview only
 **Margins:**
 - Left/Right: **100px**
 - Top: **120px**
-- Bottom: auto (text is top-aligned)
 - Line height: **78px**
 
-**Colors (two alternating palettes):**
+**Colors (alternating dark/light):**
 
 | Variant | Background | Text |
 |---------|-----------|------|
-| Dark  | `#181715` | `#868177` |
-| Light | `#868177` | `#181715` |
+| Dark (even index) | `#181715` | `#868177` |
+| Light (odd index) | `#868177` | `#181715` |
 
 **No author name** on images. Only extracted text.
 
-**Text rule:** Extract **the scroll-stopping essence** from the post — not the first line, not the title. A short, mysterious, provocative fragment that makes the reader stop and wonder. Maximum 3-4 short lines.
+**Text rule:** Extract **the scroll-stopping essence** — not the first line, not the title. A short, mysterious, provocative fragment. Max 3-4 lines.
 
-**Color alternation:** Switch between dark and light variants periodically.
+**Storage:** PNG saved alongside `.md` with same date prefix: `2026-06-15.png` next to `2026-06-15 Title.md`
 
-**Storage:** Images saved as PNG alongside the post in `To be posted/` with the same date prefix. `buffer-upload.py` already has logic to find and upload matching PNGs via GitHub raw URL.
+**Script:** `generate-images.py` — auto-extracts essence (heuristic) + wraps text. First 10 images manually refined with curated text.
 
-**Script to generate all:** Pending — currently testing one-by-one.
+**Buffer upload:** `buffer-upload.py` automatically finds matching PNG via date prefix and includes it as asset.
 
 ---
 
-## Today's Cleanup (Jun 13)
+## Project Status Dashboard
+
+### 📊 Personal Account
+| Metric | Value |
+|--------|-------|
+| **Posted** | 66 posts (Jun 2025 – Jun 2026) |
+| **To be posted** | 40 posts with 40 images (Jun 15 – Sep 14) |
+| **Buffer scheduled** | 10 posts with images (Jun 15 – Jul 6, 17:00 RO) |
+| **Groups active** | 3 (Founders & Startups, Executive Leadership, Tech Founders) |
+| **Groups testing** | 7 (CMO Roundtable, CMO Forum, Startup Europe, Startup USA, Founders Exchange, Entrepreneurs Network, Global Entrepreneurship) |
+| **Groups watch** | 1 (CGO Community) |
+| **Groups exited** | 8 (Small Business, Digital Marketing, Media & Marketing, Chicago, Founders Club, AI Builders, European Entrepreneurship, Designers Talk) |
+
+### 📊 Goodspell.online Account
+| Metric | Value |
+|--------|-------|
+| **Posted** | 20 posts (Phase 1 started) |
+| **To be posted** | 50 posts (WHITE/BLACK, #01–#50) |
+| **Images** | None generated yet — needs Goodspell brand colors/fonts |
+| **Buffer** | Same API key, different channel ID (`69b58b0f7be9f8b171572aab`) |
+| **Status** | ⏸️ Paused — waiting for Personal to complete before resuming |
+
+### 📊 Devorator Account
+| Metric | Value |
+|--------|-------|
+| **Status** | ❌ Not started |
+| **Files** | `Extindere devorator.md`, `Model devorator.md` (unprocessed) |
+| **Next** | Needs full strategy analysis, voice definition, content audit |
+
+---
+
+## Next Steps (Prioritized)
+
+1. **Maintain Buffer queue** — After each post publishes, it frees a slot. Upload next post from `To be posted/` via `python3 buffer-upload.py personal`.
+2. **Refine remaining 30 images** — First 10 are manually curated; others were auto-extracted. User may want to manually pick better text for some.
+3. **Resume Goodspell** — Start with Drafts/ (mortar post), then generate images (needs brand fonts/colors), then upload to Buffer.
+4. **Start Devorator** — Read existing files, analyze Facebook strategy, define voice.
+5. **Cross-pollination** — Personal sharing Goodspell posts (after Goodspell is active).
+
+---
+
+## Cleanup History (Jun 13, 2026)
 
 | Action | Details |
 |--------|---------|
-| ✅ Root Personal cleaned | 27 files → 3 strategic (Strategic Analysis, Strategy Proposal, buffer-config) |
-| ✅ Drafts deleted | 13 ciorne procesate — all had equivalents in Posted/ or To be posted/ |
-| ✅ `~ Idei.md` archived | Moved to `Framework/_idei-brute.md` — raw idea seeds |
+| ✅ Root Personal cleaned | 27 files → 3 strategic |
+| ✅ Drafts deleted | 13 ciorne procesate (all had equivalents) |
+| ✅ `~ Idei.md` archived | → `Framework/_idei-brute.md` |
 | ✅ Personal files moved | Orade Spania, Pasiunea, Vram, Xolo → `ecosystem/` |
-| ✅ Al Doilea Val deleted | Exists in `drive/Ideas/` already |
-| ✅ Design file deleted | "12. Negative space logo" — design topics not posted |
-| ✅ Groups audited | 18 evaluated → 11 remain (3 active, 7 test, 1 watch), 8 exited |
-| ✅ Marketable moved | Was scheduled Jul 20 in To be posted/ but Buffer already sent it on Jun 12 → moved to Posted/ |
-| ✅ Buffer connected | Personal Key works via GraphQL API; 10 posts scheduled at 17:00 RO |
-| ✅ GitHub pushed | Remote URL updated with token; all changes committed and pushed |
-| ✅ Image mockups | 2 test images approved (dark + light variants) |
+| ✅ Design file deleted | "12. Negative space logo" — not posted |
+| ✅ Groups audited | 18 evaluated → 11 remain, 8 exited |
+| ✅ Marketable corrected | Buffer already posted on Jun 12 → moved to Posted/ |
+| ✅ Buffer connected | Personal Key works via GraphQL; 10 posts with images |
+| ✅ 40 images generated | All Personal posts now have PNG visuals |
