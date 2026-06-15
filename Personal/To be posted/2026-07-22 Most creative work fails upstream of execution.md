@@ -6,6 +6,7 @@ comments: 0
 impressions: 0
 status: to_be_posted
 type: text
+image_deco: "Personal/deco.svg"
 ---
 
 The designer is briefed without a positioning. The copywriter writes without knowing who the client actually is. The strategist delivers a deck that nobody implements. Each does their part correctly — and the result is still generic.

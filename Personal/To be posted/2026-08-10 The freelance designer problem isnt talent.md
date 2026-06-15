@@ -6,6 +6,7 @@ comments: 0
 impressions: 0
 status: to_be_posted
 type: text
+image_deco: "Personal/deco.svg"
 ---
 
 When you're the strategist, the account manager, the bookkeeper, and the executor — you can't think at the level the work requires. The friction doesn't just waste time. It compresses the quality of judgment.
