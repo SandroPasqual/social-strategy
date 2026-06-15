@@ -12,13 +12,15 @@ This project orchestrates **3 LinkedIn accounts** for Sandro Pasqual. The archit
 | **2** | **Goodspell.online** (Page) | Gastric + Framework / The Architect | Tue/Thu | ⏸️ Paused — 20 posted, 50 queued, no images yet |
 | **3** | **Devorator** (Facebook) | — | — | ❌ Not started — needs analysis |
 
-**Current date:** 2026-06-13 (Saturday). Next post: Jun 15 (Monday) "I can't read the operating system behind it" at 17:00 RO via Buffer.
+**Current date:** 2026-06-15 (Monday). Next post: Today "I can't read the operating system behind it" at 17:00 RO via Buffer.
 
 **Buffer:** Connected ✅ — 10 posts scheduled with images at 17:00 RO (10:00 ET).
 **Groups:** 11 active (3 post, 7 test, 1 watch), 8 exited.
 **User contact:** Romanian, English-only on LinkedIn. "Big Pickle" = me (the AI agent).
 
-**First thing to do in a new session:** Check Buffer queue (are there free slots?), check if any posted items need moving from `To be posted/` → `Posted/`, then ask user what they want to work on.
+**First thing to do in a new session:** Run startup check → `python3 buffer-upload.py personal --check` (1 API call — shows queue status + alerts if anything needs moving). Then ask user what they want to work on. Never manually introspect the Buffer GraphQL schema (tokeni arși degeaba).
+
+**TODO activ:** `TODO.md` — conține lista de corecții curentă. Verifică la începutul sesiunii.
 
 ---
 
@@ -27,6 +29,7 @@ This project orchestrates **3 LinkedIn accounts** for Sandro Pasqual. The archit
 ```
 Social strategy/
 ├── AGENTS.md                    ← THIS FILE — read first
+├── TODO.md                      ← lista curentă de corecții
 ├── buffer-upload.py             ← script to upload posts to Buffer (GraphQL)
 ├── generate-images.py           ← script to generate PNG visuals for posts
 ├── TEMPLATE.md                  ← standardized post format (front matter)
@@ -34,6 +37,7 @@ Social strategy/
 ├── Personal/                    ← PRIMARY ACCOUNT — trust is built here
 │   ├── Posted/                  ← published posts (66 .md files)
 │   ├── To be posted/            ← prepped for publication (40 .md + 40 .png)
+│   ├── Drafts/                  ← raw text intake → pe aici intră idei noi
 │   ├── Framework/               ← voice, comment strategy, field notes (10 files)
 │   │   ├── README.md
 │   │   ├── 00-distilare-completa.md     ← comprehensive worldview distillation
@@ -208,6 +212,18 @@ Short, punchy "You"-format posts addressing founder-creative dynamics.
 ## Useful Commands
 
 ```bash
+# Startup check — queue + postări de mutat (1 API call)
+python3 buffer-upload.py personal --check
+
+# Vezi doar queue-ul Buffer
+python3 buffer-upload.py personal --queue
+
+# Preview (dry-run) următoarele N postări
+python3 buffer-upload.py personal --dry-run
+
+# Upload next 10 posts to Buffer
+python3 buffer-upload.py personal
+
 # List published posts (Personal)
 ls -1 "Personal/Posted/"*.md | wc -l
 
@@ -362,6 +378,8 @@ This is not a game. Every action here affects real content that represents a per
 3. **Flow over hardcode** — strategy evolves with real data.
 4. **Preserve originals** — `Ideas/` is read-only. Modifications go to `Posted/` or `To be posted/`.
 5. **One step at a time** — one post, one observation, one adjustment.
+6. **Ask → listen → act** — When the user asks a question, answer it first. Do not act on assumptions. Discuss before executing. Haotic = interzis.
+7. **Clean as you go** — temp files, variants, /tmp, anything temporary se șterge imediat ce nu mai e nevoie. Directorul rămâne curat.
 
 ## File Safety Protocol
 
@@ -419,10 +437,13 @@ python3 buffer-upload.py personal --dry-run  # preview only
 
 **Canvas:** 1200×627px (LinkedIn link preview)
 
-**Margins:**
-- Left/Right: **100px**
-- Top: **120px**
+**Layout:**
+- `✳` deco (din `Personal/deco.svg`): y=100, gardă 100px sus
+- Text: y=220, left=100px
 - Line height: **78px**
+- Font: Syne ExtraBold 64px
+
+**Template files:** `Personal/template-dark.{png,svg}` / `Personal/template-light.{png,svg}` — layout gol
 
 **Colors (alternating dark/light):**
 
@@ -433,11 +454,28 @@ python3 buffer-upload.py personal --dry-run  # preview only
 
 **No author name** on images. Only extracted text.
 
-**Text rule:** Extract **the scroll-stopping essence** — not the first line, not the title. A short, mysterious, provocative fragment. Max 3-4 lines.
+**Text rule for images:**
+- **Nu** folosi prima linie a postării (titlul apare deja în LinkedIn preview)
+- **Maxim 3 linii** — 4 e prea lung
+- Textul trebuie să fie mysterious, provocator, scroll-stopping
+- Se extrage din mijlocul sau finalul postării, nu de la început
 
-**Storage:** PNG saved alongside `.md` with same date prefix: `2026-06-15.png` next to `2026-06-15 Title.md`
+**Workflow pentru imagini noi:**
+1. Se propun 2-3 variante de text (scurt, misterios, din mijlocul postării)
+2. Se verificaîncadrarea (Syne 64px, max 1000px, max 3 linii)
+3. Se generează **ambele variante de paletă** (dark + light) în `Personal/To be posted/` cu sufix `_variant-dark.png` / `_variant-light.png`
+4. Userul alege varianta
+5. Se șterge varianta neselectată
+6. Se redenumește varianta aleasă la numele standard `YYYY-MM-DD.png`
+7. Se adaugă `image_text:` în front matter
 
-**Script:** `generate-images.py` — auto-extracts essence (heuristic) + wraps text. First 10 images manually refined with curated text.
+**Curățenie:** Fișiere temporare (variante, /tmp, etc.) se șterg imediat după ce nu mai sunt necesare. Nu se aglomerează directorul.
+
+**Custom text per post:** Adaugă `image_text:` în front matter-ul `.md`-ului dacă vrei o frază diferită de auto-extragere. Scriptul o va folosi prioritar.
+
+**Storage:** PNG + SVG saved alongside `.md` with same date prefix: `2026-06-15.png` + `2026-06-15.svg` next to `2026-06-15 Title.md`. SVG-ul e editabil vectorial (se deschide în orice editor).
+
+**Script:** `generate-images.py` — auto-extracts essence (heuristic) + wraps text. Generează PNG + SVG simultan.
 
 **Buffer upload:** `buffer-upload.py` automatically finds matching PNG via date prefix and includes it as asset.
 

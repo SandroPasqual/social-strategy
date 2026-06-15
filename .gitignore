@@ -6,3 +6,5 @@ Thumbs.db
 
 # Buffer API keys (ignored)
 .buffer-*.env
+__pycache__/
+*.pyc

@@ -1,11 +1,13 @@
 ---
-date: 2026-06-17
+date: 2026-06-19
 platform: LinkedIn
 likes: 0
 comments: 0
 impressions: 0
 status: to_be_posted
 type: text
+image_text: "The absolution asks nothing of you."
+image_deco: "Personal/deco.svg"
 ---
 
 The system is rigged. And that's not the whole story.

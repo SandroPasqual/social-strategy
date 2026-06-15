@@ -5,6 +5,8 @@ likes: 0
 comments: 0
 impressions: 0
 status: to_be_posted
+image_text: "What filled the silence between events?"
+image_deco: "Personal/deco.svg"
 type: text
 ---
 

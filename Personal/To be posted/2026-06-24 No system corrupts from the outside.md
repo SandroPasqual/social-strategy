@@ -6,6 +6,7 @@ comments: 0
 impressions: 0
 status: to_be_posted
 type: text
+image_deco: "Personal/deco.svg"
 ---
 
 No system corrupts from the outside.

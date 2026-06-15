@@ -20,11 +20,13 @@ ACCOUNTS = {
         'env': '.buffer-personal.env',
         'dir': 'Personal',
         'channel_id': '69b58b0f7be9f8b171572aac',
+        'org_id': '6717dc879d4733f183af40e3',
     },
     'goodspell': {
         'env': '.buffer-goodspell.env',
         'dir': 'Goodspell.online',
         'channel_id': '69b58b0f7be9f8b171572aab',
+        'org_id': '6717dc879d4733f183af40e3',
     },
 }
 
@@ -113,6 +115,85 @@ def graphql_request(token, query, variables=None):
     except urllib.error.HTTPError as e:
         return json.loads(e.read())
 
+def check_posts_to_move(posts_dir, posted_dir):
+    """Verifică local dacă vreo postare din To be posted a fost deja publicată (data în urmă) și nu a fost mutată."""
+    if not os.path.isdir(posts_dir) or not os.path.isdir(posted_dir):
+        return 0
+
+    import datetime
+    today = datetime.date.today().isoformat()
+
+    posted_files = set()
+    for fname in os.listdir(posted_dir):
+        if fname.endswith('.md'):
+            match = re.match(r'(\d{4}-\d{2}-\d{2})\s+', fname)
+            if match:
+                posted_files.add(match.group(1))
+
+    to_move = []
+    for fname in sorted(os.listdir(posts_dir)):
+        if fname.endswith('.md'):
+            match = re.match(r'(\d{4}-\d{2}-\d{2})\s+(.+\.md$)', fname)
+            if match:
+                date_str = match.group(1)
+                if date_str < today and date_str not in posted_files:
+                    to_move.append((date_str, fname))
+
+    if not to_move:
+        return 0
+
+    print(f"  ⚠️  {len(to_move)} postări cu data în urmă, posibil publicate:")
+    for date_str, fname in to_move:
+        print(f"     {date_str} — {fname[:60]}")
+    print("     rulează: mv ... (manual, după verificare)\n")
+    return len(to_move)
+
+
+def show_queue(token, channel_id, org_id):
+    """Arată postările programate în Buffer — un API call."""
+    query = '''
+    query GetQueue($input: PostsInput!) {
+      posts(input: $input) {
+        totalCount
+        edges {
+          node {
+            id
+            text
+            dueAt
+            status
+            assets { id mimeType }
+          }
+        }
+      }
+    }
+    '''
+    variables = {
+        'input': {
+            'organizationId': org_id,
+            'filter': {
+                'channelIds': [channel_id],
+                'status': 'scheduled',
+            },
+        }
+    }
+    result = graphql_request(token, query, variables)
+    posts = result.get('data', {}).get('posts', {})
+    edges = posts.get('edges', [])
+    
+    if not edges:
+        print("📭 Queue goală — 0 postări programate.")
+        return
+
+    print(f"📋 {len(edges)} postări în queue:\n")
+    for edge in edges:
+        node = edge['node']
+        due = node['dueAt'][:10] if node.get('dueAt') else '??'
+        text_preview = node['text'][:70].replace('\n', ' ')
+        has_asset = ' 🖼️' if node.get('assets') else ''
+        print(f"  {due} — {text_preview}...{has_asset}")
+    print()
+
+
 def schedule_post(token, channel_id, text, due_at, image_url=None):
     """Programează o postare cu sau fără imagine (folosind GraphQL variables)."""
     
@@ -159,15 +240,104 @@ def schedule_post(token, channel_id, text, due_at, image_url=None):
         error = result.get('errors', [{'message': 'unknown error'}])[0]['message']
         return False, error, []
 
+def delete_queue(token, channel_id, org_id):
+    """Șterge TOATE postările programate din queue."""
+    # 1) Ia postările
+    query = '''
+    query GetQueue($input: PostsInput!) {
+      posts(input: $input) {
+        totalCount
+        edges {
+          node {
+            id
+            text
+            dueAt
+          }
+        }
+      }
+    }
+    '''
+    variables = {
+        'input': {
+            'organizationId': org_id,
+            'filter': {
+                'channelIds': [channel_id],
+                'status': 'scheduled',
+            },
+        }
+    }
+    result = graphql_request(token, query, variables)
+    edges = result.get('data', {}).get('posts', {}).get('edges', [])
+    
+    if not edges:
+        print("📭 Queue goală — nimic de șters.")
+        return 0
+    
+    print(f"🗑️ Șterg {len(edges)} postări din queue...")
+    
+    mutation = '''
+    mutation DeletePost($input: DeletePostInput!) {
+      deletePost(input: $input) {
+        ... on DeletePostSuccess {
+          id
+        }
+        ... on VoidMutationError {
+          message
+        }
+      }
+    }
+    '''
+    
+    deleted = 0
+    for edge in edges:
+        post_id = edge['node']['id']
+        due = edge['node']['dueAt'][:10]
+        text_preview = edge['node']['text'][:50].replace('\n', ' ')
+        
+        del_vars = {'input': {'id': post_id}}
+        del_result = graphql_request(token, mutation, del_vars)
+        
+        if del_result.get('data', {}).get('deletePost', {}).get('id'):
+            print(f"    ✅ {due} — {text_preview}...")
+            deleted += 1
+        else:
+            err = del_result.get('errors', [{}])[0].get('message', 'unknown')
+            print(f"    ❌ {due} — {err}")
+    
+    print(f"\n🗑️ {deleted} șterse din queue.")
+    return deleted
+
+
+def show_check(token, channel_id, org_id, posts_dir, posted_dir):
+    """Startup checklist complet: queue + postări de mutat."""
+    print("═" * 50)
+    print("🔍 STARTUP CHECK — Buffer + Local")
+    print("═" * 50)
+    show_queue(token, channel_id, org_id)
+    n = check_posts_to_move(posts_dir, posted_dir)
+    print("═" * 50)
+    if n > 0:
+        print(f"📦 {n} postări de verificat/mutat")
+    else:
+        print("📦 Nimic de mutat — local e curat")
+    print()
+
+
 def main():
     if len(sys.argv) < 2:
-        print("Folosire: python3 buffer-upload.py <account> [--dry-run]")
+        print("Folosire: python3 buffer-upload.py <account> [--dry-run] [--queue] [--check]")
         print(f"  account: personal | goodspell | devorator")
         print(f"  --dry-run: doar arată ce ar face, nu postează")
+        print(f"  --queue:   arată ce e în queue-ul Buffer (1 API call)")
+        print(f"  --check:   startup checklist complet (queue + local)")
+        print(f"  --flush:   șterge TOATE postările din queue")
         sys.exit(1)
     
     account_name = sys.argv[1]
     dry_run = '--dry-run' in sys.argv
+    show_q = '--queue' in sys.argv
+    do_check = '--check' in sys.argv
+    do_flush = '--flush' in sys.argv
     
     if account_name not in ACCOUNTS:
         print(f"Cont necunoscut: {account_name}. Opțiuni: {', '.join(ACCOUNTS.keys())}")
@@ -183,6 +353,19 @@ def main():
         sys.exit(1)
     
     posts_dir = os.path.join(REPO_ROOT, cfg['dir'], 'To be posted')
+    posted_dir = os.path.join(REPO_ROOT, cfg['dir'], 'Posted')
+
+    if show_q:
+        show_queue(token, channel_id, cfg['org_id'])
+        return
+
+    if do_flush:
+        delete_queue(token, channel_id, cfg['org_id'])
+        return
+
+    if do_check:
+        show_check(token, channel_id, cfg['org_id'], posts_dir, posted_dir)
+        return
     if not os.path.isdir(posts_dir):
         print(f"❌ Director negăsit: {posts_dir}")
         sys.exit(1)
@@ -192,7 +375,7 @@ def main():
         print(f"📂 Niciun fișier .md găsit în {posts_dir}")
         return
     
-    print(f"📂 {account_name}: {len(posts)} postări găsite\n")
+    print(f"📂 {account_name}: {len(posts)} postări locale, gata de upload\n")
     
     success = 0
     fail = 0
@@ -219,7 +402,11 @@ def main():
             print(f"❌ {result}")
             fail += 1
     
-    print(f"\n---\n✅ {success} programate | ❌ {fail} eșuate" + (" | ⏭️  dry-run" if dry_run else ""))
+    if not dry_run:
+        total_after = success
+        print(f"\n---\n✅ {total_after} programate | ❌ {fail} eșuate")
+    else:
+        print(f"\n---\n⏭️  dry-run — 0 postări trimise efectiv")
 
 if __name__ == '__main__':
     # Need urllib.parse for image URL encoding
