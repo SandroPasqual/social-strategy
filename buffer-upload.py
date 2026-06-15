@@ -6,6 +6,7 @@ import re
 import json
 import glob
 import sys
+import time
 import urllib.request
 import urllib.error
 
@@ -390,6 +391,9 @@ def main():
             print(f"⏭️  (dry-run)")
             continue
         
+        # Pauză între postări să nu stresăm API-ul
+        time.sleep(2)
+        
         ok, result, assets = schedule_post(
             token, channel_id, post['text'], due_at, post['image_url']
         )
@@ -398,6 +402,20 @@ def main():
             img_info = f" + {len(assets)} asset(s)" if assets else ""
             print(f"✅ (id: {result[:12]}){img_info}")
             success += 1
+        elif "rate limit" in result.lower() or "too many requests" in result.lower():
+            print(f"⏸️  rate limit — pauză 30s...")
+            time.sleep(30)
+            # reîncercare o singură dată
+            ok, result, assets = schedule_post(
+                token, channel_id, post['text'], due_at, post['image_url']
+            )
+            if ok:
+                img_info = f" + {len(assets)} asset(s)" if assets else ""
+                print(f"   ✅ după pauză (id: {result[:12]}){img_info}")
+                success += 1
+            else:
+                print(f"   ❌ după pauză: {result}")
+                fail += 1
         else:
             print(f"❌ {result}")
             fail += 1
