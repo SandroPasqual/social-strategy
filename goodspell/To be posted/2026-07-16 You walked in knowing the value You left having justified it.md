@@ -25,6 +25,3 @@ But you walked in knowing. You left having explained.
 That shift — from known to justified — happens before the meeting. In the website they checked the night before. In the LinkedIn profile they scanned that morning. In the forty seconds that formed the frame before you walked in.
 
 The value was never the question. The presence made it one.
-
-\
-

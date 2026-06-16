@@ -21,6 +21,3 @@ It didn't matter. The case had already been made — by the website, the LinkedI
 Your presence was in the room before you were. It spoke first. It made an argument you didn't know was being made, to a jury you didn't know was sitting.
 
 It made the wrong case.
-
-\
-

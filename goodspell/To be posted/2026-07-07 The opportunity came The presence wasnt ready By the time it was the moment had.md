@@ -21,6 +21,3 @@ Opportunities don't wait.
 By the time the presence was ready, the moment had moved on. The person had found someone else. The timing had closed. The window that had opened briefly had shut without making noise.
 
 The presence isn't something you build when the opportunity arrives. It's what makes you ready before it does.
-
-\
-

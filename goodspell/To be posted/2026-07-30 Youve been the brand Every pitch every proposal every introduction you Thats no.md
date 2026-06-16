@@ -23,6 +23,3 @@ That's not a management problem. It's not a delegation problem. It's not a hirin
 The brand lives in you — and only in you. Until it exists outside of you, in a system that carries the weight when you're not in the room, the business scales only as far as your personal presence can reach.
 
 That ceiling is a presence problem. Not a growth one.
-
-\
-

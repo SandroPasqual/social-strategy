@@ -21,6 +21,3 @@ You spend time qualifying them out. Time explaining why you're not the right fit
 The presence is not neutral. It is either filtering or it isn't. Right now it's attracting indiscriminately — pulling in everyone who finds you before the right ones do.
 
 The right clients were always there. The presence just isn't pointing at them yet.
-
-\
-

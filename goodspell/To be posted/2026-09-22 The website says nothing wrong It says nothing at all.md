@@ -21,6 +21,3 @@ A presence that says nothing wrong and nothing specific is invisible. It doesn't
 The prospect who needed to find you — the one whose specific problem you solve better than anyone — passed through without recognizing themselves.
 
 The website didn't fail. It just didn't do anything.
-
-\
-

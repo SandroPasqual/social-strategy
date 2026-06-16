@@ -21,6 +21,3 @@ They're working with what they can see. And what they can see doesn't carry the 
 The gap between what people know after and what they see before — that's where business is lost. Not in the work. Not in the delivery. In the moment before the relationship exists, when the presence is the only thing making the case.
 
 The work built the reputation. The presence should be carrying it.
-
-\
-

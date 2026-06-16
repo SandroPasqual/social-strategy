@@ -21,6 +21,3 @@ The brand didn't move with it.
 Not because you were careless — because brands don't update themselves. They stay exactly where you left them while the business keeps going. The gap that opens between them is invisible from the inside. From the outside, it's the first thing anyone sees.
 
 The business you have today is operating behind a presence that belongs to an earlier chapter.
-
-\
-

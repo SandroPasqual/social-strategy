@@ -21,6 +21,3 @@ It works for the prospect forming an impression before the first call. It works 
 The website you're not proud of is the one doing the work right now. The one making the case while you're busy doing everything else.
 
 It doesn't wait for you to be ready to fix it.
-
-\
-

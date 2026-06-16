@@ -19,6 +19,3 @@ You didn't invite them. The presence did.
 A presence without precise positioning attracts everything in range. It can't distinguish between the client you want and the client you've outgrown — because it hasn't been built to make that distinction. It signals availability without specificity.
 
 The ceiling on the quality of your inbound is set by the precision of your presence. The wrong level isn't finding you by accident. The presence is pointing at them.
-
-\
-

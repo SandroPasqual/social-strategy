@@ -21,6 +21,3 @@ The meeting you couldn't attend. The introduction made without you. The prospect
 You've built something that depends on your personal presence to function at its best. That's not a leadership problem. That's not a sales problem.
 
 It's a presence problem. The business is ready to exist without you in every room. The brand isn't.
-
-\
-

@@ -21,6 +21,3 @@ What they found shaped the questions they asked. The hesitations they had. The c
 The best candidates evaluate the brand before they evaluate the role. The presence either confirms the decision to join or creates doubt that the conversation has to overcome.
 
 You weren't in the room when the decision was forming. The website was.
-
-\
-

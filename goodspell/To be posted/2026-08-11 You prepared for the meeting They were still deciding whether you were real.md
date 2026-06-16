@@ -19,6 +19,3 @@ Not whether the work was good. Whether you were the kind of operation they could
 You felt it in the room. The questions that weren't about the work. The pauses that were about something else entirely.
 
 Preparation gets you through the door. The presence determines what they think before you knock.
-
-\
-

@@ -21,6 +21,3 @@ Every new venture began with a blank website, a new LinkedIn, a positioning buil
 So each time, you rebuilt the case from scratch. Re-established the authority. Re-explained the track record. Carried the weight of everything you'd learned into a presence that looked like it was just getting started.
 
 The expertise was never the question. The presence never carried it forward.
-
-\
-

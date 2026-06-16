@@ -19,6 +19,3 @@ It was the version of you that exists in the places you haven't updated — the 
 They were interviewing the current business with questions formed by the old one. The gap between the two created doubt that the conversation had to resolve — doubt that shouldn't have existed.
 
 The best candidates research carefully. What they find shapes what they ask. What they ask tells you exactly what the presence is communicating when you're not there to correct it.
-
-\
-

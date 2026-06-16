@@ -21,6 +21,3 @@ It was accurate enough. It just wasn't yours.
 Every person who enters the business without a precise, documented reference builds their own version of what the business is. Over time, the versions multiply. The business starts to mean different things to different people — internally first, then externally.
 
 The brand doesn't drift from outside pressure. It drifts from the inside out.
-
-\
-

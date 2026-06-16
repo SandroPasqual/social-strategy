@@ -21,6 +21,3 @@ You approved it. The work was done. The system was built on that foundation.
 You've been living with that decision since. Adjusting around it. Adding to it. Trying to make it feel more like the business it was never built to represent.
 
 The mood board was the beginning of a presence shaped by someone else's interpretation of a brief that was never clear enough to give.
-
-\
-

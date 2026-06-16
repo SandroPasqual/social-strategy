@@ -19,6 +19,3 @@ It wasn't a strategic decision. It was an instinct — shaped by every previous 
 The discount wasn't in the price. It was in the confidence. And confidence is a function of how much you trust that what they see before you speak matches what you're about to say.
 
 You negotiated against yourself. Before they had the chance to.
-
-\
-

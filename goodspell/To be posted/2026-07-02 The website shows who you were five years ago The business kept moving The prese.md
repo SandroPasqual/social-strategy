@@ -21,6 +21,3 @@ Someone who finds you today is meeting the version that existed before most of w
 You didn't fall behind on purpose. The business just grew faster than the presence did.
 
 That gap is now the first thing every new prospect encounters.
-
-\
-

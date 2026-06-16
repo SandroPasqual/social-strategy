@@ -23,6 +23,3 @@ The work is real. The evidence is invisible.
 A presence built to carry that weight makes it visible — not by sharing what can't be shared, but by signaling the level of the work with enough precision that the right people recognize it.
 
 You shouldn't have to carry it alone.
-
-\
-

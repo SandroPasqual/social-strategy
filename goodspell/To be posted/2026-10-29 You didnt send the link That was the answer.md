@@ -21,6 +21,3 @@ So you kept the relationship in the room. In the conversation. In the place wher
 That's the most honest signal a presence can give you. Not the prospects who pushed back on the price. Not the candidates who asked the wrong questions. The moment you decided — instinctively, without overthinking it — that the link would do more damage than silence.
 
 The presence told you exactly where it stands. You listened.
-
-\
-

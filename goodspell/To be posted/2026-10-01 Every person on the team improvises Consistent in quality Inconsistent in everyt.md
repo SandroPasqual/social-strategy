@@ -21,6 +21,3 @@ The result is a business that means different things depending on who the prospe
 Without a governing framework — something documented, precise, and accessible — the brand is whatever the last person said it was. That's not a team problem. That's a systems problem.
 
 Consistency doesn't come from hiring the right people. It comes from giving them something precise to work from.
-
-\
-

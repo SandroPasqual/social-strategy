@@ -23,6 +23,3 @@ You spent the first part of the conversation correcting the picture. Politely. P
 A client who loves your work will always refer you. What they say when they do is a function of how clearly the brand has given them the words.
 
 The introduction was warm. The language wasn't ready.
-
-\
-

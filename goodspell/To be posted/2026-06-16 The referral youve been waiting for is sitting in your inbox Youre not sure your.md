@@ -23,6 +23,3 @@ So the email sits. A few hours become a day. You tell yourself you're preparing 
 The referral didn't fail. The introduction didn't fail. You haven't failed.
 
 The presence failed — before the conversation started.
-
-\
-

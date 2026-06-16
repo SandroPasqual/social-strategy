@@ -19,6 +19,3 @@ In every introduction, every pitch, every conversation where you start from the 
 A presence that carries weight does the work before you speak. It translates the track record into something a stranger can evaluate without needing you to explain it.
 
 You earned the right to walk into any room with authority. The presence should be doing that for you.
-
-\
-

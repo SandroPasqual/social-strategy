@@ -21,6 +21,3 @@ Each individual decision was defensible. The accumulation isn't. Over time, the 
 The prospect feels it. The candidate feels it. The partner evaluating the introduction feels it.
 
 Nobody points to the specific decision that created the gap. The gap is the sum of all of them.
-
-\
-

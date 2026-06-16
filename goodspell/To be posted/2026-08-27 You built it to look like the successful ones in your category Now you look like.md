@@ -19,6 +19,3 @@ The same color palette. The same structure. The same language about strategy, sy
 The reference points that were meant to signal quality became the floor everyone stands on. Distinction requires something different — not something better-looking, but something that couldn't belong to anyone else.
 
 You built the presence to fit the category. The category absorbed it.
-
-\
-

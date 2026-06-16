@@ -21,6 +21,3 @@ They couldn't justify the choice from what they found.
 Your counterpart believed in the partnership. The presence didn't make it easy for them to sell it internally. Every external decision that requires internal approval depends on a presence that does the convincing when you're not in the room.
 
 You weren't in those rooms. The presence was. It wasn't enough.
-
-\
-

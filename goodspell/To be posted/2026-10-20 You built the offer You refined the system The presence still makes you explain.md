@@ -23,6 +23,3 @@ Every time. To every new prospect. Because what they find before the conversatio
 You've done the hard work twice — building the thing, and then explaining it indefinitely to everyone who finds it without enough context to understand what they're looking at.
 
 The offer is ready. The system is ready. The presence is still catching up.
-
-\
-

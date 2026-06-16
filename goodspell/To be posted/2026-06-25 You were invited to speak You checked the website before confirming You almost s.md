@@ -23,6 +23,3 @@ So you hesitated. A speaking invitation — the kind you'd been waiting for — 
 You confirmed eventually. But you spent the next two weeks hoping they wouldn't look too closely.
 
 That's not a confidence problem. That's a presence problem.
-
-\
-

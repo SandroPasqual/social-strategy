@@ -19,6 +19,3 @@ The prospect noticed. They spent four minutes moving between the two. They found
 Inconsistency doesn't signal a work in progress. It signals a business that hasn't decided what it is yet. That's not the signal you want sending before the first conversation.
 
 You can't manage an impression you don't know is being formed.
-
-\
-

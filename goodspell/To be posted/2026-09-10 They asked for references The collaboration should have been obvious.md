@@ -21,6 +21,3 @@ When the presence leaves a gap, the references fill it. They're asking other peo
 You provided the references. The collaboration moved forward. But the extra step — the delay, the calls, the waiting — was the presence asking for help closing a gap it created.
 
 The collaboration should have been obvious before they asked.
-
-\
-

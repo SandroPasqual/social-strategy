@@ -23,6 +23,3 @@ You didn't lose on quality. You didn't lose on thinking. You didn't lose on valu
 You lost before the conversation became a comparison. The presence placed you in a category where price became the deciding factor.
 
 That's not a pricing problem.
-
-\
-

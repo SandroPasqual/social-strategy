@@ -19,6 +19,3 @@ So you do it manually. Every time. To everyone.
 The cost isn't the time spent explaining. It's what the explaining signals — that the business hasn't yet found the words that work without you in the room to deliver them.
 
 Five hundred times. The five hundred and first is tomorrow.
-
-\
-

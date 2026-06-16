@@ -21,6 +21,3 @@ So you answer. Every time. Manually. Indefinitely.
 A system that works is one that doesn't need its author. One that governs decisions when you're not in the room, when the team changes, when the business grows past what any one person can hold together.
 
 That's not what most engagements produce. You already know that.
-
-\
-

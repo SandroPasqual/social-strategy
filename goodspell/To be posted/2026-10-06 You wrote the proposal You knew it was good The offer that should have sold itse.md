@@ -23,6 +23,3 @@ Not because the logic was weak — because the presence behind it hadn't establi
 When a buyer has already decided the price is right before they open the proposal, the questions are about scope. When they haven't, the questions are about the number.
 
 The proposal isn't where that decision is made.
-
-\
-

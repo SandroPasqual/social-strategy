@@ -21,6 +21,3 @@ None of that is true. But the presence doesn't know that.
 The prospect who finds you for the first time has no context. They have what they see. And what they see places you at a level below where you operate — before you've had a chance to say a word.
 
 You built something serious. The presence is the last thing that caught up.
-
-\
-

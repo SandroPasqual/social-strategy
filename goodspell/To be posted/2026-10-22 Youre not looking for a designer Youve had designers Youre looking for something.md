@@ -21,6 +21,3 @@ You're looking for something that holds without you holding it up.
 A system that governs decisions when you're not there. That a new hire can use without a briefing. That a designer can implement without a call. That carries the weight of the business independently — not because it looks authoritative, but because it was built to be operated, not just received.
 
 That's a different thing entirely.
-
-\
-

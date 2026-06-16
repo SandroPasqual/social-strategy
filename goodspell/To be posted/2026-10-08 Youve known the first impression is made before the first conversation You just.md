@@ -21,6 +21,3 @@ Not because you don't know what needs to change. Not because the investment isn'
 So the first impression stays as it is. The decision that gets made before every conversation — about your level, your price, your seriousness — keeps being made with outdated information.
 
 You know what's happening. That's what makes it the particular kind of expensive it is.
-
-\
-
