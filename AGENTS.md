@@ -20,6 +20,9 @@ This project orchestrates **3 LinkedIn accounts** for Sandro Pasqual. The archit
 
 **First thing to do in a new session:** Run startup check → `python3 buffer-upload.py personal --check` (1 API call — shows queue status + alerts if anything needs moving). Then ask user what they want to work on. Never manually introspect the Buffer GraphQL schema (tokeni arși degeaba).
 
+**🧠 Filosofia — 5 minute pe zi, fără stress:**
+Nu e un proiect care să ne roadă timpul. Intrăm, verificăm queue-ul, urcăm în slotul liber, ieșim. Dacă apare o problemă care nu se rezolvă într-un API call, nu forțăm — întrebăm utilizatorul. Sistemul trebuie să meargă liniștit, nu să ne țină la ușă.
+
 **TODO activ:** `TODO.md` — conține lista de corecții curentă. Verifică la începutul sesiunii.
 
 ---
@@ -421,10 +424,22 @@ python3 buffer-upload.py personal --dry-run  # preview only
 ```
 **Cont gratuit — doar 10 sloturi.** Când un slot se eliberează (postare publicată), rulezi scriptul să încarci următoarea.
 
+**⚠️ Important — text + imagine:** La upload, scriptul trimite automat și textul postării și imaginea. Dacă rulezi ad-hoc (ex. din Python direct), verifică că `schedule_post()` primește corpul postării corect (fără front matter — folosește `strip_yaml()` din `buffer-upload.py`). Altfel Buffer primește doar imaginea sau front matter-ul în loc de text.
+
 **Limite:**
 - Buffer personal key funcționează doar cu GraphQL pe `api.buffer.com`
 - Token-ul vechi (OIDC, `uMadUw...`) nu mai funcționează cu API-ul direct
 - Cont gratuit = 10 postări simultan max
+
+**⚠️ Regulă de aur — verificat de 3 ori, mutat 1 dată:**
+Înainte de orice upload în Buffer:
+1. Verifică textul postării — fără front matter, fără `\` sau caractere parazite la sfârșit
+2. Verifică imaginea — există, e corectă
+3. Verifică data și ora — e în viitor, e pe ziua corectă (Marți/Joi pentru Goodspell, Luni/Miercuri/Vineri pentru Personal)
+Abia apoi rulezi upload-ul. Greșelile irită API-ul și încurcă programarea.
+
+**🧠 Lecția mai adâncă — ciclul șterge+reîncarcă e otravă:**
+Un upload greșit generează ștergere + reîncărcare = triplu API calls. Buffer are rate limit sensibil. Dacă nu ești 100% sigur de text/imagine, nu urca deloc. Mai bine aștepți 5 minute și verifici încă o dată decât să faci 20 de call-uri în plus. Tokenii irosiți pe corecții evitabile = bătaie de cap inutilă.
 
 ---
 
