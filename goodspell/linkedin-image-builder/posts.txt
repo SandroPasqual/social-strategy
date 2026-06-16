@@ -196,3 +196,29 @@ The offer that should have sold itself needed a lawyer.
 44-black-youve-known-the-first-impression
 You've known the first impression is made before the first conversation.
 You just haven't fixed it yet.
+---
+45-black-the-interview-questions
+The interview questions told you they had looked.
+What they found wasn't you.
+The gap created doubt that shouldn't have existed.
+---
+46-white-every-visual-decision
+Every visual decision was a guess.
+The drift is invisible until it isn't.
+---
+47-black-you-built-the-offer
+You built the offer.
+You refined the system.
+The presence still makes you explain both.
+---
+48-white-not-looking-for-a-designer
+You're not looking for a designer.
+You're looking for something that holds without you holding it up.
+---
+49-black-you-sent-the-link
+You sent the link.
+You felt it before you pressed send.
+---
+50-white-you-didnt-send-the-link
+You didn't send the link.
+That was the answer.
