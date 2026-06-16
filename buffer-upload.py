@@ -25,7 +25,7 @@ ACCOUNTS = {
     },
     'goodspell': {
         'env': '.buffer-goodspell.env',
-        'dir': 'Goodspell.online',
+        'dir': 'goodspell',
         'channel_id': '69b58b0f7be9f8b171572aab',
         'org_id': '6717dc879d4733f183af40e3',
     },

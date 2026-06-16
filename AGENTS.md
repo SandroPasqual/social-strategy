@@ -9,10 +9,10 @@ This project orchestrates **3 LinkedIn accounts** for Sandro Pasqual. The archit
 | Priority | Account | Voice | Rhythm | Status |
 |----------|---------|-------|--------|--------|
 | **1** | **Personal** (Sandro Pasqual) | Gastric / The Observer | Mon/Wed/Fri, 17:00 RO | ✅ Active — 66 posted, 40 scheduled, images generated |
-| **2** | **Goodspell.online** (Page) | Gastric + Framework / The Architect | Tue/Thu | ⏸️ Paused — 20 posted, 50 queued, no images yet |
+| **2** | **Goodspell** (Page) | Gastric + Framework / The Architect | Tue/Thu | ⏸️ Paused — 20 posted, 40 queued, 40 images generated |
 | **3** | **Devorator** (Facebook) | — | — | ❌ Not started — needs analysis |
 
-**Current date:** 2026-06-15 (Monday). Next post: Today "I can't read the operating system behind it" at 17:00 RO via Buffer.
+**Current date:** 2026-06-16 (Tuesday). Next post: Tomorrow "I can't read the operating system behind it" at 17:00 RO via Buffer.
 
 **Buffer:** Connected ✅ — 10 posts scheduled with images at 17:00 RO (10:00 ET).
 **Groups:** 11 active (3 post, 7 test, 1 watch), 8 exited.
@@ -53,7 +53,7 @@ Social strategy/
 │   ├── Strategic Analysis.md    ← full diagnostic of past performance
 │   └── Strategy Proposal.md     ← decisions, rules, positioning
 │
-├── Goodspell.online/            ← SECONDARY ACCOUNT — supports, does not lead
+├── goodspell/            ← SECONDARY ACCOUNT — supports, does not lead
 │   ├── Posted/                  ← page posts published (20 files)
 │   ├── To be posted/            ← 50 posts with WHITE/BLACK numbering (14 with images)
 │   ├── Drafts/                  ← drafts waiting to be structured
@@ -69,7 +69,7 @@ Social strategy/
     └── Model devorator.md
 ```
 
-**Important:** The API key is stored in `Personal/buffer-config.md` and `Goodspell.online/buffer-config.md`. The repo is private, so credentials are committed. `.buffer-*.env` files are gitignored (local copies).
+**Important:** The API key is stored in `Personal/buffer-config.md` and `goodspell/buffer-config.md`. The repo is private, so credentials are committed. `.buffer-*.env` files are gitignored (local copies).
 
 ---
 
@@ -191,8 +191,10 @@ Short, punchy "You"-format posts addressing founder-creative dynamics.
 | Range | Dates | Posts |
 |-------|-------|-------|
 | #01–#10 | Jun 9 – Jul 9 | 10 posts with images ready |
-| #11–#24 | Jul 14 – Aug 27 | 14 posts with images ready |
-| #25–#50 | Sep 1 – Nov 26 | 26 posts, no images yet |
+| #11–#24 | Jul 14 – Aug 27 | 14 posts with images ready (old HTML tool) |
+| #25–#50 | Sep 1 – Nov 26 | 26 posts, images generated (Python) |
+
+**Image script:** `generate-goodspell-images.py` — 1080×1080, Syne 72px, gold accent `#86581D`, alternating dark/light palettes, 32px gap between sentence blocks, line height 74px. ✅ 40 images generated (all).
 
 **Next:** After #50 (Phase 1 complete), Phase 2 (Gathering — 13 posts) begins. Phase 3 (Demonstrated Competence — 12 themes) follows.
 
@@ -254,21 +256,21 @@ awk -F': ' '/^impressions:/{print $2}' Personal/Posted/*.md | sort -n | tail -5
   - `03-seria-14-posturi-marcus-aurelius.md` — series origin + Marcus Aurelius post
   - `04-engagement-postari-date.md` — engagement data, "The First Line" section
   - `05-prezentare-grup-nou.md` — group introduction case study
-- Goodspell analysis: `Goodspell.online/Strategic Analysis.md`
-- Goodspell proposal: `Goodspell.online/Strategy Proposal.md`
-- **Goodspell Framework:** `Goodspell.online/Framework/`
+- Goodspell analysis: `goodspell/Strategic Analysis.md`
+- Goodspell proposal: `goodspell/Strategy Proposal.md`
+- **Goodspell Framework:** `goodspell/Framework/`
   - `01-positioning-brand-foundation.md`
   - `03-content-playbook.md`
   - `04-homepage-copy.md`
   - `05-client-intelligence.md`
-- Content Playbook: `Goodspell.online/Brand Playbook/Goodspell — LinkedIn Content Playbook.md`
-- Brand Foundation: `Goodspell.online/Brand Playbook/Goodspell — Brand Foundation.md`
-- Client Intelligence: `Goodspell.online/Brand Playbook/Goodspell — Client Intelligence.md`
-- Homepage Copy: `Goodspell.online/Brand Playbook/Goodspell — Homepage Copy.md`
-- **Comment Framework** (with active thread tracking): `Goodspell.online/Brand Playbook/Goodspell — LinkedIn Comment Framework.md`
-- Goodspell Drafts: `Goodspell.online/Drafts/` (mortar post, future drafts)
-- Published posts: `Personal/Posted/` (66 posts), `Goodspell.online/Posted/` (20)
-- To be posted: `Personal/To be posted/` (40 posts + 40 images), `Goodspell.online/To be posted/` (50 posts)
+- Content Playbook: `goodspell/Brand Playbook/Goodspell — LinkedIn Content Playbook.md`
+- Brand Foundation: `goodspell/Brand Playbook/Goodspell — Brand Foundation.md`
+- Client Intelligence: `goodspell/Brand Playbook/Goodspell — Client Intelligence.md`
+- Homepage Copy: `goodspell/Brand Playbook/Goodspell — Homepage Copy.md`
+- **Comment Framework** (with active thread tracking): `goodspell/Brand Playbook/Goodspell — LinkedIn Comment Framework.md`
+- Goodspell Drafts: `goodspell/Drafts/` (mortar post, future drafts)
+- Published posts: `Personal/Posted/` (66 posts), `goodspell/Posted/` (20)
+- To be posted: `Personal/To be posted/` (40 posts + 40 images), `goodspell/To be posted/` (40 posts + 40 images)
 
 ---
 
@@ -407,7 +409,7 @@ This prevents silent data loss from failed moves, path issues, or interrupted op
 - `buffer-upload.py` — script CLI (python3 buffer-upload.py personal)
 - `Personal/buffer-config.md` — config + token
 - `Personal/.buffer-personal.env` — env vars (gitignored, same token)
-- `Goodspell.online/buffer-config.md` — template, use same token with channel ID `69b58b0f7be9f8b171572aab`
+- `goodspell/buffer-config.md` — template, use same token with channel ID `69b58b0f7be9f8b171572aab`
 
 **Usage:**
 ```bash
@@ -481,6 +483,32 @@ python3 buffer-upload.py personal --dry-run  # preview only
 
 ---
 
+## Goodspell Image Generation
+
+**Status:** ✅ Complete — 40 images generated (Jul 14 – Nov 26)
+
+**Script:** `generate-goodspell-images.py`
+
+**Layout:**
+- Canvas: 1080×1080 (square)
+- Font: Syne ExtraBold 72px / Bold 700 for gold
+- Gold accent line: `#86581D`, 200×5px, y=140
+- Text start: y=175
+- Gap între blocuri: 32px
+- Line height: 74px (FONT_SIZE + 2px gap)
+- Last sentence always gold (#86581D, Bold 700)
+- Logo: `goodspell/goodspell-logo.png`, 500×77px, jos centrat
+
+**Palettes:**
+| Variant | Background | Text 1 (S1) | Text 2 (S2) | Text 3 (S3/gold) |
+|---------|-----------|-------------|-------------|------------------|
+| Dark (even) | `#1C1B18` | `#E2DFD9` | `#646057` | `#86581D` |
+| Light (odd) | `#E2DFD9` | `#1C1B18` | `#646057` | `#86581D` |
+
+**Text extraction:** From `goodspell/posts.txt` (first 3 sentences per post)
+
+---
+
 ## Project Status Dashboard
 
 ### 📊 Personal Account
@@ -494,14 +522,14 @@ python3 buffer-upload.py personal --dry-run  # preview only
 | **Groups watch** | 1 (CGO Community) |
 | **Groups exited** | 8 (Small Business, Digital Marketing, Media & Marketing, Chicago, Founders Club, AI Builders, European Entrepreneurship, Designers Talk) |
 
-### 📊 Goodspell.online Account
+### 📊 Goodspell Account
 | Metric | Value |
 |--------|-------|
 | **Posted** | 20 posts (Phase 1 started) |
 | **To be posted** | 50 posts (WHITE/BLACK, #01–#50) |
-| **Images** | None generated yet — needs Goodspell brand colors/fonts |
+| **Images** | 40 generated (Python, Syne 72px, gold layout) |
 | **Buffer** | Same API key, different channel ID (`69b58b0f7be9f8b171572aab`) |
-| **Status** | ⏸️ Paused — waiting for Personal to complete before resuming |
+| **Status** | ⏸️ Paused — 40 images generated, waiting for Buffer rate limit reset |
 
 ### 📊 Devorator Account
 | Metric | Value |
