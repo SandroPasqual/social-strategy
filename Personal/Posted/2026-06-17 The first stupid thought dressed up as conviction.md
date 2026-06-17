@@ -1,5 +1,5 @@
 ---
-date: 2026-06-15
+date: 2026-06-17
 platform: LinkedIn
 likes: 0
 comments: 0
@@ -26,4 +26,3 @@ We don't go back to check. We don't revise. We defend the original read until we
 
 The first stupid thought, dressed up as sacred.
 
-#Thinking #Attention

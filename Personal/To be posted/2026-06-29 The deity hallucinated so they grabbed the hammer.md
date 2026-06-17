@@ -37,4 +37,3 @@ They want one. The best one. Forever.
 
 And that's exactly how you end up smashing something you never understood.
 
-#AI #Thinking

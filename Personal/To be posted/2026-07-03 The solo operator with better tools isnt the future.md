@@ -21,4 +21,3 @@ It stops being "what tools do I need" and starts being "who belongs in the room.
 
 Not a prediction. Just something that's already happening. We've all felt it. We just haven't said it out loud.
 
-#Attention #CreativeWork

@@ -35,4 +35,3 @@ The constraint doesn't block the color you're looking for.
 
 It shows you where it was hiding all along.
 
-#Creativity #Strategy

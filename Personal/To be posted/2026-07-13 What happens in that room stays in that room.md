@@ -19,4 +19,3 @@ When you find someone who doesn't turn your uncertainty into their content, you 
 
 Not because they can't show what they know. Because they understand that some rooms don't have windows.
 
-#Trust #Craft

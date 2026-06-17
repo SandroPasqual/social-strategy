@@ -27,4 +27,3 @@ This is why theoretically clean systems don't stay clean. Not because the design
 
 And that gap — between what a system demands from its participants and what people actually bring — is where corruption begins. Every time.
 
-#Systems #Leadership

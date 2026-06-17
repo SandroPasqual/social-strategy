@@ -27,4 +27,3 @@ And what makes it even harder to see clearly: the underlying frustration is ofte
 
 You can only pay attention to who's handing you the explanation — and what they're asking you to do with it.
 
-#Influence #Perception

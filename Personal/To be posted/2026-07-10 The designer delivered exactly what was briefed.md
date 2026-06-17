@@ -21,4 +21,3 @@ We've been on both sides of that exchange. Giving a brief that's really a wish. 
 
 The work usually looks right. It rarely lands right.
 
-#Process #Clarity

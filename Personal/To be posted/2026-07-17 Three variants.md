@@ -19,4 +19,3 @@ Somewhere, a brand joins a sea nobody named yet.
 
 Everyone home by six.
 
-#Process #Branding

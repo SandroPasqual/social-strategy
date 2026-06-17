@@ -19,4 +19,3 @@ The ones who pause before starting — who ask what the center is before anyone 
 
 And direction can't be borrowed. It has to be established.
 
-#Attention #Process

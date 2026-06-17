@@ -28,4 +28,3 @@ The absolution asks nothing of you. The question asks everything.
 
 And that's exactly why one spreads faster than the other.
 
-#Resilience #Thinking

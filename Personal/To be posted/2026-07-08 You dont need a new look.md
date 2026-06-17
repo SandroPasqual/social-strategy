@@ -17,4 +17,3 @@ The opposite also happens. A company changes one thing — not the logo, not the
 
 We've all felt the difference. We just rarely stop to name it.
 
-#BrandStrategy #Perception

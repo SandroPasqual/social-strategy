@@ -35,4 +35,3 @@ The pantheon always collapses into one.
 
 The only question is which god writes the history.
 
-#AI #Strategy

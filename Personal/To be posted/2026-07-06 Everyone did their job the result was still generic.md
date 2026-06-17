@@ -19,4 +19,3 @@ Not because anyone was incompetent. Because the pieces were made in separate roo
 
 We've all been in that room. Everyone nodding at the process. The work arrived on time. It just didn't arrive together.
 
-#Process #CreativeWork
