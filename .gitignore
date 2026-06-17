@@ -1,10 +1,11 @@
-.DS_Store
-Thumbs.db
+# Buffer API keys
+.buffer-*.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Editor temp
 *.swp
 *.swo
 *~
-
-# Buffer API keys (ignored)
-.buffer-*.env
-__pycache__/
-*.pyc
