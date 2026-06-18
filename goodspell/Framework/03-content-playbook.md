@@ -120,82 +120,49 @@ Because a positioning you can't defend in a conversation isn't yours — it's bo
 
 ## Comment Strategy
 
-### Where to Comment
+See the dedicated **Comment Framework** (`02-comment-framework.md`) for the complete strategy: evaluation criteria, voice of The Architect, comment architecture, post type patterns with examples, tracking signals, and active thread management.
 
-Comments on others' posts build presence. Their effectiveness depends on the audience of the person who posted — not your own.
+### Summary for Quick Reference
 
-Potential clients don't post about brand strategy. They read what strategists and designers post. Your comments on those posts appear in front of their audience — founders, directors, people looking for exactly what you offer without yet knowing they're looking for it.
+**Why we comment:** Comments on others' posts build presence where the audience already exists. Potential clients don't post about brand strategy — they read what strategists and designers post. A strong comment next to a strategist or designer with authority implicitly positions you at the same level.
 
-A strong comment next to a strategist or designer with authority implicitly positions you at the same level. You don't need to say you're an expert. It shows in what you write.
+**Key principle — The Architect, not The Observer:**
+- The Observer (Personal) reflects, doesn't name. The Architect (Goodspell) names the pattern precisely — so the reader sees the connection themselves.
+- No educating, no correcting, no introducing Goodspell.
+- Comment only when the post has **strategic intent** — the decision shown is derived from an insight, not from taste. Do not comment on pure execution without strategy upstream.
 
----
+**Where not to comment:**
+- High-volume, low-quality design market segment
+- Posts with 12+ hashtags, CTA in post, sponsored content
+- Design posts without strategic foundation — commenting there positions you as educator
 
-### Type 1 — Process / Visual Result
+**Frequency:** 2-3 strong comments per week. Consistency over volume.
 
-**What it is:** The designer shows how they built something — a logo stage, a moodboard, a visual identity draft.
-
-**Their audience:** Other designers + founders and directors who consume design content without posting.
-
-**What the audience feels:** Admiration for execution — but rarely considers what that design actually solves for the brand.
-
-**Your angle:**  
-Specific observation about a concrete visual decision → question or observation about its strategic implication at the level of brand, audience, or scalability.
-
-**What to avoid:**
-- Generic praise ("great work", "love this")
-- Direct critique of execution
-- Explicit or implicit pitch
-- Rhetorical questions that sound like a lesson
-
-**Example — Wells Collins, SuperChill wordmark:**
-> The purple on near-black is a counterintuitive call for a cooling product — and it works precisely because it doesn't default to the obvious ice-blue palette. The letterforms do the temperature work instead of the color.
->
-> Curious how "Chill" will land next to this. "SUPER" has a lot of mass and energy — the pairing will need careful weight distribution to avoid the second word feeling like a subtitle rather than half of a compound name.
-
----
-
-### Type 2 — Opinion / Analysis
-
-**What it is:** The designer or strategist expresses a point of view about the industry, trends, AI, quality, etc.
-
-**Their audience:** Mix of designers + potential clients seeking clarity on a problem they feel but can't articulate.
-
-**What the audience feels:** Partial recognition — "yes, I feel that too" — but usually doesn't see the real cause.
-
-**Your angle:**  
-Implicit confirmation of their direction (without praise) → new angle that moves the conversation one level deeper or higher.
-
-**What to avoid:**
-- "Completely agree!" without substance
-- Repeating what they said in different words
-- Correcting them directly
-- Introducing Goodspell or your services
-
-**Example — Rishabh Sacheti, AI and brand identity:**
-> The real issue sits one step further back: you can't design with intention if there's no strategy upstream of the design. Most of these brands didn't have a defined identity before AI — the tool just made that void faster and cheaper to fill with noise.
->
-> AI doesn't create the homogenization problem. It inherits it and scales it.
-
----
-
-### Where Not to Comment
-
-The LinkedIn design market contains a high-volume, low-quality, low-price segment. This is not the target client segment. The client who chooses from this segment chooses based on aesthetics and price — not strategy.
-
-Appearing in that context does not bring the right audience and associates Goodspell with a market level it does not occupy.
-
-Active avoidance of noise is a positioning decision, not arrogance.
+**Track active threads** — author replies, conversation quality, next moves.
 
 ---
 
 ## Operating Rules
 
+### Own Content (Posts)
+
 - **Write in English** — target audience is international.
-- **4–5 sentences per comment, maximum** — long comments are rarely read in full.
-- **No CTA, ever** — neither implicit nor explicit.
-- **Be specific** — reference details from the post. Show you read, not scanned.
-- **Comment early** — the first hours after publication are when the audience is active.
-- **Consistency over volume** — 3 strong comments per week beat 15 mediocre ones.
+- **Structure:** Claim → Evidence → Conclusion. First line stops the scroll. Last line leaves tension open.
+- **CTA — nuanced, not absent.** In Phase 1 (Recognition), no CTA at all. In Phase 2 (Contrast), subtle encouragement — "If this resonates, you know where to find me." In Phase 3 (Demonstrated Competence), direct but never urgent — "The next step is a short alignment call. No brief required. Bring the situation." Never create false urgency. Never ask the reader to act before they've been given reason to.
+- **No hashtags.** Ever.
+- **No explicit pitch.** The bio does the work.
+- **Be specific** — reference real situations, not abstractions.
+- **Consistency over volume** — 2-3 strong posts per week produce more credibility than daily posts of variable quality.
+
+### Comments
+
+See the complete **Comment Framework** (`02-comment-framework.md`). Key rules:
+- 3-5 sentences maximum
+- No CTA, no mention of Goodspell, no pitch
+- Confirm direction → name the pattern → leave open
+- Comment early — first hours after publication have the most active audience
+- 2-3 comments per week, not more
+- Do not comment on design posts without strategic intent
 
 ---
 

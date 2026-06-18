@@ -382,7 +382,7 @@ def main():
     fail = 0
     
     for post in posts:
-        due_at = f"{post['date']}T{SCHEDULE_HOUR - 3:02d}:00:00.000Z"  # 10 RO = 07 UTC
+        due_at = f"{post['date']}T{SCHEDULE_HOUR:02d}:00:00.000Z"  # 14:00 UTC = 17:00 RO
         has_img = " 🖼️" if post['image_url'] else ""
         
         print(f"  {post['date']} — {post['filename'][:60]}...{has_img}", end=' ')

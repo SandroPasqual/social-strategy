@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
      width="1200" height="627" viewBox="0 0 1200 627">
-  <rect width="1200" height="627" fill="#868177"/>
+  <rect width="1200" height="627" fill="#B1AB9C"/>
     <g transform="translate(100, 100) scale(0.85)"><path d="M130.523 108.812V122.908L140.509 112.923L144.077 116.491L134.092 126.477H148.188V131.523H134.092L144.04 141.472L140.472 145.04L130.523 135.092V149.188H125.477V135.092L115.528 145.04L111.96 141.472L121.908 131.523H107.812V126.477H121.908L111.923 116.491L115.491 112.923L125.477 122.908V108.812H130.523Z" fill="#181715"/></g>
     <text x="100" y="220" font-family="Syne" font-size="64" font-weight="800" fill="#181715">Gets a framework.</text>
 </svg>

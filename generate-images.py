@@ -13,8 +13,8 @@ REPO_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 # Culori alternante
 PALETTES = [
-    {'bg': '#181715', 'text': '#868177'},  # dark
-    {'bg': '#868177', 'text': '#181715'},  # light
+    {'bg': '#181715', 'text': '#B1AB9C'},  # dark
+    {'bg': '#B1AB9C', 'text': '#181715'},  # light
 ]
 
 # Dimensiuni

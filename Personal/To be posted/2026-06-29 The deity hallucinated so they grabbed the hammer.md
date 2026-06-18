@@ -1,5 +1,5 @@
 ---
-date: 2026-06-25
+date: 2026-06-29
 platform: LinkedIn
 likes: 0
 comments: 0

@@ -8,13 +8,13 @@ This project orchestrates **3 LinkedIn accounts** for Sandro Pasqual. The archit
 
 | Priority | Account | Voice | Rhythm | Status |
 |----------|---------|-------|--------|--------|
-| **1** | **Personal** (Sandro Pasqual) | Gastric / The Observer | Mon/Wed/Fri, 17:00 RO | ✅ Active — 66 posted, 40 scheduled, images generated |
+| **1** | **Personal** (Sandro Pasqual) | Gastric / The Observer | Mon/Wed/Fri, 17:00 RO | ✅ Active — 68 posted, 30 scheduled, 10 in Buffer |
 | **2** | **Goodspell** (Page) | Gastric + Framework / The Architect | Tue/Thu | ⏸️ Paused — 20 posted, 40 queued, 40 images generated |
 | **3** | **Devorator** (Facebook) | — | — | ❌ Not started — needs analysis |
 
-**Current date:** 2026-06-16 (Tuesday). Next post: Tomorrow "I can't read the operating system behind it" at 17:00 RO via Buffer.
+**Current date:** 2026-06-17 (Wednesday). Next post: "The system is rigged" on Jun 19 at 17:00 RO via Buffer.
 
-**Buffer:** Connected ✅ — 10 posts scheduled with images at 17:00 RO (10:00 ET).
+**Buffer:** Connected ✅ — 10 posts scheduled with images at 17:00 RO (14:00 UTC).
 **Groups:** 11 active (3 post, 7 test, 1 watch), 8 exited.
 **User contact:** Romanian, English-only on LinkedIn. "Big Pickle" = me (the AI agent).
 
@@ -424,6 +424,9 @@ python3 buffer-upload.py personal --dry-run  # preview only
 ```
 **Cont gratuit — doar 10 sloturi.** Când un slot se eliberează (postare publicată), rulezi scriptul să încarci următoarea.
 
+**Strategie — lucrăm local, accesăm Buffer o dată și fugim:**
+Totul se pregătește local (text, imagini, front matter, culori). Când e gata, un singur upload în Buffer și gata — fără șters+reîncărcat, fără API calls inutile. Verificat de 3 ori, mutat 1 dată.
+
 **⚠️ Important — text + imagine:** La upload, scriptul trimite automat și textul postării și imaginea. Dacă rulezi ad-hoc (ex. din Python direct), verifică că `schedule_post()` primește corpul postării corect (fără front matter — folosește `strip_yaml()` din `buffer-upload.py`). Altfel Buffer primește doar imaginea sau front matter-ul în loc de text.
 
 **Limite:**
@@ -466,8 +469,8 @@ Un upload greșit generează ștergere + reîncărcare = triplu API calls. Buffe
 
 | Variant | Background | Text |
 |---------|-----------|------|
-| Dark (even index) | `#181715` | `#868177` |
-| Light (odd index) | `#868177` | `#181715` |
+| Dark (even index) | `#181715` | `#B1AB9C` |
+| Light (odd index) | `#B1AB9C` | `#181715` |
 
 **No author name** on images. Only extracted text.
 
@@ -490,7 +493,7 @@ Un upload greșit generează ștergere + reîncărcare = triplu API calls. Buffe
 
 **Custom text per post:** Adaugă `image_text:` în front matter-ul `.md`-ului dacă vrei o frază diferită de auto-extragere. Scriptul o va folosi prioritar.
 
-**Storage:** PNG + SVG saved alongside `.md` with same date prefix: `2026-06-15.png` + `2026-06-15.svg` next to `2026-06-15 Title.md`. SVG-ul e editabil vectorial (se deschide în orice editor).
+**Storage:** PNG + SVG saved alongside `.md` with same date prefix: `2026-06-15.png` + `2026-06-15.svg` next to `2026-06-15 Title.md`. SVG-ul e sursa vectorială din care se generează PNG-ul (se poate edita și redesena). Când zicem „vector" ne referim la fișierul `.svg` al postării, nu la `deco.svg`.
 
 **Script:** `generate-images.py` — auto-extracts essence (heuristic) + wraps text. Generează PNG + SVG simultan.
 
