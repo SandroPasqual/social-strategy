@@ -1,23 +1,29 @@
 # Context Window — Open Topics & Red Flags
 
----
-
-## 🟡 În așteptare
-
-### 1. LinkedIn Poll — mecanismul cu 3 straturi
-
-**Idee:** Un sondaj cu 3 răspunsuri, toate valide, fiecare corect din poziția lui. Comentariul nu explică mecanismul — descrie fiecare variantă ca situație recognoscibilă. Cititorul votează, citește, și-și spune singur „ah" — nu pentru că l-ai prins, ci pentru că s-a recunoscut.
-
-**Reguli:**
-- Nu se simte păcălit — toate 3 sunt ok, doar una aduce valoare mai profundă
-- Nu se numesc straturile — mecanismul e invizibil
-- E un filtru, nu un exercițiu de reach
-- Frecvență rară — efectul moare dacă devine previzibil
-
-**Status:** De explorat — exemplu concret, text, integrare în content strategy.
+> Session memory file. Do not delete. Update when a topic is resolved or new one appears.
+> **Language:** US English for documentation; discussion language may vary.
 
 ---
 
-## 🔵 Rezolvat în sesiunile anterioare
+## 🟡 Pending
 
-Vezi documentele din Framework/ pentru tot ce s-a construit.
+### 1. LinkedIn Poll — 3-layer mechanism
+
+Complete document in `goodspell/Framework/3 polls.md` (12.5K, 5 complete examples).
+Last 3 examples (The referral, The room, The new hire) are raw material — needs refinement.
+
+**Rules:**
+- Nobody should feel tricked — all 3 are valid, one carries deeper value
+- Don't name the mechanism — it stays invisible
+- It's a filter, not a reach exercise
+- Rare frequency — the effect dies if predictable
+
+### 2. Buffer queue check
+
+Personal: next post "The system is rigged" on Jun 19 (Fri) at 17:00 RO. Check queue status.
+
+---
+
+## ✅ Resolved in previous sessions
+
+See Framework documents for everything that was built.

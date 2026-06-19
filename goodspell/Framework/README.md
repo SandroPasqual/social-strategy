@@ -12,9 +12,9 @@ Structură paralelă cu `Personal/Framework/` — fiecare cu vocea și strategia
 | 3 | **Messaging Framework** | `02-messaging-framework.md` | ✅ |
 | 4 | **Comment Framework** | `02-comment-framework.md` | ✅ |
 | 5 | **Content Playbook** | `03-content-playbook.md` | ✅ |
-| 6 | **Homepage Copy** | `04-homepage-copy.md` | ✅ |
-| 7 | **Client Intelligence** | `05-client-intelligence.md` | ✅ |
-| 8 | **Positioning Bridge** | `06-positioning-bridge.md` | ✅ |
+| 6 | **Client Intelligence** | `04-client-intelligence.md` | ✅ |
+| 7 | **Positioning Bridge** | `05-positioning-bridge.md` | ✅ |
+| 8 | **Homepage Copy** | `06-homepage-copy.md` | ✅ |
 | 9 | **Phase 2 — Post Sketches** | `07-posturi-phase2.md` | ✅ |
 | 10 | **Friction Moments (resursă)** | `08-friction-moments.md` | ✅ |
 
@@ -27,16 +27,15 @@ Framework/
 ├── 02-messaging-framework.md            ← Mesaje, ierarhie, obiecții, traducere GBS→public
 ├── 02-comment-framework.md              ← Strategie de comentarii independentă de Personal
 ├── 03-content-playbook.md               ← Fazele, conținut propriu, reguli operaționale
-├── 04-homepage-copy.md                  ← Copy website
-├── 05-client-intelligence.md            ← Profiluri client
-├── 06-positioning-bridge.md             ← Website, alignment call, ofertă
+├── 04-client-intelligence.md            ← Profiluri client
+├── 05-positioning-bridge.md             ← Website, alignment call, ofertă
+├── 06-homepage-copy.md                  ← Copy website
 ├── 07-posturi-phase2.md                 ← 13 postări Phase 2 (Gathering)
 ├── 08-friction-moments.md               ← 42 momente de fricțiune (resursă de conținut)
 ├── _context-window.md                   ← Note de sesiune (intern)
 └── README.md
 ```
 
-Documentele începând cu `_` sunt în lucru. Vor fi redenumite fără `_` după confirmare.
 
 ## Relația cu Personal Framework
 
