@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thank You — Perception Audit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #E2DFD9;
+    --surface: #F5F3EF;
+    --text: #1C1B18;
+    --text-dim: #646057;
+    --accent: #86581D;
+    --border: #C8C4BC;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.65;
+    font-size: 17px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 24px;
+  }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 64px 56px;
+    max-width: 560px;
+    width: 100%;
+    text-align: center;
+  }
+
+  h1 {
+    font-family: 'Syne', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.1;
+    color: var(--text);
+    margin-bottom: 20px;
+    letter-spacing: -0.02em;
+  }
+
+  p {
+    color: var(--text-dim);
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 32px;
+  }
+
+  a {
+    display: inline-block;
+    color: var(--accent);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    border: 1px solid var(--accent);
+    border-radius: 8px;
+    padding: 14px 32px;
+    transition: background 0.25s ease, color 0.25s ease, transform 0.15s ease, box-shadow 0.25s ease;
+  }
+
+  a:hover {
+    background: var(--accent);
+    color: #F5F3EF;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(134, 88, 29, 0.25);
+  }
+
+  @media (max-width: 600px) {
+    .card { padding: 48px 32px; }
+    h1 { font-size: 28px; }
+  }
+</style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Thank you</h1>
+    <p>Your responses have been received. I will review them before the discovery session and follow up via email to confirm the time.</p>
+    <a href="/">Return to the form</a>
+  </div>
+
+</body>
+</html>

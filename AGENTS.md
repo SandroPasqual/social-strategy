@@ -194,10 +194,10 @@ Short, punchy "You"-format posts addressing founder-creative dynamics.
 | Range | Dates | Posts |
 |-------|-------|-------|
 | #01–#10 | Jun 9 – Jul 9 | 10 posts with images ready |
-| #11–#24 | Jul 14 – Aug 27 | 14 posts with images ready (old HTML tool) |
-| #25–#50 | Sep 1 – Nov 26 | 26 posts, images generated (Python) |
+| #11–#24 | Jul 14 – Aug 27 | 14 posts with images ready |
+| #25–#50 | Sep 1 – Nov 26 | 26 posts, images not yet generated |
 
-**Image script:** `generate-goodspell-images.py` — 1080×1080, Syne 72px, gold accent `#86581D`, alternating dark/light palettes, 32px gap between sentence blocks, line height 74px. ✅ 40 images generated (all).
+**Image workflow:** Template SVG (`goodspell/template-dark.svg` / `template-light.svg`) cu fundal, linie aurie și logo vector în dreapta. Se copiază, se adaugă textul postării, se salvează ca `YYYY-MM-DD.svg`. Preview în `goodspell/template.html` (se deschide în browser).
 
 **Next:** After #50 (Phase 1 complete), Phase 2 (Gathering — 13 posts) begins. Phase 3 (Demonstrated Competence — 12 themes) follows.
 
@@ -469,8 +469,8 @@ Un upload greșit generează ștergere + reîncărcare = triplu API calls. Buffe
 
 | Variant | Background | Text |
 |---------|-----------|------|
-| Dark (even index) | `#181715` | `#B1AB9C` |
-| Light (odd index) | `#B1AB9C` | `#181715` |
+| Dark (even index) | `#110F0A` | `#D1CAB8` |
+| Light (odd index) | `#D1CAB8` | `#110F0A` |
 
 **No author name** on images. Only extracted text.
 
@@ -503,27 +503,33 @@ Un upload greșit generează ștergere + reîncărcare = triplu API calls. Buffe
 
 ## Goodspell Image Generation
 
-**Status:** ✅ Complete — 40 images generated (Jul 14 – Nov 26)
+**Workflow:** SVG + HTML (no Python script)
 
-**Script:** `generate-goodspell-images.py`
+**Template files:**
+- `goodspell/template.html` — preview în browser (dark + light simultan), include text + logo
+- `goodspell/logo-dark.svg`, `goodspell/logo-light.svg` — logo-ul Goodspell (vector)
 
-**Layout:**
-- Canvas: 1080×1080 (square)
-- Font: Syne ExtraBold 72px / Bold 700 for gold
-- Gold accent line: `#86581D`, 200×5px, y=140
-- Text start: y=175
-- Gap între blocuri: 32px
-- Line height: 74px (FONT_SIZE + 2px gap)
-- Last sentence always gold (#86581D, Bold 700)
-- Logo: `goodspell/goodspell-logo.png`, 500×77px, jos centrat
+**Layout (1080×1080):**
+- Padding: 80px toate părțile
+- Linie aurie: 200×5px la y=140, `#888068`
+- Text: Syne ExtraBold 72px (S1, S2) / Bold 700 (S3 — ultima propoziție)
+- Text începe la y=175, curge liber până la padding (x=80 → x=1000)
+- Logo în colțul dreapta-jos (right: 80px, bottom: 80px)
 
 **Palettes:**
-| Variant | Background | Text 1 (S1) | Text 2 (S2) | Text 3 (S3/gold) |
-|---------|-----------|-------------|-------------|------------------|
-| Dark (even) | `#1C1B18` | `#E2DFD9` | `#646057` | `#86581D` |
-| Light (odd) | `#E2DFD9` | `#1C1B18` | `#646057` | `#86581D` |
+| Variant | Background | S1 (prima) | S2 (mijloc) | S3 (ultima) | Gold line |
+|---------|-----------|-----------|-------------|-------------|-----------|
+| Dark | `#110F0A` | `#888068` | `#C2BAA5` | `#E9E8E2` | `#888068` |
+| Light | `#E9E8E2` | `#B3AA93` | `#79715B` | `#79715B` | `#888068` |
 
-**Text extraction:** From `goodspell/posts.txt` (first 3 sentences per post)
+**Regulă:** Dacă sunt doar 2 propoziții, se sare culoarea din mijloc (S2).
+
+**Cum se face o imagine:**
+1. Deschide `goodspell/template.html` în browser
+2. Editează textul celor 3 propoziții
+3. Când arată bine, copiază varianta dark/light
+4. Salvează ca `YYYY-MM-DD.svg` în `goodspell/To be posted/`
+5. Pentru PNG, convertește: `convert YYYY-MM-DD.svg YYYY-MM-DD.png`
 
 ---
 
@@ -581,3 +587,12 @@ Un upload greșit generează ștergere + reîncărcare = triplu API calls. Buffe
 | ✅ Marketable corrected | Buffer already posted on Jun 12 → moved to Posted/ |
 | ✅ Buffer connected | Personal Key works via GraphQL; 10 posts with images |
 | ✅ 40 images generated | All Personal posts now have PNG visuals |
+
+---
+## kb — shared knowledge base
+
+**Path:** `/home/sandro/projects/kb/` (shared across all projects)
+**CLI:** `kb <command>` (installed in PATH)
+
+Contains founder principles, behavioral rules, strategic decisions, and methodology documents.
+Query before decisions: `kb principles`, `kb rules`, `kb decisions`, `kb search <term>`.

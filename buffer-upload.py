@@ -178,7 +178,14 @@ def show_queue(token, channel_id, org_id):
         }
     }
     result = graphql_request(token, query, variables)
-    posts = result.get('data', {}).get('posts', {})
+    data = result.get('data')
+    if data is None:
+        errors = result.get('errors', [])
+        msg = errors[0]['message'] if errors else 'eroare necunoscută'
+        print(f"⚠️  Nu pot citi queue-ul — {msg}")
+        print("   Verifică manual în Buffer UI.")
+        return
+    posts = data.get('posts', {})
     edges = posts.get('edges', [])
     
     if not edges:
@@ -227,10 +234,9 @@ def schedule_post(token, channel_id, text, due_at, image_url=None):
             "schedulingType": "automatic",
             "mode": "customScheduled",
             "dueAt": due_at,
+            "assets": assets if assets else [],
         }
     }
-    if assets:
-        variables["input"]["assets"] = assets
     
     result = graphql_request(token, query, variables)
     
@@ -268,7 +274,14 @@ def delete_queue(token, channel_id, org_id):
         }
     }
     result = graphql_request(token, query, variables)
-    edges = result.get('data', {}).get('posts', {}).get('edges', [])
+    data = result.get('data')
+    if data is None:
+        errors = result.get('errors', [])
+        msg = errors[0]['message'] if errors else 'eroare necunoscută'
+        print(f"⚠️  Nu pot citi queue-ul — {msg}")
+        print("   Verifică manual în Buffer UI.")
+        return 0
+    edges = data.get('posts', {}).get('edges', [])
     
     if not edges:
         print("📭 Queue goală — nimic de șters.")
